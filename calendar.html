@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eli's Exam Countdown</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #080913;
+      --bg2:       #0d0c1e;
+      --card:      #100f26;
+      --card-h:    #171530;
+      --border:    #1c1a38;
+      --border2:   #2b2850;
+      --text:      #e4daf4;
+      --text2:     #9d94b5;
+      --muted:     #5a5274;
+      --dim:       #2a2745;
+
+      --purple:  #9d7ee8;
+      --crimson: #e0567a;
+      --gold:    #d4a830;
+      --teal:    #2dd4bf;
+      --blue:    #60a5fa;
+      --green:   #4ade80;
+      --sci:     #3a3660;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 17px;
+      line-height: 1.5;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── STARFIELD ────────────────────────────────────────────────────── */
+    #starfield {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 60% at 15% 25%, rgba(80,40,140,0.07) 0%, transparent 100%),
+        radial-gradient(ellipse 50% 50% at 85% 75%, rgba(25,15,90,0.10) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+    }
+
+    /* ── HEADER ───────────────────────────────────────────────────────── */
+    header {
+      text-align: center;
+      padding: 3.5rem 0 2rem;
+    }
+
+    .rune-line {
+      font-size: 1rem;
+      letter-spacing: 0.6rem;
+      color: var(--purple);
+      opacity: 0.55;
+      margin-bottom: 1rem;
+      font-family: 'Cinzel', serif;
+    }
+
+    h1 {
+      font-family: 'Cinzel Decorative', 'Cinzel', serif;
+      font-size: clamp(1.7rem, 5.5vw, 3rem);
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.04em;
+      text-shadow:
+        0 0 60px rgba(157,126,232,0.25),
+        0 0 120px rgba(157,126,232,0.1);
+      line-height: 1.2;
+    }
+
+    .school-line {
+      margin-top: 0.6rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    #today-display {
+      margin-top: 1.5rem;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--purple);
+      letter-spacing: 0.06em;
+    }
+
+    .rule {
+      border: none;
+      border-top: 1px solid var(--border2);
+      margin: 2rem 0;
+    }
+
+    /* ── STATUS BANNER ────────────────────────────────────────────────── */
+    #status-banner {
+      text-align: center;
+      padding: 1.5rem 2rem;
+      background: var(--bg2);
+      border: 1px solid var(--border2);
+      border-radius: 4px;
+      margin-bottom: 2rem;
+    }
+
+    .status-num {
+      font-family: 'Cinzel Decorative', 'Cinzel', serif;
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1;
+      display: block;
+    }
+
+    .status-label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text2);
+      margin-top: 0.4rem;
+      display: block;
+    }
+
+    .status-detail {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--text2);
+      font-style: italic;
+    }
+
+    /* Status colour variants */
+    .s-normal  .status-num { color: var(--purple); text-shadow: 0 0 40px rgba(157,126,232,0.35); }
+    .s-soon    .status-num { color: var(--gold);   text-shadow: 0 0 40px rgba(212,168,48,0.4); }
+    .s-urgent  .status-num { color: var(--crimson);text-shadow: 0 0 40px rgba(224,86,122,0.5); }
+    .s-active  .status-num { color: var(--teal);   text-shadow: 0 0 40px rgba(45,212,191,0.45); }
+    .s-done    .status-num { color: var(--muted); }
+
+    /* ── NEXT UP ──────────────────────────────────────────────────────── */
+    .section-head {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .section-head::before,
+    .section-head::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .nextup-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .nextup-card {
+      padding: 1rem 1.1rem;
+      background: var(--bg2);
+      border: 1px solid var(--border2);
+      border-top: 3px solid var(--border2);
+      border-radius: 4px;
+    }
+
+    .nextup-card .nu-subject {
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 0.35rem;
+    }
+
+    .nextup-card .nu-paper {
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1.25;
+    }
+
+    .nextup-card .nu-date {
+      margin-top: 0.5rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--text2);
+    }
+
+    .nextup-card .nu-days {
+      margin-top: 0.5rem;
+      font-family: 'Cinzel Decorative', 'Cinzel', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .nextup-card .nu-days-label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text2);
+    }
+
+    /* ── TIMELINE ─────────────────────────────────────────────────────── */
+    .timeline-section {
+      margin: 2rem 0;
+    }
+
+    .tl-wrap {
+      position: relative;
+      padding: 30px 0 28px;
+    }
+
+    .tl-dots-row {
+      position: absolute;
+      top: 0;
+      left: 0; right: 0;
+      height: 28px;
+    }
+
+    .tl-dot {
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      cursor: default;
+      transition: transform 0.15s;
+    }
+
+    .tl-dot:hover { transform: translate(-50%,-50%) scale(1.6); }
+    .tl-dot.sci   { opacity: 0.3; }
+
+    .tl-track {
+      position: absolute;
+      top: 50%;
+      left: 0; right: 0;
+      height: 2px;
+      background: var(--border2);
+      transform: translateY(-50%);
+      border-radius: 2px;
+    }
+
+    .tl-progress {
+      height: 100%;
+      background: linear-gradient(to right, rgba(157,126,232,0.2), rgba(157,126,232,0.55));
+      border-radius: 2px;
+    }
+
+    .tl-cursor {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--purple);
+      box-shadow: 0 0 0 3px rgba(157,126,232,0.2), 0 0 12px rgba(157,126,232,0.6);
+      z-index: 2;
+    }
+
+    .tl-dates {
+      position: absolute;
+      bottom: 0;
+      left: 0; right: 0;
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Cinzel', serif;
+      font-size: 0.62rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    .tl-legend {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem;
+    }
+
+    .tl-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      color: var(--text2);
+    }
+
+    .tl-legend-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── EXAM LIST ────────────────────────────────────────────────────── */
+    .exam-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 0.85rem 1.1rem 0.85rem 1.2rem;
+      margin-bottom: 0.45rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid transparent;
+      border-radius: 3px;
+      transition: background 0.15s;
+    }
+
+    .exam-card:hover:not(.ec-past) { background: var(--card-h); }
+
+    .exam-card.ec-past  { opacity: 0.28; }
+    .exam-card.ec-today {
+      border-left-color: var(--teal) !important;
+      box-shadow: 0 0 24px rgba(45,212,191,0.1), inset 0 0 40px rgba(45,212,191,0.04);
+    }
+    .exam-card.ec-urgent:not(.ec-past) {
+      box-shadow: 0 0 16px rgba(224,86,122,0.1);
+    }
+    .exam-card.ec-sci { opacity: 0.22; }
+
+    .ec-body { flex: 1; min-width: 0; }
+
+    .ec-tags {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.3rem;
+    }
+
+    .tag {
+      font-family: 'Cinzel', serif;
+      font-size: 0.58rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.12rem 0.4rem;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      line-height: 1.5;
+    }
+
+    .tag-must   { color: var(--gold);   border-color: rgba(212,168,48,0.35);  background: rgba(212,168,48,0.08); }
+    .tag-high   { color: var(--purple); border-color: rgba(157,126,232,0.3);  background: rgba(157,126,232,0.07); }
+    .tag-medium { color: var(--teal);   border-color: rgba(45,212,191,0.25);  background: rgba(45,212,191,0.06); }
+    .tag-buffer { color: var(--green);  border-color: rgba(74,222,128,0.25);  background: rgba(74,222,128,0.06); }
+    .tag-skip   { color: var(--muted);  border-color: var(--dim); }
+
+    .ec-subject {
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+    }
+
+    .ec-paper {
+      font-size: 0.92rem;
+      color: var(--text2);
+      font-style: italic;
+    }
+
+    .ec-meta {
+      margin-top: 0.35rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      display: flex;
+      gap: 0 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    .ec-count {
+      text-align: right;
+      min-width: 68px;
+      flex-shrink: 0;
+      padding-top: 0.1rem;
+    }
+
+    .ec-num {
+      font-family: 'Cinzel Decorative', 'Cinzel', serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .ec-unit {
+      font-family: 'Cinzel', serif;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    .cn-past   .ec-num { color: var(--dim); font-size: 1.4rem; }
+    .cn-today  .ec-num { color: var(--teal);   text-shadow: 0 0 16px rgba(45,212,191,0.7); font-size: 1.2rem; }
+    .cn-urgent .ec-num { color: var(--crimson); text-shadow: 0 0 14px rgba(224,86,122,0.55); }
+    .cn-soon   .ec-num { color: var(--gold); }
+    .cn-normal .ec-num { color: var(--purple); }
+    .cn-skip   .ec-num { color: var(--dim); }
+
+    /* ── FOOTER ───────────────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ── RESPONSIVE ───────────────────────────────────────────────────── */
+    @media (max-width: 540px) {
+      .exam-card { flex-direction: column; }
+      .ec-count  { text-align: left; display: flex; align-items: baseline; gap: 0.4rem; }
+      .ec-unit   { margin-top: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<div class="wrap">
+
+  <!-- HEADER -->
+  <header>
+    <div class="rune-line">✦ &nbsp; ✦ &nbsp; ✦</div>
+    <h1>Eli's Exam Countdown</h1>
+    <div class="school-line">Droitwich Spa High School &nbsp;·&nbsp; GCSE 2026</div>
+    <div id="today-display"></div>
+  </header>
+
+  <hr class="rule">
+
+  <!-- STATUS -->
+  <div id="status-banner">
+    <span class="status-num" id="s-num"></span>
+    <span class="status-label" id="s-label"></span>
+    <div class="status-detail" id="s-detail"></div>
+  </div>
+
+  <!-- NEXT UP -->
+  <div class="section-head">Next up</div>
+  <div class="nextup-grid" id="nextup-grid"></div>
+
+  <!-- TIMELINE -->
+  <div class="section-head">Exam period</div>
+  <div class="timeline-section">
+    <div class="tl-wrap">
+      <div class="tl-dots-row" id="tl-dots"></div>
+      <div class="tl-track">
+        <div class="tl-progress" id="tl-progress"></div>
+        <div class="tl-cursor"   id="tl-cursor"></div>
+      </div>
+      <div class="tl-dates">
+        <span>11 May</span>
+        <span>25 May</span>
+        <span>8 Jun</span>
+        <span>15 Jun</span>
+      </div>
+    </div>
+    <div class="tl-legend" id="tl-legend"></div>
+  </div>
+
+  <!-- ALL EXAMS -->
+  <div class="section-head">All exams</div>
+  <div id="exam-list"></div>
+
+  <footer>✦ &nbsp; Good luck, Eli &nbsp; ✦</footer>
+
+</div><!-- /wrap -->
+
+<script>
+// ── EXAM DATA ──────────────────────────────────────────────────────────────
+const EXAMS = [
+  { date:"2026-05-11", time:"09:00", subject:"English Literature", paper:"Paper 1",               room:"R3-Gym (front)", seat:"D1",  code:"8702/1",    priority:"high"   },
+  { date:"2026-05-12", time:"09:00", subject:"Religious Studies",  paper:"Christianity & Sikhism",room:"R3-Gym (front)", seat:"D10", code:"8062",      priority:"medium" },
+  { date:"2026-05-12", time:"13:15", subject:"Combined Science",   paper:"Biology P1F",           room:"R3-Gym (front)", seat:"D1",  code:"8464/B/1F", priority:"skip"   },
+  { date:"2026-05-14", time:"09:00", subject:"Mathematics",        paper:"Non-Calculator",        room:"R3-Gym (front)", seat:"D1",  code:"1MA1 1F",   priority:"must"   },
+  { date:"2026-05-15", time:"09:00", subject:"History",            paper:"Medicine in Britain",   room:"T3-ICT",         seat:"F5",  code:"1HI0 11",   priority:"high"   },
+  { date:"2026-05-18", time:"09:00", subject:"Combined Science",   paper:"Chemistry P1F",         room:"R3-Gym (front)", seat:"D1",  code:"8464/C/1F", priority:"skip"   },
+  { date:"2026-05-19", time:"09:00", subject:"English Literature", paper:"Paper 2",               room:"R3-Gym (front)", seat:"D1",  code:"8702/2",    priority:"high"   },
+  { date:"2026-05-20", time:"13:15", subject:"Religious Studies",  paper:"Excl Text P2a",         room:"R3-Gym (front)", seat:"D10", code:"8062/2A",   priority:"medium" },
+  { date:"2026-05-21", time:"09:00", subject:"English Language",   paper:"Paper 1",               room:"R3-Gym (front)", seat:"D1",  code:"8700/1",    priority:"must"   },
+  { date:"2026-06-02", time:"09:00", subject:"Combined Science",   paper:"Physics P1F",           room:"R3-Gym (front)", seat:"D1",  code:"8464/P/1F", priority:"skip"   },
+  { date:"2026-06-03", time:"09:00", subject:"Mathematics",        paper:"Calculator Paper 2",    room:"R3-Gym (front)", seat:"D1",  code:"1MA1 2F",   priority:"must"   },
+  { date:"2026-06-04", time:"09:00", subject:"History",            paper:"Superpower Relations",  room:"T3-ICT",         seat:"F4",  code:"1HI0 2P",   priority:"high"   },
+  { date:"2026-06-05", time:"09:00", subject:"English Language",   paper:"Paper 2",               room:"R3-Gym (front)", seat:"D1",  code:"8700/2",    priority:"must"   },
+  { date:"2026-06-08", time:"09:00", subject:"Combined Science",   paper:"Biology P2F",           room:"R3-Gym (front)", seat:"D1",  code:"8464/B/2F", priority:"skip"   },
+  { date:"2026-06-09", time:"13:15", subject:"History",            paper:"Weimar & Nazi Germany", room:"T3-ICT",         seat:"F4",  code:"1HI0 31",   priority:"high"   },
+  { date:"2026-06-10", time:"09:00", subject:"Mathematics",        paper:"Calculator Paper 3",    room:"R3-Gym (front)", seat:"D1",  code:"1MA1 3F",   priority:"must"   },
+  { date:"2026-06-10", time:"13:15", subject:"Design & Technology",paper:"Written Paper",         room:"R1-SpHall",      seat:"C8",  code:"8552/W",    priority:"buffer" },
+  { date:"2026-06-12", time:"09:00", subject:"Combined Science",   paper:"Chemistry P2F",         room:"R3-Gym (front)", seat:"D1",  code:"8464/C/2F", priority:"skip"   },
+  { date:"2026-06-15", time:"09:00", subject:"Combined Science",   paper:"Physics P2F",           room:"R3-Gym (front)", seat:"D1",  code:"8464/P/2F", priority:"skip"   },
+];
+
+const COLORS = {
+  "English Literature":  "#9d7ee8",
+  "English Language":    "#60a5fa",
+  "Mathematics":         "#d4a830",
+  "History":             "#f87171",
+  "Religious Studies":   "#2dd4bf",
+  "Design & Technology": "#4ade80",
+  "Combined Science":    "#3d3a60",
+};
+
+const PRIORITY_TAG = {
+  must:   ["★ Must Pass", "must"],
+  high:   ["High",        "high"],
+  medium: ["Medium",      "medium"],
+  buffer: ["Buffer",      "buffer"],
+  skip:   ["Not Revising","skip"],
+};
+
+// ── DATE UTILS ─────────────────────────────────────────────────────────────
+function parseDate(s) {
+  const [y,m,d] = s.split('-').map(Number);
+  return new Date(y, m-1, d);
+}
+
+const today = new Date();
+today.setHours(0,0,0,0);
+
+const FIRST = parseDate("2026-05-11");
+const LAST  = parseDate("2026-06-15");
+const SPAN  = LAST - FIRST;
+
+function days(dateStr) {
+  return Math.round((parseDate(dateStr) - today) / 86400000);
+}
+
+function fmtDate(dateStr, opts) {
+  return parseDate(dateStr).toLocaleDateString('en-GB', opts);
+}
+
+const DAY_NAMES = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const MON_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+// ── TODAY ──────────────────────────────────────────────────────────────────
+document.getElementById('today-display').textContent =
+  `${DAY_NAMES[today.getDay()]} ${today.getDate()} ${MON_NAMES[today.getMonth()]} ${today.getFullYear()}`;
+
+// ── STATUS BANNER ──────────────────────────────────────────────────────────
+const daysToFirst = days("2026-05-11");
+const daysToLast  = days("2026-06-15");
+const banner = document.getElementById('status-banner');
+const numEl  = document.getElementById('s-num');
+const lblEl  = document.getElementById('s-label');
+const detEl  = document.getElementById('s-detail');
+
+if (daysToFirst > 0) {
+  const cls = daysToFirst <= 5 ? 's-urgent' : daysToFirst <= 14 ? 's-soon' : 's-normal';
+  banner.className = cls;
+  numEl.textContent = daysToFirst;
+  lblEl.textContent = daysToFirst === 1 ? 'day until exams begin' : 'days until exams begin';
+  detEl.textContent = 'First exam · English Literature Paper 1 · Monday 11 May · 09:00';
+} else if (daysToLast >= 0) {
+  banner.className = 's-active';
+  const next = EXAMS.find(e => days(e.date) >= 0 && e.priority !== 'skip');
+  if (next) {
+    const d = days(next.date);
+    numEl.textContent = d === 0 ? 'TODAY' : d;
+    lblEl.textContent = d === 0 ? 'exam day' : (d === 1 ? 'day to next focus exam' : 'days to next focus exam');
+    detEl.textContent = `${next.subject} — ${next.paper} · ${fmtDate(next.date,{weekday:'long',day:'numeric',month:'long'})} · ${next.time} · Seat ${next.seat}`;
+  } else {
+    numEl.textContent = daysToLast;
+    lblEl.textContent = 'days remaining';
+    detEl.textContent = 'Final exams in progress';
+  }
+} else {
+  banner.className = 's-done';
+  numEl.textContent = '✦';
+  lblEl.textContent = 'Exams complete';
+  detEl.textContent = 'Well done, Eli.';
+}
+
+// ── NEXT UP CARDS ──────────────────────────────────────────────────────────
+const nextupGrid = document.getElementById('nextup-grid');
+const focusUpcoming = EXAMS.filter(e => e.priority !== 'skip' && days(e.date) >= 0).slice(0, 3);
+
+if (focusUpcoming.length === 0) {
+  nextupGrid.innerHTML = '<p style="color:var(--muted);font-style:italic;font-size:0.9rem">All focus exams complete.</p>';
+} else {
+  focusUpcoming.forEach(exam => {
+    const d = days(exam.date);
+    const color = COLORS[exam.subject] || '#9d7ee8';
+    const card = document.createElement('div');
+    card.className = 'nextup-card';
+    card.style.borderTopColor = color;
+    const dLabel = d === 0 ? 'TODAY' : d === 1 ? '1 day' : `${d} days`;
+    card.innerHTML = `
+      <div class="nu-subject" style="color:${color}">${exam.subject}</div>
+      <div class="nu-paper">${exam.paper}</div>
+      <div class="nu-date">${fmtDate(exam.date, {weekday:'short',day:'numeric',month:'short'})} · ${exam.time}</div>
+      <div class="nu-days" style="color:${color};text-shadow:0 0 20px ${color}55">${d === 0 ? 'TODAY' : d}</div>
+      ${d !== 0 ? `<div class="nu-days-label">days away</div>` : ''}
+    `;
+    nextupGrid.appendChild(card);
+  });
+}
+
+// ── TIMELINE ───────────────────────────────────────────────────────────────
+const pct = v => Math.max(0, Math.min(100, v * 100)) + '%';
+const todayPct = (today - FIRST) / SPAN;
+
+document.getElementById('tl-progress').style.width = pct(todayPct);
+document.getElementById('tl-cursor').style.left    = pct(todayPct);
+
+const dotsEl = document.getElementById('tl-dots');
+EXAMS.forEach(exam => {
+  const pos = (parseDate(exam.date) - FIRST) / SPAN;
+  const dot = document.createElement('div');
+  dot.className = 'tl-dot' + (exam.priority === 'skip' ? ' sci' : '');
+  dot.style.left       = pct(pos);
+  dot.style.background = COLORS[exam.subject] || '#9d7ee8';
+  dot.title = `${exam.subject} — ${exam.paper}`;
+  dotsEl.appendChild(dot);
+});
+
+// Legend
+const legendEl = document.getElementById('tl-legend');
+const seen = new Set();
+EXAMS.forEach(e => {
+  if (seen.has(e.subject)) return;
+  seen.add(e.subject);
+  const item = document.createElement('div');
+  item.className = 'tl-legend-item';
+  item.style.opacity = e.priority === 'skip' ? '0.4' : '1';
+  item.innerHTML = `<span class="tl-legend-dot" style="background:${COLORS[e.subject]}"></span>${e.subject}`;
+  legendEl.appendChild(item);
+});
+
+// ── EXAM LIST ──────────────────────────────────────────────────────────────
+function cnClass(d, pri) {
+  if (pri === 'skip') return 'cn-skip';
+  if (d < 0)   return 'cn-past';
+  if (d === 0) return 'cn-today';
+  if (d <= 4)  return 'cn-urgent';
+  if (d <= 12) return 'cn-soon';
+  return 'cn-normal';
+}
+
+const listEl = document.getElementById('exam-list');
+
+EXAMS.forEach(exam => {
+  const d     = days(exam.date);
+  const color = COLORS[exam.subject] || '#9d7ee8';
+  const [tagLabel, tagKey] = PRIORITY_TAG[exam.priority];
+  const cn = cnClass(d, exam.priority);
+
+  const classes = ['exam-card'];
+  if (exam.priority === 'skip') classes.push('ec-sci');
+  else if (d < 0)  classes.push('ec-past');
+  else if (d === 0) classes.push('ec-today');
+  else if (d <= 4 && exam.priority !== 'skip') classes.push('ec-urgent');
+
+  let numTxt, unitTxt;
+  if (d < 0)        { numTxt = '✓';     unitTxt = 'done'; }
+  else if (d === 0) { numTxt = 'NOW';   unitTxt = 'today'; }
+  else              { numTxt = d;       unitTxt = d === 1 ? 'day' : 'days'; }
+
+  const card = document.createElement('div');
+  card.className = classes.join(' ');
+  card.style.borderLeftColor = color;
+
+  card.innerHTML = `
+    <div class="ec-body">
+      <div class="ec-tags">
+        <span class="tag" style="color:${color};border-color:${color}44">${exam.subject}</span>
+        <span class="tag tag-${tagKey}">${tagLabel}</span>
+      </div>
+      <div class="ec-subject">${exam.paper}</div>
+      <div class="ec-meta">
+        <span>${fmtDate(exam.date,{weekday:'short',day:'numeric',month:'short'})}</span>
+        <span>${exam.time}</span>
+        <span>${exam.room}</span>
+        <span>Seat ${exam.seat}</span>
+        <span style="opacity:0.55">${exam.code}</span>
+      </div>
+    </div>
+    <div class="ec-count ${cn}">
+      <div class="ec-num">${numTxt}</div>
+      <div class="ec-unit">${unitTxt}</div>
+    </div>
+  `;
+  listEl.appendChild(card);
+});
+
+// ── STARFIELD ──────────────────────────────────────────────────────────────
+(function () {
+  const cv = document.getElementById('starfield');
+  const cx = cv.getContext('2d');
+
+  function paint() {
+    cv.width  = window.innerWidth;
+    cv.height = Math.max(document.body.scrollHeight, window.innerHeight);
+    cx.clearRect(0, 0, cv.width, cv.height);
+    const n = Math.floor((cv.width * cv.height) / 3500);
+    for (let i = 0; i < n; i++) {
+      const x = Math.random() * cv.width;
+      const y = Math.random() * cv.height;
+      const r = Math.random() < 0.8 ? 0.45 : Math.random() < 0.6 ? 0.9 : 1.4;
+      const a = Math.random() * 0.45 + 0.05;
+      cx.beginPath();
+      cx.arc(x, y, r, 0, Math.PI * 2);
+      cx.fillStyle = `rgba(220,210,255,${a})`;
+      cx.fill();
+    }
+  }
+
+  cv.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:0;';
+  paint();
+  window.addEventListener('resize', paint);
+})();
+</script>
+</body>
+</html>

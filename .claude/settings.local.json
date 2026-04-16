@@ -2,7 +2,19 @@
   "permissions": {
     "allow": [
       "Read(//Users/jon/.claude/**)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(gh repo *)",
+      "Bash(git push *)",
+      "WebFetch(domain:www.aqa.org.uk)",
+      "Bash(gh issue *)",
+      "WebSearch",
+      "WebFetch(domain:revisionworld.com)",
+      "WebFetch(domain:www.savemyexams.com)",
+      "WebFetch(domain:poemanalysis.com)",
+      "WebFetch(domain:pmt.physicsandmathstutor.com)",
+      "WebFetch(domain:www.bbc.co.uk)"
     ]
   }
 }

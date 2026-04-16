@@ -1,0 +1,26 @@
+{
+  "wl_001": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 1
+      }
+    ]
+  },
+  "wl_008": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 1
+      }
+    ]
+  }
+}
