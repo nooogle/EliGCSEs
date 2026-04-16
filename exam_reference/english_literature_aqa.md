@@ -1,9 +1,10 @@
 # AQA GCSE English Literature (8702)
 
 **Exam dates (Eli):** 11 May 2026 (Paper 1) · 19 May 2026 (Paper 2)  
-**Eli's Shakespeare text:** Macbeth (confirmed from flashcard deck)  
+**Eli's Shakespeare text:** Macbeth (confirmed)  
+**Eli's 19th-century novel:** *Frankenstein*, Mary Shelley (confirmed)  
 **Eli's poetry cluster:** Worlds and Lives (confirmed)  
-**Eli's modern text:** *An Inspector Calls*, J.B. Priestley (confirmed) — this is a **play**, not a novel
+**Eli's modern text:** *An Inspector Calls*, J.B. Priestley (confirmed) — play, not novel
 
 ---
 
@@ -45,7 +46,7 @@
 - Charles Dickens, *A Christmas Carol*
 - Charles Dickens, *Great Expectations*
 - Charlotte Brontë, *Jane Eyre*
-- Mary Shelley, *Frankenstein*
+- Mary Shelley, *Frankenstein* *(Eli's text)*
 - Robert Louis Stevenson, *Strange Case of Dr Jekyll and Mr Hyde*
 - Arthur Conan Doyle, *The Sign of the Four*
 - George Eliot, *Silas Marner*

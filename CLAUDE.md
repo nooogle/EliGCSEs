@@ -10,7 +10,7 @@ This project contains study tools to help Eli (Elise Shadforth) prepare for her 
 
 | Subject | Board | Notes |
 |---------|-------|-------|
-| English Literature | AQA 8702 | 2 papers |
+| English Literature | AQA 8702 | Macbeth; Frankenstein; An Inspector Calls; Worlds & Lives poetry |
 | English Language | AQA 8700 | 2 papers |
 | Religious Studies | AQA 8062 | Option Da (China/Sikhism) |
 | Combined Science: Trilogy | AQA 8464 | Biology, Chemistry, Physics — Foundation tier |
@@ -33,8 +33,14 @@ This project contains study tools to help Eli (Elise Shadforth) prepare for her 
 | `flashcards/index.html` | Complete single-file app — open directly in Chrome/Edge |
 | `flashcards/decks/` | JSON deck files + sidecar `.progress.json` files |
 | `flashcards/CLAUDE.md` | Flashcard app architecture and technical reference |
+| `exam_reference/` | Spec details, paper structure, AOs, set texts per subject |
+| `resources/` | Online revision links and quizzes, one file per subject |
 
 Each tool subdirectory has its own `CLAUDE.md` with app-specific guidance — read it before making changes to that tool.
+
+## Adding a resource link
+
+Add URLs to `resources/<subject>.md`. Create the file if it doesn't exist yet, following the same format as `resources/english_literature.md`. One line per link: `- [Title](URL) — brief note`.
 
 ## Project Conventions
 
