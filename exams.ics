@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EliGCSEs//Exam Timetable 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Eli's GCSE Exams 2026
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:exam-001@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260511T090000
+DTEND;TZID=Europe/London:20260511T104500
+SUMMARY:English Literature Paper 1 (AQA)
+DESCRIPTION:Code: 8702/1\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-002@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260512T090000
+DTEND;TZID=Europe/London:20260512T104500
+SUMMARY:Religious Studies — Option Da (AQA)
+DESCRIPTION:Code: 8062\nOption: China/Sikhism\nBoard: AQA\nSeat: D10
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-003@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260512T131500
+DTEND;TZID=Europe/London:20260512T143000
+SUMMARY:Combined Science: Biology Paper 1F (AQA)
+DESCRIPTION:Code: 8464/B/1F\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-004@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260514T090000
+DTEND;TZID=Europe/London:20260514T103000
+SUMMARY:Mathematics — Non-Calculator (Pearson)
+DESCRIPTION:Code: 1MA1 1F\nBoard: Pearson\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-005@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260518T090000
+DTEND;TZID=Europe/London:20260518T101500
+SUMMARY:History — Medicine in Britain (Pearson) ⚠️ CHECK TIME
+DESCRIPTION:Code: 1HI0 11\nBoard: Pearson\nSeat: F5\nNOTE: Clashes with Chemistry P1F at same time — school may reschedule
+LOCATION:T3-ICT\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-006@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260518T090000
+DTEND;TZID=Europe/London:20260518T101500
+SUMMARY:Combined Science: Chemistry Paper 1F (AQA) ⚠️ CHECK TIME
+DESCRIPTION:Code: 8464/C/1F\nBoard: AQA\nSeat: D1\nNOTE: Clashes with History at same time — school may reschedule
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-007@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260519T090000
+DTEND;TZID=Europe/London:20260519T111500
+SUMMARY:English Literature Paper 2 (AQA)
+DESCRIPTION:Code: 8702/2\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-008@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260520T131500
+DTEND;TZID=Europe/London:20260520T150000
+SUMMARY:Religious Studies P2a Excl Text (AQA)
+DESCRIPTION:Code: 8062/2A\nBoard: AQA\nSeat: D10
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-009@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260521T090000
+DTEND;TZID=Europe/London:20260521T104500
+SUMMARY:English Language Paper 1 (AQA)
+DESCRIPTION:Code: 8700/1\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-010@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260602T090000
+DTEND;TZID=Europe/London:20260602T101500
+SUMMARY:Combined Science: Physics Paper 1F (AQA)
+DESCRIPTION:Code: 8464/P/1F\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-011@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260603T090000
+DTEND;TZID=Europe/London:20260603T103000
+SUMMARY:Mathematics — Calculator Paper 2 (Pearson)
+DESCRIPTION:Code: 1MA1 2F\nBoard: Pearson\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-012@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260604T090000
+DTEND;TZID=Europe/London:20260604T103000
+SUMMARY:History — Superpower Relations / British Depth (Pearson)
+DESCRIPTION:Code: 1HI0 2P\nBoard: Pearson\nSeat: F4
+LOCATION:T3-ICT\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-013@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260605T090000
+DTEND;TZID=Europe/London:20260605T104500
+SUMMARY:English Language Paper 2 (AQA)
+DESCRIPTION:Code: 8700/2\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-014@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260608T090000
+DTEND;TZID=Europe/London:20260608T101500
+SUMMARY:Combined Science: Biology Paper 2F (AQA)
+DESCRIPTION:Code: 8464/B/2F\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-015@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260609T131500
+DTEND;TZID=Europe/London:20260609T144500
+SUMMARY:History — Weimar & Nazi Germany (Pearson)
+DESCRIPTION:Code: 1HI0 31\nBoard: Pearson\nSeat: F4
+LOCATION:T3-ICT\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-016@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260610T090000
+DTEND;TZID=Europe/London:20260610T103000
+SUMMARY:Mathematics — Calculator Paper 3 (Pearson)
+DESCRIPTION:Code: 1MA1 3F\nBoard: Pearson\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-017@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260610T131500
+DTEND;TZID=Europe/London:20260610T151500
+SUMMARY:Design & Technology Written Paper (AQA)
+DESCRIPTION:Code: 8552/W\nBoard: AQA\nSeat: C8
+LOCATION:R1-SpHall\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-018@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260612T090000
+DTEND;TZID=Europe/London:20260612T101500
+SUMMARY:Combined Science: Chemistry Paper 2F (AQA)
+DESCRIPTION:Code: 8464/C/2F\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+BEGIN:VEVENT
+UID:exam-019@eligcses
+DTSTAMP:20260416T000000Z
+DTSTART;TZID=Europe/London:20260615T090000
+DTEND;TZID=Europe/London:20260615T101500
+SUMMARY:Combined Science: Physics Paper 2F (AQA)
+DESCRIPTION:Code: 8464/P/2F\nBoard: AQA\nSeat: D1
+LOCATION:R3-Gym(front)\, Droitwich Spa High School
+END:VEVENT
+END:VCALENDAR
