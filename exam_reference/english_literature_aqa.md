@@ -3,7 +3,7 @@
 **Exam dates (Eli):** 11 May 2026 (Paper 1) · 19 May 2026 (Paper 2)  
 **Eli's Shakespeare text:** Macbeth (confirmed from flashcard deck)  
 **Eli's poetry cluster:** Worlds and Lives (confirmed)  
-**Eli's modern text:** TBC — update this when confirmed
+**Eli's modern text:** *An Inspector Calls*, J.B. Priestley (confirmed) — this is a **play**, not a novel
 
 ---
 
@@ -77,7 +77,7 @@
 - Kit de Waal, *My Name is Leon* (from 2025)
 
 ### Modern drama texts available
-- J.B. Priestley, *An Inspector Calls*
+- J.B. Priestley, *An Inspector Calls* *(Eli's text)*
 - Willy Russell, *Blood Brothers*
 - Dennis Kelly, *DNA*
 - Shelagh Delaney, *A Taste of Honey*
