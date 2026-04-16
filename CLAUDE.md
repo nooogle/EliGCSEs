@@ -24,6 +24,7 @@ This project contains study tools to help Eli (Elise Shadforth) prepare for her 
 |------|-------------|
 | `exams.json` | Full exam timetable — canonical source of truth |
 | `exams.ics` | iCalendar file for import into phone/Google calendar |
+| `priorities.md` | College entry goal, subject priorities, predictions, revision tracker |
 
 ## Structure
 
