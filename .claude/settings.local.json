@@ -14,7 +14,8 @@
       "WebFetch(domain:www.savemyexams.com)",
       "WebFetch(domain:poemanalysis.com)",
       "WebFetch(domain:pmt.physicsandmathstutor.com)",
-      "WebFetch(domain:www.bbc.co.uk)"
+      "WebFetch(domain:www.bbc.co.uk)",
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs remote get-url origin)"
     ]
   }
 }
