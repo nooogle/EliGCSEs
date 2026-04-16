@@ -12,7 +12,7 @@ This project contains study tools to help Eli (Elise Shadforth) prepare for her 
 |---------|-------|-------|
 | English Literature | AQA 8702 | Macbeth; Frankenstein; An Inspector Calls; Worlds & Lives poetry |
 | English Language | AQA 8700 | 2 papers |
-| Religious Studies | AQA 8062 | Option Da (China/Sikhism) |
+| Religious Studies | AQA 8062 | Option Oa (Christianity/Sikhism) |
 | Combined Science: Trilogy | AQA 8464 | Biology, Chemistry, Physics — Foundation tier |
 | Mathematics | Pearson/Edexcel 1MA1 | Foundation tier, 3 papers |
 | History | Pearson/Edexcel 1HI0 | Medicine in Britain; Superpower Relations; Weimar & Nazi Germany |

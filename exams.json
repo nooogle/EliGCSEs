@@ -28,8 +28,8 @@
       "end_time": "10:45",
       "duration_mins": 105,
       "subject": "Religious Studies",
-      "paper": "Option Da — China/Sikhism",
-      "exam_title": "Religious Studies A Option Da",
+      "paper": "Option Oa — Christianity/Sikhism",
+      "exam_title": "Religious Studies A Option Oa",
       "code": "8062",
       "board": "AQA",
       "location": "R3-Gym(front)",
@@ -65,7 +65,7 @@
     },
     {
       "id": "exam-005",
-      "date": "2026-05-18",
+      "date": "2026-05-15",
       "time": "09:00",
       "end_time": "10:15",
       "duration_mins": 75,
@@ -75,8 +75,7 @@
       "code": "1HI0 11",
       "board": "Pearson",
       "location": "T3-ICT",
-      "seat": "F5",
-      "clash_note": "Scheduled same time as exam-006 (Chemistry P1F) — school may reschedule"
+      "seat": "F5"
     },
     {
       "id": "exam-006",
@@ -90,8 +89,7 @@
       "code": "8464/C/1F",
       "board": "AQA",
       "location": "R3-Gym(front)",
-      "seat": "D1",
-      "clash_note": "Scheduled same time as exam-005 (History) — school may reschedule"
+      "seat": "D1"
     },
     {
       "id": "exam-007",
@@ -171,7 +169,7 @@
       "duration_mins": 90,
       "subject": "History",
       "paper": "Superpower Relations / British depth study",
-      "exam_title": "Superpower/Richardson/John",
+      "exam_title": "Superpower/Richard/John",
       "code": "1HI0 2P",
       "board": "Pearson",
       "location": "T3-ICT",

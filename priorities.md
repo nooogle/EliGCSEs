@@ -16,7 +16,7 @@ Grade 4 is the minimum pass (equivalent to the old grade C). Grade 5 is a "stron
 | ★ Must pass | **English Language** | TBC | 4+ | 21 May | 2 papers; no set texts to learn |
 | High | **English Literature** | TBC | 4+ | 11 May | ⚠️ First exam of all — Macbeth + Frankenstein + AIC + poetry |
 | High | **History** | TBC | 4+ | 15 May | 3 papers; heavy content load |
-| Medium | **Religious Studies** | TBC | 4+ | 12 May | 2 papers; China/Sikhism + excl text |
+| Medium | **Religious Studies** | TBC | 4+ | 12 May | 2 papers; Christianity/Sikhism + excl text |
 | Buffer | **Design & Technology** | TBC | 4+ | 10 Jun | 1 paper; latest exam — buy time |
 | ~~Not revising~~ | ~~Combined Science~~ | — | — | 12 May | Deprioritised — not needed for college entry |
 
