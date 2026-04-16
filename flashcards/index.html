@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards</title>
+<style>
+  /* ── Reset & base ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #f5f4f0;
+    --surface:   #ffffff;
+    --surface2:  #f0efe9;
+    --border:    #e0ddd5;
+    --text:      #1a1a1a;
+    --text-muted:#6b6860;
+    --accent:    #5b6af0;
+    --accent-dk: #4454d4;
+    --green:     #22c55e;
+    --amber:     #f59e0b;
+    --red:       #ef4444;
+    --radius:    12px;
+    --shadow:    0 2px 8px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,.12), 0 2px 8px rgba(0,0,0,.08);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── Layout ───────────────────────────────────────────────── */
+  .screen {
+    display: none;
+    width: 100%;
+    max-width: 680px;
+    padding: 24px 16px 48px;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeIn .18s ease;
+  }
+  .screen.active { display: flex; }
+
+  @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+
+  /* ── Header bar ───────────────────────────────────────────── */
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0 0;
+    width: 100%;
+    max-width: 680px;
+  }
+  .topbar h1 { font-size: 1.3rem; font-weight: 700; flex: 1; }
+  .topbar .back-btn {
+    background: none; border: none; cursor: pointer;
+    color: var(--accent); font-size: .95rem; font-weight: 600;
+    padding: 4px 8px; border-radius: 6px;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .topbar .back-btn:hover { background: var(--surface2); }
+
+  /* ── Cards / surfaces ─────────────────────────────────────── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+
+  /* ── Deck selector ────────────────────────────────────────── */
+  #screen-home .hero {
+    text-align: center;
+    padding: 32px 0 8px;
+  }
+  #screen-home .hero h2 { font-size: 2rem; font-weight: 800; }
+  #screen-home .hero p  { color: var(--text-muted); margin-top: 6px; }
+
+  .folder-banner {
+    background: linear-gradient(135deg, #eef0ff 0%, #e8f4ff 100%);
+    border: 1px solid #c7cdf7;
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .folder-banner .icon { font-size: 1.8rem; }
+  .folder-banner .info { flex: 1; }
+  .folder-banner .info strong { display: block; font-size: .95rem; }
+  .folder-banner .info span  { font-size: .82rem; color: var(--text-muted); }
+  .folder-banner button { white-space: nowrap; }
+
+  .deck-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px;
+  }
+  .deck-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: box-shadow .15s, transform .15s, border-color .15s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .deck-item:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); border-color: var(--accent); }
+  .deck-item .subject-tag {
+    font-size: .72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--accent);
+    background: #eef0ff; border-radius: 4px; padding: 2px 7px;
+    align-self: flex-start;
+  }
+  .deck-item h3 { font-size: 1.1rem; font-weight: 700; }
+  .deck-item .meta { font-size: .82rem; color: var(--text-muted); }
+  .deck-item .due-badge {
+    position: absolute; top: 14px; right: 14px;
+    background: var(--accent); color: #fff;
+    font-size: .75rem; font-weight: 700;
+    border-radius: 20px; padding: 2px 9px;
+  }
+  .deck-item .due-badge.none { background: var(--green); }
+
+  .deck-item .mini-bars { display: flex; gap: 3px; margin-top: 4px; }
+  .deck-item .mini-bar { height: 4px; border-radius: 2px; flex: 1; background: var(--border); }
+  .deck-item .mini-bar.new      { background: var(--border); }
+  .deck-item .mini-bar.learning { background: var(--amber); }
+  .deck-item .mini-bar.mastered { background: var(--green); }
+
+  /* ── Buttons ──────────────────────────────────────────────── */
+  button {
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+    transition: background .12s, transform .1s;
+  }
+  button:active { transform: scale(.97); }
+
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:hover { background: var(--accent-dk); }
+
+  .btn-ghost {
+    background: var(--surface2);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { background: var(--border); }
+
+  .btn-sm { font-size: .8rem; padding: 7px 13px; }
+
+  /* ── Study screen ─────────────────────────────────────────── */
+  .session-stats {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .stat-pill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: .8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .stat-pill .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+  }
+  .dot-green  { background: var(--green); }
+  .dot-red    { background: var(--red); }
+  .dot-amber  { background: var(--amber); }
+  .dot-purple { background: var(--accent); }
+
+  /* Flashcard flip */
+  .flashcard-wrap {
+    perspective: 1000px;
+    height: 300px;
+    cursor: pointer;
+    user-select: none;
+    transition: height .3s ease;
+  }
+  .flashcard-wrap.has-image { height: 460px; }
+  .flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .45s cubic-bezier(.4,0,.2,1);
+  }
+  .flashcard-wrap.flipped .flashcard-inner { transform: rotateX(180deg); }
+
+  .flashcard-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-lg);
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    gap: 14px;
+    text-align: center;
+  }
+  .flashcard-face.back { transform: rotateX(180deg); }
+
+  .card-category {
+    font-size: .72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: var(--accent);
+    background: #eef0ff; border-radius: 4px; padding: 3px 9px;
+  }
+  .card-question {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .card-hint {
+    font-size: .82rem;
+    color: var(--text-muted);
+    font-style: italic;
+    background: var(--surface2);
+    border-radius: 6px;
+    padding: 6px 12px;
+  }
+  .tap-hint {
+    font-size: .78rem;
+    color: var(--text-muted);
+    display: flex; align-items: center; gap: 4px;
+  }
+
+  /* Card image */
+  .card-img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+  }
+  .card-img-broken { display: none !important; }
+
+  .card-answer {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  .card-answer-label {
+    font-size: .72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: var(--green);
+    background: #dcfce7; border-radius: 4px; padding: 3px 9px;
+  }
+
+  /* Response buttons */
+  .response-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .resp-btn {
+    border-radius: 10px;
+    padding: 14px 10px;
+    font-size: .9rem;
+    font-weight: 700;
+    display: flex; flex-direction: column;
+    align-items: center; gap: 4px;
+    border: 2px solid transparent;
+  }
+  .resp-btn span { font-size: .7rem; font-weight: 500; opacity: .7; }
+  .resp-btn.got-it { background: #dcfce7; color: #15803d; border-color: #86efac; }
+  .resp-btn.got-it:hover { background: #bbf7d0; }
+  .resp-btn.nearly  { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+  .resp-btn.nearly:hover  { background: #fde68a; }
+  .resp-btn.no-idea { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+  .resp-btn.no-idea:hover { background: #fecaca; }
+
+  .flip-prompt {
+    text-align: center;
+  }
+  .flip-prompt button { width: 100%; font-size: 1rem; padding: 14px; }
+
+  /* Progress bar */
+  .progress-bar-wrap {
+    background: var(--border);
+    border-radius: 4px;
+    height: 6px;
+    overflow: hidden;
+  }
+  .progress-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 4px;
+    transition: width .3s ease;
+  }
+
+  /* Session complete */
+  .session-complete {
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .session-complete .big-emoji { font-size: 4rem; }
+  .session-complete h2 { font-size: 1.8rem; font-weight: 800; }
+  .session-complete p  { color: var(--text-muted); max-width: 320px; }
+  .session-complete .summary-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 12px; width: 100%; max-width: 320px;
+  }
+  .summary-item {
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+  .summary-item .num { font-size: 1.8rem; font-weight: 800; }
+  .summary-item .lbl { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+
+  /* ── Progress screen ──────────────────────────────────────── */
+  .progress-table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .85rem;
+  }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  th { font-weight: 700; color: var(--text-muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  .status-badge {
+    font-size: .72rem; font-weight: 700;
+    border-radius: 4px; padding: 2px 8px;
+    text-transform: uppercase; letter-spacing: .04em;
+  }
+  .status-new      { background: var(--surface2); color: var(--text-muted); }
+  .status-learning { background: #fef3c7; color: #92400e; }
+  .status-mastered { background: #dcfce7; color: #15803d; }
+
+  .progress-header {
+    display: flex; gap: 12px; flex-wrap: wrap;
+  }
+  .big-stat {
+    flex: 1; min-width: 120px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .big-stat .num { font-size: 2rem; font-weight: 800; }
+  .big-stat .lbl { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+
+  /* ── Add card modal ───────────────────────────────────────── */
+  .modal-backdrop {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.45);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
+  .modal-backdrop.open { display: flex; animation: fadeIn .15s ease; }
+  .modal {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 28px;
+    width: 100%;
+    max-width: 520px;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .modal h3 { font-size: 1.2rem; font-weight: 800; }
+
+  label { display: block; font-size: .83rem; font-weight: 600; margin-bottom: 5px; }
+  input[type=text], textarea, select {
+    width: 100%;
+    font-family: inherit;
+    font-size: .9rem;
+    padding: 9px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    transition: border-color .15s;
+    resize: vertical;
+  }
+  input[type=text]:focus, textarea:focus, select:focus { border-color: var(--accent); }
+  textarea { min-height: 80px; }
+
+  .modal-footer { display: flex; gap: 10px; justify-content: flex-end; }
+
+  /* ── Toast ────────────────────────────────────────────────── */
+  #toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
+    background: #1a1a1a; color: #fff;
+    padding: 10px 20px; border-radius: 20px;
+    font-size: .85rem; font-weight: 600;
+    transition: transform .25s ease;
+    z-index: 200; pointer-events: none;
+  }
+  #toast.show { transform: translateX(-50%) translateY(0); }
+
+  /* ── Responsive ───────────────────────────────────────────── */
+  @media (max-width: 480px) {
+    .response-btns { grid-template-columns: 1fr; }
+    .flashcard-wrap { height: 260px; }
+    .flashcard-wrap.has-image { height: 400px; }
+    .card-img { max-height: 160px; }
+    .card-question { font-size: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCREEN: Home / Deck Selector
+═══════════════════════════════════════════════════════════ -->
+<div class="topbar" id="topbar" style="display:none">
+  <button class="back-btn" id="btn-back">← Back</button>
+  <h1 id="topbar-title"></h1>
+  <div id="topbar-actions"></div>
+</div>
+
+<div class="screen active" id="screen-home">
+  <div class="hero">
+    <h2>Flashcards</h2>
+    <p>Spaced repetition study system</p>
+  </div>
+
+  <div class="folder-banner" id="folder-banner">
+    <div class="icon">📁</div>
+    <div class="info">
+      <strong id="folder-name">No folder selected</strong>
+      <span id="folder-hint">Select your decks/ folder to get started</span>
+    </div>
+    <button class="btn-primary btn-sm" id="btn-open-folder">Open Folder</button>
+  </div>
+
+  <!-- fallback notice shown if FSAPI not supported -->
+  <div id="ls-notice" class="card" style="display:none; font-size:.85rem; color:var(--text-muted);">
+    ⚠️ Your browser doesn't support the File System Access API. Progress is being saved to <strong>localStorage</strong> only. For full file-based persistence, use Chrome or Edge.
+  </div>
+
+  <div id="deck-list" class="deck-grid">
+    <div style="color:var(--text-muted); font-size:.9rem; grid-column:1/-1; text-align:center; padding:40px 0;">
+      Open a folder containing your deck JSON files to begin.
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCREEN: Study
+═══════════════════════════════════════════════════════════ -->
+<div class="screen" id="screen-study">
+  <div class="session-stats">
+    <div class="stat-pill"><span class="dot dot-green"></span><span id="stat-correct">0</span> correct</div>
+    <div class="stat-pill"><span class="dot dot-red"></span><span id="stat-wrong">0</span> wrong</div>
+    <div class="stat-pill"><span class="dot dot-amber"></span><span id="stat-remaining">0</span> left</div>
+    <div class="stat-pill"><span class="dot dot-purple"></span><span id="stat-mastered">0</span> mastered</div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="study-progress-bar" style="width:0%"></div>
+  </div>
+
+  <!-- Card -->
+  <div class="flashcard-wrap" id="flashcard-wrap">
+    <div class="flashcard-inner" id="flashcard-inner">
+      <div class="flashcard-face front" id="card-front">
+        <span class="card-category" id="card-category-label"></span>
+        <img id="card-img" class="card-img" src="" alt="Diagram" style="display:none"
+             onerror="this.classList.add('card-img-broken')">
+        <div class="card-question" id="card-question-text"></div>
+        <div class="card-hint" id="card-hint-text" style="display:none"></div>
+        <div class="tap-hint">👆 Tap to reveal answer</div>
+      </div>
+      <div class="flashcard-face back" id="card-back">
+        <span class="card-answer-label">Answer</span>
+        <div class="card-answer" id="card-answer-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-prompt" id="flip-prompt">
+    <button class="btn-primary" id="btn-flip">Reveal Answer</button>
+  </div>
+
+  <div class="response-btns" id="response-btns" style="display:none">
+    <button class="resp-btn no-idea" data-quality="1">😣 No idea<span>Reset to tomorrow</span></button>
+    <button class="resp-btn nearly"  data-quality="3">🤔 Nearly<span>Review soon</span></button>
+    <button class="resp-btn got-it"  data-quality="5">✅ Got it!<span>Schedule later</span></button>
+  </div>
+
+  <!-- Session complete panel (hidden until done) -->
+  <div class="session-complete" id="session-complete" style="display:none">
+    <div class="big-emoji" id="complete-emoji">🎉</div>
+    <h2>Session complete!</h2>
+    <p id="complete-msg"></p>
+    <div class="summary-grid">
+      <div class="summary-item">
+        <div class="num" id="cmp-correct"></div>
+        <div class="lbl">Correct</div>
+      </div>
+      <div class="summary-item">
+        <div class="num" id="cmp-wrong"></div>
+        <div class="lbl">Wrong</div>
+      </div>
+      <div class="summary-item">
+        <div class="num" id="cmp-mastered"></div>
+        <div class="lbl">Mastered</div>
+      </div>
+      <div class="summary-item">
+        <div class="num" id="cmp-due-tomorrow"></div>
+        <div class="lbl">Due tomorrow</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+      <button class="btn-ghost" id="btn-back-home-complete">← Home</button>
+      <button class="btn-primary" id="btn-view-progress">View Progress</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCREEN: Progress / Card List
+═══════════════════════════════════════════════════════════ -->
+<div class="screen" id="screen-progress">
+  <div class="progress-header" id="progress-header"></div>
+
+  <div class="card progress-table-wrap">
+    <table id="progress-table">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Category</th>
+          <th>Status</th>
+          <th>Next Due</th>
+          <th>Reps</th>
+        </tr>
+      </thead>
+      <tbody id="progress-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     MODAL: Add Card
+═══════════════════════════════════════════════════════════ -->
+<div class="modal-backdrop" id="modal-add">
+  <div class="modal">
+    <h3>Add New Card</h3>
+    <div>
+      <label for="new-category">Category</label>
+      <input type="text" id="new-category" placeholder="e.g. Characters, Themes…">
+    </div>
+    <div>
+      <label for="new-question">Question <span style="color:var(--red)">*</span></label>
+      <textarea id="new-question" placeholder="What is the question?"></textarea>
+    </div>
+    <div>
+      <label for="new-answer">Answer <span style="color:var(--red)">*</span></label>
+      <textarea id="new-answer" placeholder="What is the answer?"></textarea>
+    </div>
+    <div>
+      <label for="new-hint">Hint (optional)</label>
+      <input type="text" id="new-hint" placeholder="A nudge in the right direction…">
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" id="btn-cancel-add">Cancel</button>
+      <button class="btn-primary" id="btn-save-card">Save Card</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+// STATE
+// ════════════════════════════════════════════════════════════
+const state = {
+  dirHandle: null,           // FileSystemDirectoryHandle
+  decks: [],                 // [{ filename, handle, data }]
+  activeDeck: null,          // { filename, handle, data }
+  progress: {},              // card_id -> SM2 record
+  progressHandle: null,      // FileSystemFileHandle for progress file
+  queue: [],                 // card objects due this session
+  currentIndex: 0,
+  session: { correct: 0, wrong: 0, startMastered: 0 },
+  fsapiSupported: 'showDirectoryPicker' in window,
+};
+
+// ════════════════════════════════════════════════════════════
+// SM-2 ALGORITHM
+// ════════════════════════════════════════════════════════════
+function sm2(record, quality) {
+  // quality: 1 (no idea), 3 (nearly), 5 (got it)
+  let { easiness, interval_days, repetitions } = record;
+
+  if (quality < 3) {
+    repetitions  = 0;
+    interval_days = 1;
+  } else {
+    if (repetitions === 0)      interval_days = 1;
+    else if (repetitions === 1) interval_days = 6;
+    else                        interval_days = Math.round(interval_days * easiness);
+
+    repetitions += 1;
+
+    // Update easiness factor
+    easiness = easiness + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+    if (easiness < 1.3) easiness = 1.3;
+  }
+
+  const next = new Date();
+  next.setDate(next.getDate() + interval_days);
+  const next_due = next.toISOString().split('T')[0];
+
+  return { easiness, interval_days, repetitions, next_due };
+}
+
+function defaultRecord() {
+  return { easiness: 2.5, interval_days: 0, repetitions: 0, next_due: null, history: [] };
+}
+
+function isDue(record) {
+  if (!record || !record.next_due) return true; // new card
+  const today = todayStr();
+  return record.next_due <= today;
+}
+
+function todayStr() {
+  return new Date().toISOString().split('T')[0];
+}
+
+function cardStatus(record) {
+  if (!record || record.repetitions === 0) return 'new';
+  if (record.repetitions >= 3) return 'mastered';
+  return 'learning';
+}
+
+// ════════════════════════════════════════════════════════════
+// FILE SYSTEM ACCESS API  +  localStorage fallback
+// ════════════════════════════════════════════════════════════
+async function openFolder() {
+  if (!state.fsapiSupported) {
+    toast('File System API not supported — using localStorage only');
+    return;
+  }
+  try {
+    const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
+    state.dirHandle = handle;
+    localStorage.setItem('fc_last_folder_name', handle.name);
+    await loadDecksFromDir();
+  } catch (e) {
+    if (e.name !== 'AbortError') toast('Could not open folder: ' + e.message);
+  }
+}
+
+async function loadDecksFromDir() {
+  if (!state.dirHandle) return;
+  state.decks = [];
+  for await (const entry of state.dirHandle.values()) {
+    if (entry.kind === 'file' && entry.name.endsWith('.json') && !entry.name.endsWith('.progress.json')) {
+      try {
+        const file = await entry.getFile();
+        const text = await file.text();
+        const data = JSON.parse(text);
+        if (data.cards && data.title) {
+          state.decks.push({ filename: entry.name, handle: entry, data });
+        }
+      } catch { /* skip malformed */ }
+    }
+  }
+  renderDeckList();
+}
+
+async function readProgress(deck) {
+  const progressName = deck.filename.replace('.json', '.progress.json');
+  const lsKey = 'fc_progress_' + deck.filename;
+
+  if (state.dirHandle) {
+    try {
+      const fh = await state.dirHandle.getFileHandle(progressName, { create: true });
+      state.progressHandle = fh;
+      const file = await fh.getFile();
+      const text = await file.text();
+      return text.trim() ? JSON.parse(text) : {};
+    } catch { /* fall through to LS */ }
+  }
+
+  const stored = localStorage.getItem(lsKey);
+  return stored ? JSON.parse(stored) : {};
+}
+
+async function writeProgress(deck, progressData) {
+  const lsKey = 'fc_progress_' + deck.filename;
+  const json = JSON.stringify(progressData, null, 2);
+
+  localStorage.setItem(lsKey, json);
+
+  if (state.progressHandle) {
+    try {
+      const writable = await state.progressHandle.createWritable();
+      await writable.write(json);
+      await writable.close();
+    } catch (e) {
+      console.warn('Could not write progress file:', e);
+    }
+  }
+}
+
+async function writeDeck(deck) {
+  const json = JSON.stringify(deck.data, null, 2);
+  if (deck.handle) {
+    try {
+      const writable = await deck.handle.createWritable();
+      await writable.write(json);
+      await writable.close();
+      return;
+    } catch (e) {
+      console.warn('Could not write deck file:', e);
+    }
+  }
+  // localStorage fallback for deck data
+  localStorage.setItem('fc_deck_' + deck.filename, json);
+}
+
+// ════════════════════════════════════════════════════════════
+// RENDER: HOME SCREEN
+// ════════════════════════════════════════════════════════════
+function renderDeckList() {
+  const el = document.getElementById('deck-list');
+  const folderName = document.getElementById('folder-name');
+  const folderHint = document.getElementById('folder-hint');
+
+  if (!state.fsapiSupported) {
+    document.getElementById('ls-notice').style.display = 'block';
+  }
+
+  if (state.dirHandle) {
+    folderName.textContent = state.dirHandle.name + '/';
+    folderHint.textContent = state.decks.length + ' deck(s) found';
+  } else {
+    const last = localStorage.getItem('fc_last_folder_name');
+    if (last) {
+      folderName.textContent = last + '/  (re-open to access)';
+      folderHint.textContent = 'Click "Open Folder" to reload';
+    }
+  }
+
+  if (!state.decks.length) {
+    // Try localStorage fallback decks
+    const lsDecks = getLsDecks();
+    if (lsDecks.length) {
+      state.decks = lsDecks;
+    } else {
+      el.innerHTML = `<div style="color:var(--text-muted);font-size:.9rem;grid-column:1/-1;text-align:center;padding:40px 0;">
+        ${state.dirHandle ? 'No valid deck .json files found in this folder.' : 'Open a folder containing your deck JSON files to begin.'}
+      </div>`;
+      return;
+    }
+  }
+
+  el.innerHTML = '';
+  state.decks.forEach(deck => {
+    const progress = JSON.parse(localStorage.getItem('fc_progress_' + deck.filename) || '{}');
+    const total = deck.data.cards.length;
+    const dueCount = deck.data.cards.filter(c => isDue(progress[c.id])).length;
+    const masteredCount = deck.data.cards.filter(c => (progress[c.id]?.repetitions || 0) >= 3).length;
+    const learningCount = deck.data.cards.filter(c => {
+      const r = progress[c.id];
+      return r && r.repetitions > 0 && r.repetitions < 3;
+    }).length;
+
+    const item = document.createElement('div');
+    item.className = 'deck-item';
+    item.innerHTML = `
+      <span class="subject-tag">${esc(deck.data.subject || 'General')}</span>
+      <h3>${esc(deck.data.title)}</h3>
+      <div class="meta">${total} cards · ${masteredCount} mastered</div>
+      <div class="mini-bars">${renderMiniBars(total, learningCount, masteredCount)}</div>
+      <div class="due-badge ${dueCount === 0 ? 'none' : ''}">${dueCount === 0 ? '✓ all done' : dueCount + ' due'}</div>
+    `;
+    item.addEventListener('click', () => startStudy(deck));
+    el.appendChild(item);
+  });
+}
+
+function renderMiniBars(total, learning, mastered) {
+  const bars = Math.min(total, 20);
+  const masteredBars = Math.round((mastered / total) * bars);
+  const learningBars = Math.round((learning / total) * bars);
+  const newBars = bars - masteredBars - learningBars;
+  let html = '';
+  for (let i = 0; i < masteredBars; i++) html += '<div class="mini-bar mastered"></div>';
+  for (let i = 0; i < learningBars; i++) html += '<div class="mini-bar learning"></div>';
+  for (let i = 0; i < newBars; i++) html += '<div class="mini-bar new"></div>';
+  return html;
+}
+
+function getLsDecks() {
+  // If no FSAPI, check if user stored decks in LS from a previous session
+  const keys = Object.keys(localStorage).filter(k => k.startsWith('fc_deck_'));
+  return keys.map(k => {
+    try {
+      const data = JSON.parse(localStorage.getItem(k));
+      const filename = k.replace('fc_deck_', '');
+      return { filename, handle: null, data };
+    } catch { return null; }
+  }).filter(Boolean);
+}
+
+// ════════════════════════════════════════════════════════════
+// STUDY SESSION
+// ════════════════════════════════════════════════════════════
+async function startStudy(deck) {
+  state.activeDeck = deck;
+  state.progress = await readProgress(deck);
+
+  // Build queue: due cards, shuffled
+  state.queue = deck.data.cards
+    .filter(c => isDue(state.progress[c.id]))
+    .sort(() => Math.random() - 0.5);
+
+  state.currentIndex = 0;
+  state.session = {
+    correct: 0,
+    wrong: 0,
+    startMastered: deck.data.cards.filter(c => (state.progress[c.id]?.repetitions || 0) >= 3).length,
+  };
+
+  showScreen('study');
+  setTopbar(deck.data.title, [
+    { label: '📊 Progress', id: 'btn-topbar-progress', onClick: () => showProgressScreen(deck) },
+    { label: '＋ Add Card', id: 'btn-topbar-add', onClick: openAddModal },
+  ]);
+
+  if (!state.queue.length) {
+    showSessionComplete();
+    return;
+  }
+
+  renderStudyCard();
+}
+
+function renderStudyCard() {
+  const deck = state.activeDeck;
+  const total = deck.data.cards.filter(c => isDue(state.progress[c.id]) ||
+    state.queue.some(q => q.id === c.id)).length;
+  const done  = state.session.correct + state.session.wrong;
+  const remaining = state.queue.length - state.currentIndex;
+  const masteredNow = deck.data.cards.filter(c => (state.progress[c.id]?.repetitions || 0) >= 3).length;
+
+  document.getElementById('stat-correct').textContent   = state.session.correct;
+  document.getElementById('stat-wrong').textContent     = state.session.wrong;
+  document.getElementById('stat-remaining').textContent = remaining;
+  document.getElementById('stat-mastered').textContent  = masteredNow;
+
+  const pct = state.queue.length ? (state.currentIndex / state.queue.length) * 100 : 0;
+  document.getElementById('study-progress-bar').style.width = pct + '%';
+
+  if (state.currentIndex >= state.queue.length) {
+    showSessionComplete();
+    return;
+  }
+
+  const card = state.queue[state.currentIndex];
+  document.getElementById('card-category-label').textContent = card.category || '';
+  document.getElementById('card-question-text').textContent  = card.question;
+  document.getElementById('card-answer-text').textContent    = card.answer;
+
+  const hintEl = document.getElementById('card-hint-text');
+  if (card.hint) {
+    hintEl.textContent = '💡 ' + card.hint;
+    hintEl.style.display = 'block';
+  } else {
+    hintEl.style.display = 'none';
+  }
+
+  // Image
+  const imgEl = document.getElementById('card-img');
+  imgEl.classList.remove('card-img-broken');
+  if (card.image) {
+    imgEl.src = card.image;
+    imgEl.alt = card.image_alt || 'Diagram';
+    imgEl.style.display = 'block';
+  } else {
+    imgEl.style.display = 'none';
+    imgEl.src = '';
+  }
+
+  // Reset flip state
+  const wrap = document.getElementById('flashcard-wrap');
+  wrap.classList.remove('flipped');
+  wrap.classList.toggle('has-image', !!card.image);
+  document.getElementById('flip-prompt').style.display = 'block';
+  document.getElementById('response-btns').style.display = 'none';
+}
+
+function flipCard() {
+  document.getElementById('flashcard-wrap').classList.add('flipped');
+  document.getElementById('flip-prompt').style.display = 'none';
+  document.getElementById('response-btns').style.display = 'grid';
+}
+
+async function handleResponse(quality) {
+  const card = state.queue[state.currentIndex];
+  const existing = state.progress[card.id] || defaultRecord();
+  const updated = sm2(existing, quality);
+
+  // Append history
+  const history = existing.history || [];
+  history.push({ date: todayStr(), quality });
+
+  state.progress[card.id] = { ...existing, ...updated, history };
+
+  if (quality >= 3) state.session.correct++;
+  else              state.session.wrong++;
+
+  await writeProgress(state.activeDeck, state.progress);
+
+  state.currentIndex++;
+  renderStudyCard();
+}
+
+function showSessionComplete() {
+  // Hide card UI, show complete panel
+  document.getElementById('flashcard-wrap').style.display = 'none';
+  document.getElementById('flip-prompt').style.display = 'none';
+  document.getElementById('response-btns').style.display = 'none';
+  document.getElementById('session-complete').style.display = 'flex';
+
+  const deck = state.activeDeck;
+  const masteredNow = deck.data.cards.filter(c => (state.progress[c.id]?.repetitions || 0) >= 3).length;
+  const dueTomorrow = deck.data.cards.filter(c => {
+    const r = state.progress[c.id];
+    if (!r || !r.next_due) return false;
+    const tom = new Date(); tom.setDate(tom.getDate() + 1);
+    return r.next_due === tom.toISOString().split('T')[0];
+  }).length;
+
+  const pct = state.session.correct + state.session.wrong > 0
+    ? Math.round(state.session.correct / (state.session.correct + state.session.wrong) * 100) : 100;
+
+  const emoji = pct === 100 ? '🏆' : pct >= 70 ? '🎉' : pct >= 40 ? '💪' : '📚';
+  document.getElementById('complete-emoji').textContent = emoji;
+  document.getElementById('complete-msg').textContent =
+    state.queue.length === 0
+      ? 'No cards were due — you\'re all caught up!'
+      : `You scored ${pct}% — keep it up!`;
+
+  document.getElementById('cmp-correct').textContent     = state.session.correct;
+  document.getElementById('cmp-wrong').textContent       = state.session.wrong;
+  document.getElementById('cmp-mastered').textContent    = masteredNow;
+  document.getElementById('cmp-due-tomorrow').textContent = dueTomorrow;
+
+  document.getElementById('study-progress-bar').style.width = '100%';
+
+  // Refresh deck list in background
+  renderDeckList();
+}
+
+// ════════════════════════════════════════════════════════════
+// PROGRESS SCREEN
+// ════════════════════════════════════════════════════════════
+async function showProgressScreen(deck) {
+  if (!deck) deck = state.activeDeck;
+  if (!deck) return;
+
+  const progress = state.progress && Object.keys(state.progress).length
+    ? state.progress
+    : await readProgress(deck);
+
+  const cards = deck.data.cards;
+  const total     = cards.length;
+  const mastered  = cards.filter(c => cardStatus(progress[c.id]) === 'mastered').length;
+  const learning  = cards.filter(c => cardStatus(progress[c.id]) === 'learning').length;
+  const newCards  = cards.filter(c => cardStatus(progress[c.id]) === 'new').length;
+  const due       = cards.filter(c => isDue(progress[c.id])).length;
+
+  // Header stats
+  const hdr = document.getElementById('progress-header');
+  hdr.innerHTML = `
+    <div class="big-stat"><div class="num">${total}</div><div class="lbl">Total cards</div></div>
+    <div class="big-stat" style="--num-color:var(--green)"><div class="num" style="color:var(--green)">${mastered}</div><div class="lbl">Mastered</div></div>
+    <div class="big-stat"><div class="num" style="color:var(--amber)">${learning}</div><div class="lbl">Learning</div></div>
+    <div class="big-stat"><div class="num" style="color:var(--accent)">${due}</div><div class="lbl">Due today</div></div>
+  `;
+
+  // Table
+  const tbody = document.getElementById('progress-tbody');
+  tbody.innerHTML = '';
+  cards.forEach(card => {
+    const rec = progress[card.id];
+    const status = cardStatus(rec);
+    const nextDue = rec?.next_due || '—';
+    const reps = rec?.repetitions || 0;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(card.question)}">${esc(card.question)}</td>
+      <td><span style="font-size:.8rem;color:var(--text-muted)">${esc(card.category || '—')}</span></td>
+      <td><span class="status-badge status-${status}">${status}</span></td>
+      <td style="font-size:.82rem;color:var(--text-muted)">${nextDue}</td>
+      <td style="font-size:.82rem">${reps}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  showScreen('progress');
+  setTopbar(deck.data.title + ' — Progress', [
+    { label: '▶ Study', id: 'btn-topbar-study', onClick: () => startStudy(deck) },
+    { label: '＋ Add Card', id: 'btn-topbar-add2', onClick: openAddModal },
+  ]);
+}
+
+// ════════════════════════════════════════════════════════════
+// ADD CARD MODAL
+// ════════════════════════════════════════════════════════════
+function openAddModal() {
+  document.getElementById('new-category').value = '';
+  document.getElementById('new-question').value = '';
+  document.getElementById('new-answer').value   = '';
+  document.getElementById('new-hint').value     = '';
+  document.getElementById('modal-add').classList.add('open');
+  document.getElementById('new-question').focus();
+}
+
+function closeAddModal() {
+  document.getElementById('modal-add').classList.remove('open');
+}
+
+async function saveNewCard() {
+  const q = document.getElementById('new-question').value.trim();
+  const a = document.getElementById('new-answer').value.trim();
+  if (!q || !a) { toast('Question and answer are required'); return; }
+
+  const deck = state.activeDeck;
+  if (!deck) { toast('No active deck'); return; }
+
+  // Generate unique ID
+  const prefix = deck.data.title.replace(/\s+/g, '_').toLowerCase().slice(0, 8);
+  const id = prefix + '_' + Date.now().toString(36);
+
+  const card = {
+    id,
+    category: document.getElementById('new-category').value.trim() || 'General',
+    question: q,
+    answer: a,
+  };
+  const hint = document.getElementById('new-hint').value.trim();
+  if (hint) card.hint = hint;
+
+  deck.data.cards.push(card);
+  await writeDeck(deck);
+
+  closeAddModal();
+  toast('Card added! (' + deck.data.cards.length + ' total)');
+
+  // Refresh progress screen if visible
+  if (document.getElementById('screen-progress').classList.contains('active')) {
+    await showProgressScreen(deck);
+  }
+}
+
+// ════════════════════════════════════════════════════════════
+// SCREEN / TOPBAR HELPERS
+// ════════════════════════════════════════════════════════════
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+
+  const topbar = document.getElementById('topbar');
+  if (name === 'home') {
+    topbar.style.display = 'none';
+    // Reset study card visibility when going home
+    document.getElementById('flashcard-wrap').style.display = '';
+    document.getElementById('session-complete').style.display = 'none';
+  } else {
+    topbar.style.display = 'flex';
+  }
+}
+
+function setTopbar(title, actions) {
+  document.getElementById('topbar-title').textContent = title;
+  const actionsEl = document.getElementById('topbar-actions');
+  actionsEl.innerHTML = '';
+  (actions || []).forEach(a => {
+    const btn = document.createElement('button');
+    btn.className = 'btn-ghost btn-sm';
+    btn.id = a.id;
+    btn.textContent = a.label;
+    btn.addEventListener('click', a.onClick);
+    actionsEl.appendChild(btn);
+  });
+}
+
+// ════════════════════════════════════════════════════════════
+// TOAST
+// ════════════════════════════════════════════════════════════
+let toastTimer;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2800);
+}
+
+// ════════════════════════════════════════════════════════════
+// UTILITY
+// ════════════════════════════════════════════════════════════
+function esc(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// ════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ════════════════════════════════════════════════════════════
+document.getElementById('btn-open-folder').addEventListener('click', openFolder);
+
+document.getElementById('btn-back').addEventListener('click', () => {
+  showScreen('home');
+  renderDeckList();
+});
+
+// Card flip
+document.getElementById('flashcard-wrap').addEventListener('click', () => {
+  if (!document.getElementById('flashcard-wrap').classList.contains('flipped')) flipCard();
+});
+document.getElementById('btn-flip').addEventListener('click', flipCard);
+
+// Response buttons
+document.getElementById('response-btns').addEventListener('click', e => {
+  const btn = e.target.closest('[data-quality]');
+  if (btn) handleResponse(parseInt(btn.dataset.quality));
+});
+
+// Session complete buttons
+document.getElementById('btn-back-home-complete').addEventListener('click', () => {
+  showScreen('home');
+  renderDeckList();
+});
+document.getElementById('btn-view-progress').addEventListener('click', () => {
+  showProgressScreen(state.activeDeck);
+});
+
+// Add card modal
+document.getElementById('btn-cancel-add').addEventListener('click', closeAddModal);
+document.getElementById('btn-save-card').addEventListener('click', saveNewCard);
+document.getElementById('modal-add').addEventListener('click', e => {
+  if (e.target === document.getElementById('modal-add')) closeAddModal();
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', e => {
+  const studyActive = document.getElementById('screen-study').classList.contains('active');
+  if (!studyActive) return;
+  const flipped = document.getElementById('flashcard-wrap').classList.contains('flipped');
+
+  if (e.code === 'Space' || e.code === 'Enter') {
+    if (!flipped) { e.preventDefault(); flipCard(); }
+  }
+  if (flipped) {
+    if (e.key === '1') handleResponse(1);
+    if (e.key === '2') handleResponse(3);
+    if (e.key === '3') handleResponse(5);
+  }
+});
+
+// ════════════════════════════════════════════════════════════
+// INIT
+// ════════════════════════════════════════════════════════════
+(function init() {
+  if (!state.fsapiSupported) {
+    document.getElementById('ls-notice').style.display = 'block';
+    document.getElementById('folder-banner').style.display = 'none';
+    // Load any localStorage-saved decks
+    state.decks = getLsDecks();
+    renderDeckList();
+  } else {
+    const last = localStorage.getItem('fc_last_folder_name');
+    if (last) {
+      document.getElementById('folder-name').textContent = last + '/';
+      document.getElementById('folder-hint').textContent = 'Click "Open Folder" to reload (required each session)';
+    }
+    renderDeckList();
+  }
+})();
+</script>
+</body>
+</html>

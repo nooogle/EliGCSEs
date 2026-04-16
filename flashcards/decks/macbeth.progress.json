@@ -1,0 +1,338 @@
+{
+  "mac_q_006": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-12",
+    "history": [
+      {
+        "date": "2026-04-11",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_plt_005": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-12",
+    "history": [
+      {
+        "date": "2026-04-11",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_ctx_007": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-12",
+    "history": [
+      {
+        "date": "2026-04-11",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_022": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-12",
+    "history": [
+      {
+        "date": "2026-04-11",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_lng_001": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_thm_001": {
+    "easiness": 2.36,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 3
+      }
+    ]
+  },
+  "mac_q_024": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_str_001": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_exam_003": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_017": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_ctx_006": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_ctx_005": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_009": {
+    "easiness": 2.36,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 3
+      }
+    ]
+  },
+  "mac_q_012": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_thm_006": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_014": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_thm_004": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_char_006": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_ctx_004": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_020": {
+    "easiness": 2.36,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 3
+      }
+    ]
+  },
+  "mac_q_008": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_lng_004": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_q_002": {
+    "easiness": 2.36,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 3
+      }
+    ]
+  },
+  "mac_q_018": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_ctx_003": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_q_015": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 5
+      }
+    ]
+  },
+  "mac_str_003": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  },
+  "mac_exam_001": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-13",
+    "history": [
+      {
+        "date": "2026-04-12",
+        "quality": 1
+      }
+    ]
+  }
+}

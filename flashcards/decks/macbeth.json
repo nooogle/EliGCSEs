@@ -1,0 +1,457 @@
+{
+  "title": "Macbeth — AQA GCSE",
+  "subject": "English Literature",
+  "cards": [
+
+    {
+      "id": "mac_ctx_001",
+      "category": "Context",
+      "question": "When was Macbeth written and who was king at the time? Why does this matter?",
+      "answer": "Written c.1606, during the reign of James I. It matters because James was obsessed with witchcraft (he wrote Daemonologie, 1597), believed in the Divine Right of Kings, and was a descendant of Banquo — making the play a direct tribute to the monarch. Shakespeare's company, the King's Men, was under royal patronage.",
+      "hint": "Think about who Shakespeare needed to impress and what that king was famously interested in."
+    },
+    {
+      "id": "mac_ctx_002",
+      "category": "Context",
+      "question": "What is the Divine Right of Kings and how does Macbeth relate to it?",
+      "answer": "The belief that monarchs are appointed by God and are answerable only to Him. Killing a king was therefore not just treason but a sin against God. Macbeth dramatises the catastrophic consequences of regicide — chaos in nature, Macbeth's psychological disintegration, and Scotland's ruin — reinforcing this doctrine.",
+      "hint": "What would a Jacobean audience believe happens when you kill someone chosen by God?"
+    },
+    {
+      "id": "mac_ctx_003",
+      "category": "Context",
+      "question": "What is the Great Chain of Being and how is it disrupted in Macbeth?",
+      "answer": "A Jacobean concept of a fixed, God-ordained hierarchy: God → angels → monarch → nobility → common people → animals. Macbeth's murder of Duncan shatters this order, triggering unnatural events (horses eating each other, darkness at noon) and political collapse — Shakespeare showing the universe itself recoiling.",
+      "hint": "Why do the unnatural events in Act 2 happen right after Duncan's murder?"
+    },
+    {
+      "id": "mac_ctx_004",
+      "category": "Context",
+      "question": "What was the Gunpowder Plot and how might it have shaped Macbeth's themes?",
+      "answer": "In 1605 — just a year before Macbeth — Catholic conspirators tried to blow up Parliament and kill James I. The play's themes of treachery from within, the horror of regicide, and the punishment of traitors would have resonated powerfully with audiences still shaken by the Plot.",
+      "hint": "What major real-world political event had just happened when Shakespeare wrote this?"
+    },
+    {
+      "id": "mac_ctx_005",
+      "category": "Context",
+      "question": "How were women expected to behave in Jacobean society, and how does Lady Macbeth challenge this?",
+      "answer": "Women were expected to be passive, obedient, and domestic. Lady Macbeth subverts this entirely — she takes charge, manipulates her husband, calls on spirits to make her more like a man, and orchestrates regicide. She represents a profound threat to the patriarchal order, which Shakespeare ultimately punishes with madness and suicide.",
+      "hint": "How does Lady Macbeth's behaviour compare to what a 1606 audience would expect of a wife?"
+    },
+    {
+      "id": "mac_ctx_006",
+      "category": "Context",
+      "question": "Why would a Jacobean audience have found the witches genuinely frightening (not just theatrical)?",
+      "answer": "Witchcraft was taken seriously as a real threat. James I had personally attended witch trials in Scotland, and the 1604 Witchcraft Act made it a capital offence. Audiences believed witches were real agents of the devil. The three 'weird sisters' were not fantastical characters to them — they were a credible supernatural danger.",
+      "hint": "What had James I actually done regarding witches before becoming king of England?"
+    },
+    {
+      "id": "mac_ctx_007",
+      "category": "Context",
+      "question": "What is the significance of the historical Macbeth versus Shakespeare's version?",
+      "answer": "The real Macbeth (King of Scotland 1040–1057) ruled competently for 17 years and was not regarded as a villain. Shakespeare deliberately blackened his character, compressed events, and invented much of the plot to flatter James I (by making Banquo, James's supposed ancestor, noble and sympathetic) and to explore themes of ambition.",
+      "hint": "How does knowing Shakespeare changed history help explain Banquo's portrayal?"
+    },
+
+    {
+      "id": "mac_char_001",
+      "category": "Characters",
+      "question": "How does Macbeth change from Act 1 to Act 5? Trace the arc in a few key stages.",
+      "answer": "Act 1: celebrated warrior, loyal, but privately ambitious and easily tempted. Act 2: murders Duncan but is consumed by guilt and paranoia. Act 3: orders Banquo's murder without Lady Macbeth, becoming ruthlessly independent. Act 4: massacres Macduff's family — no hesitation left. Act 5: nihilistic ('tomorrow and tomorrow'), stripped of everything, dies fighting.",
+      "hint": "At what point does he stop needing Lady Macbeth to push him into action?"
+    },
+    {
+      "id": "mac_char_002",
+      "category": "Characters",
+      "question": "What is Macbeth's tragic flaw (hamartia)?",
+      "answer": "Vaulting ambition — he names it himself: 'I have no spur to prick the sides of my intent, but only vaulting ambition, which o'erleaps itself.' He knows exactly what drives him, yet cannot resist it. This self-awareness makes him a tragic rather than simply a villainous figure.",
+      "hint": "He actually names it himself in a soliloquy before Duncan's murder."
+    },
+    {
+      "id": "mac_char_003",
+      "category": "Characters",
+      "question": "How does Lady Macbeth's character change between Act 1 and Act 5?",
+      "answer": "Act 1: dominant, coldly strategic, she outmanoeuvres Macbeth's conscience. By Act 3 she is being shut out of his plans. Act 5: sleepwalking, tortured by guilt she claimed she could handle ('a little water clears us of this deed'). Her collapse is the inverse of his — as he grows crueller, she is destroyed by the conscience she suppressed.",
+      "hint": "What does she say about guilt in Act 2, and how does Act 5 contradict it?"
+    },
+    {
+      "id": "mac_char_004",
+      "category": "Characters",
+      "question": "What is Banquo's dramatic function in the play?",
+      "answer": "He is Macbeth's moral foil — he also hears the witches' prophecy but chooses not to act on it ('merciful powers, restrain in me the cursed thoughts that nature gives way to in repose'). His integrity shows that the witches don't force fate; Macbeth chooses his path. His ghost embodies Macbeth's guilt and the prophecy about his royal descendants.",
+      "hint": "What does Banquo do when he hears the same prophecy that corrupts Macbeth?"
+    },
+    {
+      "id": "mac_char_005",
+      "category": "Characters",
+      "question": "What does Macduff represent thematically and why is he the one to kill Macbeth?",
+      "answer": "Macduff represents true masculine virtue — loyalty to Scotland over personal safety, genuine grief ('He has no children'), and justice rather than revenge. He kills Macbeth not for power but to free Scotland. His being born by caesarean section ('not of woman born') also shows the witches' prophecies were deliberately misleading — reality always subverts their apparent meaning.",
+      "hint": "How does Macduff's motivation for killing Macbeth differ from Macbeth's motivation for killing Duncan?"
+    },
+    {
+      "id": "mac_char_006",
+      "category": "Characters",
+      "question": "What is the role of the witches — do they cause Macbeth's downfall or merely predict it?",
+      "answer": "Debated. They never tell Macbeth to kill anyone — they only prophecy. Banquo receives the same prophecy but doesn't act on it. The witches arguably exploit and amplify desires already within Macbeth ('cannot be ill, cannot be good'). They represent fate or the devil's temptation, but Macbeth's free will and ambition are ultimately the active force.",
+      "hint": "What does Banquo's reaction to the same prophecy tell us about whether the witches make Macbeth do anything?"
+    },
+    {
+      "id": "mac_char_007",
+      "category": "Characters",
+      "question": "How is Malcolm presented as the ideal king, contrasting with Macbeth?",
+      "answer": "In Act 4 Scene 3 Malcolm tests Macduff by falsely claiming he is lustful and corrupt, then reveals his true virtue. He lists the 'king-becoming graces': justice, verity, temperance, stableness, bounty, mercy. This scene defines what a legitimate ruler looks like — everything Macbeth is not. Malcolm's restoration at the end signals the natural order being repaired.",
+      "hint": "Look at Act 4 Scene 3 — why does Malcolm pretend to be terrible before revealing his true character?"
+    },
+    {
+      "id": "mac_char_008",
+      "category": "Characters",
+      "question": "How does Duncan's characterisation make his murder more shocking?",
+      "answer": "Duncan is presented as a gracious, trusting, and generous king — 'meek' and humble, he praises everyone lavishly. His very goodness is what Macbeth acknowledges as making the murder worse: 'his virtues will plead like angels, trumpet-tongued, against the deep damnation of the taking-off.' He is the antithesis of Macbeth's paranoid tyranny.",
+      "hint": "What does Macbeth himself say makes Duncan particularly hard to justify killing?"
+    },
+
+    {
+      "id": "mac_thm_001",
+      "category": "Themes",
+      "question": "How does Shakespeare present the theme of ambition in Macbeth?",
+      "answer": "Ambition is shown as a corrupting force that destroys everything it touches. Macbeth's 'vaulting ambition' leads to murder, tyranny, isolation, and nihilism. Lady Macbeth's ambition (for her husband) costs her sanity and life. Shakespeare suggests unchecked ambition violates the natural and divine order — it is not just morally wrong but cosmically destructive.",
+      "hint": "What does ambition take from both Macbeth and Lady Macbeth by the end of the play?"
+    },
+    {
+      "id": "mac_thm_002",
+      "category": "Themes",
+      "question": "How is guilt presented differently in Macbeth and Lady Macbeth?",
+      "answer": "Macbeth experiences guilt immediately and visibly — hallucinations (the dagger, Banquo's ghost), inability to say 'Amen', paranoia. Lady Macbeth initially suppresses it ('a little water clears us of this deed') but it resurfaces destructively in her sleepwalking. Shakespeare suggests guilt cannot be permanently suppressed — it will out, whether immediately or eventually.",
+      "hint": "One of them feels it straight away; the other claims it won't affect them. What actually happens?"
+    },
+    {
+      "id": "mac_thm_003",
+      "category": "Themes",
+      "question": "How does Shakespeare use the supernatural to develop the play's themes?",
+      "answer": "The witches introduce fate vs free will; their prophecies drive the plot but are always ambiguous (designed to mislead). The supernatural manifests Macbeth's guilt (Banquo's ghost, the dagger hallucination). Unnatural events after Duncan's murder (Act 2 Scene 4) signal cosmic disorder. For a Jacobean audience, the supernatural was real — making Macbeth's damnation literal, not metaphorical.",
+      "hint": "How do the witches' prophecies always turn out to be technically true but practically deceptive?"
+    },
+    {
+      "id": "mac_thm_004",
+      "category": "Themes",
+      "question": "How does Shakespeare present the theme of appearance vs. reality?",
+      "answer": "Established immediately: 'Fair is foul and foul is fair.' Macbeth appears loyal ('brave Macbeth') but conceals ambition. Lady Macbeth tells him to 'look like th'innocent flower, but be the serpent under't.' Duncan cannot read treachery in faces. Macbeth's feigned grief over Duncan's death. The witches' prophecies seem reassuring but are designed to deceive. Deception is woven into every level of the play.",
+      "hint": "The witches announce this theme in the very first scene — what is their paradox?"
+    },
+    {
+      "id": "mac_thm_005",
+      "category": "Themes",
+      "question": "How does Shakespeare present masculinity as a theme, particularly through Lady Macbeth's manipulation?",
+      "answer": "Lady Macbeth weaponises Jacobean ideas of masculinity to control Macbeth — 'when you durst do it, then you were a man.' Macbeth accepts this definition and commits murder to prove his manhood. Shakespeare interrogates this: Macduff's open grief ('I must also feel it as a man') and Malcolm's 'king-becoming graces' suggest true manhood involves feeling and virtue, not just ruthless action.",
+      "hint": "What two different definitions of 'being a man' are offered in the play, and by whom?"
+    },
+    {
+      "id": "mac_thm_006",
+      "category": "Themes",
+      "question": "How does the theme of power and tyranny develop across the play?",
+      "answer": "Macbeth's rule degenerates from ambitious usurper to paranoid tyrant — he moves from killing his enemy (Duncan) to his friend (Banquo) to innocent civilians (Macduff's family). Scotland under him is described as 'almost afraid to know itself.' The contrast with the legitimate order of Duncan and Malcolm frames tyranny as an unnatural aberration that ultimately collapses.",
+      "hint": "How does Macbeth's attitude toward killing change between Act 1 and Act 4?"
+    },
+    {
+      "id": "mac_thm_007",
+      "category": "Themes",
+      "question": "How is fate vs. free will presented in Macbeth?",
+      "answer": "The witches prophecy events but don't command actions. Macbeth could choose to wait — 'if chance will have me king, why, chance may crown me.' His decision to murder Duncan is free will, not fate. Yet once started, he feels compelled to continue ('I am in blood stepped in so far'). Shakespeare implies that Macbeth chose his fate — the witches gave him permission, not instruction.",
+      "hint": "What does Macbeth say immediately after hearing the prophecy, before deciding to act?"
+    },
+    {
+      "id": "mac_thm_008",
+      "category": "Themes",
+      "question": "How does blood function as a symbol throughout Macbeth?",
+      "answer": "Blood shifts meaning across the play. Act 1: honourable blood of battle ('brave Macbeth…unseamed him from the nave to the chops'). Post-Duncan: guilt ('will all great Neptune's ocean wash this blood clean from my hand?'). Act 3: spreading inevitability ('blood will have blood'). Act 5: Lady Macbeth's hallucinated blood spot. Blood tracks the contamination of guilt from one violent act outward.",
+      "hint": "How does the meaning of blood change from the first battle scene to the sleepwalking scene?"
+    },
+
+    {
+      "id": "mac_q_001",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Stars, hide your fires; let not light see my black and deep desires.' (Act 1)",
+      "answer": "Macbeth asks darkness to conceal his murderous ambition, revealing he is already planning regicide before the witches' prophecy has done more than plant a seed. The adjectives 'black and deep' suggest evil that is both morally corrupt and hidden. The imperative 'hide' shows he knows his desires are wrong — but chooses to pursue them anyway. Context: shows free will, not fate.",
+      "hint": "What does asking darkness to hide his desires reveal about his own awareness of his actions?"
+    },
+    {
+      "id": "mac_q_002",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'I have no spur to prick the sides of my intent, but only vaulting ambition, which o'erleaps itself.' (Act 1)",
+      "answer": "Macbeth uses an extended equestrian metaphor — ambition as a rider who jumps too hard and falls off the other side. 'Vaulting' suggests dangerous overreach. Crucially, he acknowledges he has no moral justification for killing Duncan — only ambition. This moment of lucid self-awareness makes his decision to proceed more damning, not less.",
+      "hint": "He's listing reasons NOT to kill Duncan — what does the metaphor of the horse and rider suggest about ambition?"
+    },
+    {
+      "id": "mac_q_003",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Is this a dagger which I see before me, the handle toward my hand?' (Act 2)",
+      "answer": "The hallucinated dagger externalises Macbeth's murderous intent — his subconscious creates the weapon he is about to use. 'Toward my hand' suggests it's being offered to him, implicating the witches or fate. Yet Macbeth also doubts it ('a dagger of the mind, a false creation'), showing the tension between his supernatural belief and rationality. It marks his psychological unravelling.",
+      "hint": "Why is it significant that the handle is pointing towards him, not the blade?"
+    },
+    {
+      "id": "mac_q_004",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Will all great Neptune's ocean wash this blood clean from my hand?' (Act 2)",
+      "answer": "The classical allusion to Neptune (god of the sea) gives the image epic scale — even the entire ocean cannot cleanse him. This contrasts sharply with Lady Macbeth's dismissive 'a little water clears us of this deed.' The rhetorical question implies a despairing 'no.' Shakespeare shows Macbeth's guilt is immediate and total, unlike his wife's initial suppression of it.",
+      "hint": "How does this quote directly contradict what Lady Macbeth says about water and guilt in the same scene?"
+    },
+    {
+      "id": "mac_q_005",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'O, full of scorpions is my mind, dear wife!' (Act 3)",
+      "answer": "The metaphor of scorpions captures Macbeth's paranoia — his mind is not just troubled but filled with venomous, stinging creatures. By Act 3 he is planning Banquo's murder without Lady Macbeth's knowledge, reversing their earlier dynamic. The address 'dear wife' is tender yet he is shutting her out — their relationship is fracturing under the weight of what they've done.",
+      "hint": "What does choosing scorpions rather than, say, 'troubled thoughts' tell us about the quality of his mental state?"
+    },
+    {
+      "id": "mac_q_006",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'I am in blood stepped in so far that, should I wade no more, returning were as tedious as go o'er.' (Act 3)",
+      "answer": "The metaphor of wading through blood suggests Macbeth is so deep in guilt and violence that there is no point returning — he may as well keep going. 'Tedious' is chillingly mundane — murder has become routine. This marks a pivotal shift: Macbeth is no longer tortured by guilt but is resigned to evil. He is past the point of redemption.",
+      "hint": "What does using the word 'tedious' rather than something like 'painful' or 'horrifying' reveal about how he now feels?"
+    },
+    {
+      "id": "mac_q_007",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Tomorrow and tomorrow and tomorrow, creeps in this petty pace from day to day.' (Act 5)",
+      "answer": "The triple repetition of 'tomorrow' conveys an endless, meaningless cycle — time as monotony rather than progress. 'Petty pace' and 'creeps' suggest life is trivial and slow. Following news of Lady Macbeth's death, this speech reveals Macbeth has reached total nihilism: life is 'a tale told by an idiot, full of sound and fury, signifying nothing.' His ambition has led to complete emptiness.",
+      "hint": "Why does Shakespeare repeat 'tomorrow' three times? What does that repetition make you feel as a reader?"
+    },
+    {
+      "id": "mac_q_008",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Yet I will try the last. Before my body I throw my warlike shield.' (Act 5)",
+      "answer": "Even knowing the prophecies have turned against him, Macbeth chooses to die fighting. 'Try the last' and 'warlike shield' return us to the brave warrior of Act 1. Critics debate whether this is redemption (courage returning) or tragic stubbornness. It allows him a degree of dignity in death — dying in battle rather than surrendering — which echoes the Captain's praise in the opening scene.",
+      "hint": "How does this ending echo how we first hear about Macbeth in Act 1 Scene 2?"
+    },
+    {
+      "id": "mac_q_009",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'If chance will have me king, why, chance may crown me, without my stir.' (Act 1)",
+      "answer": "Macbeth briefly considers that the prophecy might fulfil itself without action — making his subsequent decision to murder Duncan a clear act of free will, not fate. This line is crucial for the fate/free will debate: he explicitly chooses not to wait and see. Shakespeare ensures the audience understands Macbeth chose his path.",
+      "hint": "Why is this line important evidence in the debate about whether Macbeth was fated to do what he did?"
+    },
+    {
+      "id": "mac_q_010",
+      "category": "Key Quotes: Macbeth",
+      "question": "Analyse: 'Methought I heard a voice cry, Sleep no more! Macbeth does murder sleep.' (Act 2)",
+      "answer": "Sleep symbolises innocence, peace, and the natural order — murdering the sleeping Duncan, Macbeth 'murders' his own ability to rest. The passive construction 'methought I heard' shows his guilt is externalising as hallucination. Sleep is personified and described as 'the innocent sleep' — he has destroyed innocence itself, not just a man. This guilt-driven sleeplessness contrasts with Lady Macbeth's later sleepwalking.",
+      "hint": "What does sleep represent here, and how is this ironic given what happens to Lady Macbeth in Act 5?"
+    },
+
+    {
+      "id": "mac_q_011",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'Come, you spirits that tend on mortal thoughts, unsex me here.' (Act 1)",
+      "answer": "Lady Macbeth calls on supernatural forces to strip her of femininity — 'unsex me here' implies she believes compassion and hesitation are female traits that would prevent murder. The verb 'unsex' is violent and extreme. For a Jacobean audience this is deeply transgressive — a woman rejecting her God-given nature, echoing the play's broader theme of unnatural acts. She is effectively inviting evil in, paralleling the witches.",
+      "hint": "Why does she feel she needs spirits to change her? What does that tell us about her view of women?"
+    },
+    {
+      "id": "mac_q_012",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'Yet do I fear thy nature; it is too full o' the milk of human kindness to catch the nearest way.' (Act 1)",
+      "answer": "Lady Macbeth reads Macbeth's character precisely — 'milk of human kindness' uses a nurturing, maternal image to describe his decency, suggesting kindness is natural but in her view a weakness. She is simultaneously insulting him and admiring his goodness. 'Nearest way' is coldly euphemistic for murder. This speech establishes her as the dominant force who will have to drive him to act.",
+      "hint": "What is the effect of using a word like 'milk' — something associated with nurturing — to describe his kindness?"
+    },
+    {
+      "id": "mac_q_013",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'Look like the innocent flower, but be the serpent under't.' (Act 1)",
+      "answer": "Lady Macbeth instructs Macbeth to embody the appearance vs reality theme. The flower/serpent contrast recalls the Garden of Eden (deception, the Fall), reinforcing the idea of moral corruption. She is coaching him in hypocrisy. The imagery suggests that evil lurks beneath an innocent surface — precisely what the play dramatises throughout, from Macbeth's false loyalty to Duncan's welcoming of a traitor.",
+      "hint": "What biblical story does the flower/serpent image call to mind, and why is that relevant?"
+    },
+    {
+      "id": "mac_q_014",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'Was the hope drunk wherein you dressed yourself? Hath it slept since?' (Act 1)",
+      "answer": "Lady Macbeth uses contemptuous, emasculating language to shame Macbeth back into action — comparing his earlier ambition to drunken courage that has now 'slept' (sobered up into cowardice). The rhetorical questions are relentless and bullying. This is one of several moments where she weaponises Jacobean ideas of masculinity. The word 'dressed' also anticipates the clothing motif — ambition as an ill-fitting disguise.",
+      "hint": "What tactic is she using here — what is she implying about his courage and his manhood?"
+    },
+    {
+      "id": "mac_q_015",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'A little water clears us of this deed. How easy is it then!' (Act 2)",
+      "answer": "Starkly ironic in retrospect. Lady Macbeth dismisses guilt as easily washed away — the physical act of handwashing as moral cleansing. This directly contrasts Macbeth's 'will all great Neptune's ocean wash this blood clean?' showing their different responses to guilt. In Act 5 she obsessively tries to wash invisible blood from her hands — 'out, damned spot' — proving that guilt cannot be suppressed or rationalised away.",
+      "hint": "This line becomes deeply ironic by Act 5. What does she do in her sleep that directly contradicts it?"
+    },
+    {
+      "id": "mac_q_016",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'Out, damned spot! Out, I say!… Here's the smell of the blood still; all the perfumes of Arabia will not sweeten this little hand.' (Act 5)",
+      "answer": "Lady Macbeth's sleepwalking reveals the guilt she suppressed in Act 2. The spot of blood is imaginary, showing guilt has become a hallucination — mirroring Macbeth's dagger and Banquo's ghost. 'All the perfumes of Arabia' echoes Macbeth's Neptune image: no quantity of water or perfume can cleanse moral guilt. The scale from 'little hand' to 'all of Arabia' underscores the impossibility of cleaning a guilty conscience.",
+      "hint": "How does this speech echo what Macbeth said about water and blood in Act 2, and what does the irony reveal about guilt?"
+    },
+    {
+      "id": "mac_q_017",
+      "category": "Key Quotes: Lady Macbeth",
+      "question": "Analyse: 'When you durst do it, then you were a man.' (Act 1)",
+      "answer": "Lady Macbeth directly ties masculinity to the willingness to commit murder, weaponising Macbeth's pride. The past tense 'durst' implies his courage is gone. This manipulation is effective because Macbeth internalises this definition of manhood and kills Duncan to prove it. Shakespeare interrogates this toxic masculine ideal — by Act 5, Macduff weeping for his family ('I must also feel it as a man') offers a competing, healthier model.",
+      "hint": "What definition of manhood is Lady Macbeth promoting here, and who in the play offers a different version?"
+    },
+
+    {
+      "id": "mac_q_018",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'Fair is foul, and foul is fair.' (Act 1 — the Witches)",
+      "answer": "The witches' paradox immediately establishes the theme of appearance vs reality and the inversion of the natural moral order. 'Fair' and 'foul' are opposites, yet here they are equated — suggesting truth and deception are interchangeable. It previews every act of deception in the play. The chiasmic structure (AB/BA) mirrors the toppling of order. The line is also echoed almost immediately by Macbeth ('So foul and fair a day'), linking him to the witches from the start.",
+      "hint": "Macbeth echoes this line almost immediately in Act 1 Scene 3 — why is that echo significant?"
+    },
+    {
+      "id": "mac_q_019",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'For brave Macbeth — well he deserves that name.' (Act 1 — Captain)",
+      "answer": "The Captain's account establishes Macbeth at his moral peak — heroic, loyal, devastating in battle. 'Well he deserves that name' links reputation to desert (merit). Shakespeare presents his original nobility to make his fall more tragic. The violence of battle ('unseamed him from the nave to the chops') also shows Macbeth is capable of extreme violence — but in a legitimate context. The fall is from this height.",
+      "hint": "Why does Shakespeare open with Macbeth being praised so lavishly? What does it set up for the rest of the play?"
+    },
+    {
+      "id": "mac_q_020",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'There's daggers in men's smiles.' (Act 2 — Donalbain)",
+      "answer": "Donalbain's line after Duncan's murder crystallises the appearance vs reality theme in stark, paranoid terms. 'Daggers in men's smiles' is an oxymoronic image — the friendliest gesture concealing the most dangerous weapon. It shows that distrust has spread beyond Macbeth — even innocent characters can no longer read faces. The line foreshadows the general breakdown of trust under Macbeth's tyranny.",
+      "hint": "What broader theme does this short line capture, and where do we first hear this idea in the play?"
+    },
+    {
+      "id": "mac_q_021",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'He has no children.' (Act 4 — Macduff, on hearing his family has been killed)",
+      "answer": "These four words are devastatingly compressed grief. Macduff means that Macbeth, having no children, cannot understand the magnitude of what he has done — and cannot suffer an equivalent loss as revenge. It also humanises Macduff as a father and husband, contrasting with Macbeth's increasingly dehumanised violence. The brevity of the line after such a terrible report amplifies the shock.",
+      "hint": "Who is Macduff referring to, and what does he mean — what can't this person understand?"
+    },
+    {
+      "id": "mac_q_022",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'Something wicked this way comes.' (Act 4 — Witch, as Macbeth approaches)",
+      "answer": "This is the witches recognising Macbeth as wicked — a complete inversion of Act 1 where they approached him. By Act 4 Macbeth is so morally corrupt that even the witches describe him as evil. He has become the supernatural threat; the witches are almost neutral in comparison. The line signals how far he has fallen and reinforces the corrupting power of his choices.",
+      "hint": "In Act 1, the witches seek Macbeth out. Why is it significant that their attitude to him has changed by Act 4?"
+    },
+    {
+      "id": "mac_q_023",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse: 'Nought's had, all's spent, where our desire is got without content.' (Act 3 — Lady Macbeth)",
+      "answer": "A moment of unguarded despair — Lady Macbeth admits that achieving their ambition has brought no satisfaction. 'Nought's had, all's spent' is a chiasmus that captures the paradox of having everything yet feeling nothing. This is the first crack in her armour, before she retreats into the public persona at the banquet. Shakespeare shows power without legitimacy as hollow.",
+      "hint": "What does this moment reveal about what she expected power to feel like versus what it actually feels like?"
+    },
+    {
+      "id": "mac_q_024",
+      "category": "Key Quotes: Other Characters",
+      "question": "Analyse the witches' prophecy: 'None of woman born shall harm Macbeth' and its dramatic irony.",
+      "answer": "Macbeth treats this as absolute protection — recklessly confident. The dramatic irony is that Macduff was 'from his mother's womb untimely ripped' (caesarean section), so technically was not 'of woman born' in the conventional sense. The prophecy is literally true but deliberately misleading. Shakespeare shows that the supernatural always deceives — false security is more dangerous than no security at all.",
+      "hint": "How does the actual meaning of 'not of woman born' differ from how Macbeth (and perhaps the audience) first interpret it?"
+    },
+
+    {
+      "id": "mac_str_001",
+      "category": "Structure & Form",
+      "question": "How does Shakespeare use soliloquy in Macbeth and what effect does it create?",
+      "answer": "Macbeth has more soliloquies than almost any Shakespeare character, giving the audience unfiltered access to his conscience. They allow us to see the gap between his public face and private thoughts — making us complicit in his reasoning. Key soliloquies ('Is this a dagger', 'If it were done', 'To be thus is nothing') mark each stage of his moral descent. Lady Macbeth's soliloquy in Act 1 establishes her dominance and reveals her true character.",
+      "hint": "What do soliloquies do that ordinary dialogue can't? Why is this especially important for a character who hides so much?"
+    },
+    {
+      "id": "mac_str_002",
+      "category": "Structure & Form",
+      "question": "How does Act 1 Scene 1 (the witches' opening) function structurally?",
+      "answer": "The play begins in chaos — thunder, lightning, three mysterious figures, paradox ('fair is foul'). This immediately establishes the disruption of natural order as the play's central concern. Macbeth's name is mentioned before he appears, linking him to the witches from the outset. It is a deliberately disorienting opening that sets an audience on edge before anything has happened.",
+      "hint": "What atmosphere and themes are established in just six lines, before we even meet any main characters?"
+    },
+    {
+      "id": "mac_str_003",
+      "category": "Structure & Form",
+      "question": "How is Macbeth structured as a Shakespearean tragedy?",
+      "answer": "It follows Aristotelian tragic form: a noble protagonist (Macbeth the warrior-hero) with a fatal flaw (ambition/hamartia), a moment of recognition (he sees what he has become), and a catastrophic fall ending in death. Unusually, it is Shakespeare's shortest tragedy — the pace is relentless, mirroring Macbeth's rapid moral disintegration. There is no comic subplot to give relief, intensifying the darkness.",
+      "hint": "What is the term for the hero's fatal flaw, and what specific quality does Macbeth have that fits this?"
+    },
+    {
+      "id": "mac_str_004",
+      "category": "Structure & Form",
+      "question": "What is the dramatic function of Act 4 Scene 3 (Malcolm and Macduff in England)?",
+      "answer": "It is the longest scene in the play and deliberately slows pace after the horror of Macduff's family being murdered. It serves to define legitimate kingship (Malcolm listing 'king-becoming graces'), test Macduff's loyalty, and re-establish hope of restoration. It contrasts everything Macbeth represents. Structurally it is the turning point — the counter-movement against Macbeth begins here.",
+      "hint": "This is the longest scene in the play. Given the pace elsewhere, why might Shakespeare have deliberately slowed things down here?"
+    },
+
+    {
+      "id": "mac_plt_001",
+      "category": "Plot",
+      "question": "What happens in Act 2 Scene 2 immediately after Duncan's murder, and what does it reveal?",
+      "answer": "Macbeth returns with the daggers, unable to go back. He cannot say 'Amen' when he heard the grooms pray. He hallucinates a voice crying 'sleep no more.' Lady Macbeth takes charge, replanting the daggers. Macbeth says 'Will all great Neptune's ocean wash this blood clean from my hand?' She responds 'a little water clears us of this deed.' Their contrasting reactions establish the divergent paths their guilt will take.",
+      "hint": "What two very different responses to guilt are shown in this scene, and whose turns out to be right?"
+    },
+    {
+      "id": "mac_plt_002",
+      "category": "Plot",
+      "question": "Why is the murder of Banquo a turning point in Macbeth's character development?",
+      "answer": "Unlike Duncan's murder — which required Lady Macbeth's sustained manipulation — Macbeth arranges Banquo's murder entirely alone. He lies to Lady Macbeth ('be innocent of the knowledge, dearest chuck'). This shift from reluctant murderer to independent plotter marks him becoming the tyrant, not just an ambitious man led astray. He no longer needs persuasion.",
+      "hint": "How does Macbeth's role in planning this murder differ from his role in planning Duncan's?"
+    },
+    {
+      "id": "mac_plt_003",
+      "category": "Plot",
+      "question": "What is the significance of the banquet scene (Act 3 Scene 4)?",
+      "answer": "Macbeth sees Banquo's ghost (invisible to others) and breaks down publicly — destroying the political image of a legitimate king hosting his court. Lady Macbeth desperately tries to manage the situation. The ghost embodies his guilt made visible. The banquet (a symbol of order and hospitality) is ruined — just as he ruined the natural order by killing the king who was his guest. It marks the beginning of his public unravelling.",
+      "hint": "The banquet is supposed to show Macbeth as a legitimate king. Why is it particularly significant that he falls apart at this moment?"
+    },
+    {
+      "id": "mac_plt_004",
+      "category": "Plot",
+      "question": "What are the three apparitions in Act 4 Scene 1 and what does each mean?",
+      "answer": "1. An armed head: 'Beware Macduff' — warns of the man who will kill him. 2. A bloody child: 'None of woman born shall harm Macbeth' — false security (Macduff was born by caesarean). 3. A crowned child with a tree: Macbeth won't be defeated until Birnam Wood comes to Dunsinane — seems impossible (Malcolm's soldiers carry branches as camouflage). Each prophecy is literally true but fatally misleading.",
+      "hint": "What do all three prophecies have in common in terms of how Macbeth interprets them versus what they actually mean?"
+    },
+    {
+      "id": "mac_plt_005",
+      "category": "Plot",
+      "question": "What is the importance of Act 5 Scene 1 (Lady Macbeth's sleepwalking)?",
+      "answer": "The Doctor and Gentlewoman observe Lady Macbeth sleepwalking, trying to wash blood from her hands, reliving Duncan's murder ('Yet who would have thought the old man to have had so much blood in him?'). This is the collapse of her earlier certainty ('a little water clears us'). It shows that guilt suppressed does not disappear — it resurfaces in the unconscious. Her subsequent suicide completes her tragic arc.",
+      "hint": "What has she been saying about guilt and blood since Act 2, and how does this scene contradict all of that?"
+    },
+
+    {
+      "id": "mac_lng_001",
+      "category": "Language & Methods",
+      "question": "How does Shakespeare use the motif of clothing in Macbeth?",
+      "answer": "Clothes represent roles and legitimacy: Macbeth is repeatedly described in ill-fitting clothes he hasn't earned — 'Why do you dress me in borrowed robes?' (on being named Thane of Cawdor); Angus says 'now does he feel his title hang loose about him, like a giant's robe upon a dwarfish thief.' The motif suggests Macbeth can assume the costume of kingship but never the reality — his reign is a performance.",
+      "hint": "What do borrowed or ill-fitting clothes suggest about someone's right to the position they hold?"
+    },
+    {
+      "id": "mac_lng_002",
+      "category": "Language & Methods",
+      "question": "How does Shakespeare use light and darkness imagery in Macbeth?",
+      "answer": "Darkness consistently represents evil, concealment and Macbeth's ambition ('Stars, hide your fires'; 'Come, thick night / And pall thee in the dunnest smoke of hell'). Light represents virtue and the natural order — Duncan is described with images of brightness. Lady Macbeth calls for darkness to hide her from 'heaven's eye.' The movement of the play is from light (Act 1's heroism) into deepening darkness, with Malcolm's victory symbolising restoration of light.",
+      "hint": "Who asks for darkness and why? What does darkness allow them to do that daylight would prevent?"
+    },
+    {
+      "id": "mac_lng_003",
+      "category": "Language & Methods",
+      "question": "What is the effect of the short, fragmented speech Lady Macbeth uses in the sleepwalking scene compared to her controlled rhetoric in Act 1?",
+      "answer": "In Act 1 she speaks in long, commanding verse with complex rhetoric. In Act 5 her speech is fragmented, repetitive ('Out, damned spot… Out, I say'), with short exclamations and unanswered questions. The linguistic collapse mirrors her psychological collapse. The prose (rather than verse) in the sleepwalking scene signals madness in Shakespearean convention — she has lost the control that defined her.",
+      "hint": "Shakespeare uses prose for certain characters in certain states — what does prose typically signal in his plays?"
+    },
+    {
+      "id": "mac_lng_004",
+      "category": "Language & Methods",
+      "question": "How does Shakespeare present the witches' language differently from the other characters?",
+      "answer": "The witches speak in rhyming tetrameter ('When shall we three meet again, / In thunder, lightning, or in rain?') — shorter, chanting lines compared to the iambic pentameter of the nobles. This rhythmic difference marks them as other-worldly and ritualistic. Their paradoxes ('fair is foul'), riddles and incantatory style ('double, double toil and trouble') give them an eerie, non-human quality that unsettled Jacobean audiences who believed in real witches.",
+      "hint": "How does the rhythm and rhyme scheme of the witches' lines differ from the human characters, and what effect does this have?"
+    },
+
+    {
+      "id": "mac_exam_001",
+      "category": "Exam Technique",
+      "question": "What are the three AQA Assessment Objectives for Macbeth (Paper 1, Section A)?",
+      "answer": "AO1: Respond to texts with insight; use textual references/quotations to support interpretations. AO2: Analyse language, form, and structure, using subject terminology. AO3: Show understanding of the relationship between texts and their contexts. The best answers weave all three together — a quote (AO1), analysed for specific language choices (AO2), then connected to Jacobean context (AO3).",
+      "hint": "There are three objectives — one is about what you say, one is about how you analyse, and one is about context."
+    },
+    {
+      "id": "mac_exam_002",
+      "category": "Exam Technique",
+      "question": "The AQA Macbeth question always gives an extract then asks about the whole play. What is the best approach?",
+      "answer": "1. Analyse the extract closely — language, structure, form, specific word choices (AO2). 2. Link to context (AO3) where relevant. 3. Then write 2–3 paragraphs on the rest of the play — how the theme/character develops or is presented differently elsewhere. Use embedded quotations. The extract is a launchpad, not a cage — examiners want range across the whole play.",
+      "hint": "What would be wrong with only writing about the extract and ignoring the rest of the play?"
+    },
+    {
+      "id": "mac_exam_003",
+      "category": "Exam Technique",
+      "question": "How do you write about context (AO3) well in an AQA Macbeth answer?",
+      "answer": "Don't 'bolt on' context at the end or write a paragraph of history with no link to the text. The best approach: make a point about language/character → quote → then explain why a Jacobean audience would have responded differently than a modern one, or what specific belief/event shapes this moment. E.g. the witches aren't just scary — in 1606 they were a real threat, and James I had personally prosecuted witches.",
+      "hint": "What's the difference between 'bolting on' context and actually integrating it into your analysis?"
+    }
+  ]
+}
