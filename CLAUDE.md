@@ -10,7 +10,7 @@ This project contains study tools to help Eli (Elise Shadforth) prepare for her 
 
 | Subject | Board | Notes |
 |---------|-------|-------|
-| English Literature | AQA 8702 | Macbeth; Frankenstein; An Inspector Calls; Worlds & Lives poetry |
+| English Literature | AQA 8702 | Macbeth; A Christmas Carol; An Inspector Calls; Worlds & Lives poetry |
 | English Language | AQA 8700 | 2 papers |
 | Religious Studies | AQA 8062 | Option Oa (Christianity/Sikhism) |
 | Combined Science: Trilogy | AQA 8464 | Biology, Chemistry, Physics — Foundation tier |

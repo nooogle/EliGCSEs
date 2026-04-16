@@ -12,14 +12,18 @@
     ]
   },
   "mac_plt_005": {
-    "easiness": 2.6,
-    "interval_days": 1,
-    "repetitions": 1,
-    "next_due": "2026-04-12",
+    "easiness": 2.46,
+    "interval_days": 6,
+    "repetitions": 2,
+    "next_due": "2026-04-22",
     "history": [
       {
         "date": "2026-04-11",
         "quality": 5
+      },
+      {
+        "date": "2026-04-16",
+        "quality": 3
       }
     ]
   },
@@ -332,6 +336,18 @@
       {
         "date": "2026-04-12",
         "quality": 1
+      }
+    ]
+  },
+  "mac_thm_002": {
+    "easiness": 2.6,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 5
       }
     ]
   }

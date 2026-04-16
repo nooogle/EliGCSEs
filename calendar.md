@@ -71,7 +71,7 @@ You've put in the work. Now it's just about showing what you know. One paper at 
 | | 🧬 **Bio P1F** | | | | | |
 | | 13:15–14:30 | | | | | |
 
-> 📖 Macbeth · Frankenstein &nbsp;|&nbsp; 🙏 Christianity/Sikhism &nbsp;|&nbsp; 🧬 Biology Paper 1
+> 📖 Macbeth · A Christmas Carol &nbsp;|&nbsp; 🙏 Christianity/Sikhism &nbsp;|&nbsp; 🧬 Biology Paper 1
 
 ---
 
@@ -134,7 +134,7 @@ You've put in the work. Now it's just about showing what you know. One paper at 
 
 | # | Date | Time | Subject | Paper |
 |:-:|------|------|---------|-------|
-| 1 | Mon 11 May | 9:00 | 📖 English Literature | Paper 1 — Macbeth + Frankenstein |
+| 1 | Mon 11 May | 9:00 | 📖 English Literature | Paper 1 — Macbeth + A Christmas Carol |
 | 2 | Tue 12 May | 9:00 | 🙏 Religious Studies | Paper 1 — Christianity/Sikhism |
 | 3 | Tue 12 May | 13:15 | 🧬 Biology | Paper 1F |
 | 4 | Thu 14 May | 9:00 | 📐 Maths | Paper 1 — Non-Calculator |

@@ -22,5 +22,41 @@
         "quality": 1
       }
     ]
+  },
+  "wl_007": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 1
+      }
+    ]
+  },
+  "wl_016": {
+    "easiness": 2.36,
+    "interval_days": 1,
+    "repetitions": 1,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 3
+      }
+    ]
+  },
+  "wl_039": {
+    "easiness": 2.5,
+    "interval_days": 1,
+    "repetitions": 0,
+    "next_due": "2026-04-17",
+    "history": [
+      {
+        "date": "2026-04-16",
+        "quality": 1
+      }
+    ]
   }
 }
