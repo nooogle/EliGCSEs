@@ -2,7 +2,8 @@
 
 **Exam dates (Eli):** 11 May 2026 (Paper 1) · 19 May 2026 (Paper 2)  
 **Eli's Shakespeare text:** Macbeth (confirmed from flashcard deck)  
-**Eli's modern text / poetry cluster:** TBC — update this when confirmed
+**Eli's poetry cluster:** Worlds and Lives (confirmed)  
+**Eli's modern text:** TBC — update this when confirmed
 
 ---
 
@@ -84,9 +85,31 @@
 - Winsome Pinnock, *Leave Taking* (from 2025)
 
 ### Poetry clusters (AQA Anthology: *Poems Past and Present*)
-- **Love and Relationships** — 15 poems
-- **Power and Conflict** — 15 poems
-- **Worlds and Lives** — 15 poems (from 2025)
+- Love and Relationships — 15 poems
+- Power and Conflict — 15 poems
+- **Worlds and Lives — 15 poems *(Eli's cluster)***
+
+### Eli's Worlds and Lives poems
+
+Themes: place, heritage, belonging, identity. Two-thirds published post-2000.
+
+| # | Title | Poet |
+|---|-------|------|
+| 1 | Lines Written in Early Spring | William Wordsworth |
+| 2 | England in 1819 | Percy Bysshe Shelley |
+| 3 | Shall earth no more inspire thee | Emily Brontë |
+| 4 | In a London Drawingroom | George Eliot |
+| 5 | On an Afternoon Train from Purley to Victoria, 1955 | James Berry |
+| 6 | Name Journeys | Raman Mundair |
+| 7 | pot | Shamshad Khan |
+| 8 | A Wider View | Seni Seneviratne |
+| 9 | Homing | Liz Berry |
+| 10 | A Century Later | Imtiaz Dharker |
+| 11 | The Jewellery Maker | Louisa Adjoa Parker |
+| 12 | With Birds You're Never Lonely | Raymond Antrobus |
+| 13 | A Portable Paradise | Roger Robinson |
+| 14 | Like an Heiress | Grace Nichols |
+| 15 | Thirteen | Caleb Femi |
 
 ---
 
