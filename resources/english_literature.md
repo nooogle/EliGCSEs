@@ -4,9 +4,9 @@ AQA 8702 | Paper 1: 11 May 2026 · Paper 2: 19 May 2026
 
 ---
 
-## Frankenstein — Mary Shelley (Paper 1, 19th-century novel)
+## A Christmas Carol — Charles Dickens (Paper 1, 19th-century novel)
 
-- [BBC Bitesize — Frankenstein](https://www.bbc.co.uk/bitesize/topics/z9mrqty) — revision guides and quizzes covering the novel, themes, characters, and context
+- [BBC Bitesize — A Christmas Carol](https://www.bbc.co.uk/bitesize/topics/zwhkxsg) — revision guides and quizzes covering the novel, themes, characters, and context.
 
 ---
 
