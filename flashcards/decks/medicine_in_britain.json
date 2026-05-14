@@ -1,0 +1,716 @@
+{
+  "title": "Medicine in Britain — Edexcel GCSE (1HI0 11)",
+  "subject": "History",
+  "cards": [
+
+    {
+      "id": "med_001",
+      "category": "Medieval — Theory",
+      "question": "What were the Four Humours and who originally developed this theory?",
+      "answer": "The theory that the body contained four vital fluids: blood (hot/wet), phlegm (cold/wet), yellow bile (hot/dry), and black bile (cold/dry). Originated with Hippocrates; developed further by Galen. Disease was caused by an imbalance (dyscrasia); health required balance (eucrasia).",
+      "hint": "Think of four liquids linked to heat and moisture."
+    },
+    {
+      "id": "med_002",
+      "category": "Medieval — Theory",
+      "question": "What was the miasma theory of disease?",
+      "answer": "The belief that disease was caused by 'bad air' or 'noxious vapours' rising from rotting matter, swamps, and corpses. It dominated medical thinking from ancient times through to the mid-19th century and influenced public health responses to plague.",
+      "hint": "Bad smells = bad health — what was the theory?"
+    },
+    {
+      "id": "med_003",
+      "category": "Medieval — Theory",
+      "question": "Who was Galen and why was his authority so powerful in medieval medicine?",
+      "answer": "A Roman physician (c.129–216 AD) who systematised the Four Humours theory, developed the 'principle of opposites' (treat illness with its opposite quality), and wrote extensively on anatomy. The Church endorsed his works as compatible with Christianity, so questioning Galen was considered heresy. His authority went largely unchallenged for over 1,000 years.",
+      "hint": "He was endorsed by the Church — so who could argue with him?"
+    },
+    {
+      "id": "med_004",
+      "category": "Medieval — Theory",
+      "question": "What was the 'principle of opposites' in medieval medicine?",
+      "answer": "Galen's idea that you treat illness with its opposite quality. A cold, wet illness (e.g. caused by excess phlegm) should be treated with hot, dry foods or medicines. This logic flowed from the Four Humours theory.",
+      "hint": "If the problem is 'cold and wet', what's the cure?"
+    },
+    {
+      "id": "med_005",
+      "category": "Medieval — Theory",
+      "question": "What role did the Church play in medieval medicine?",
+      "answer": "The Church dominated medical education and healthcare. It endorsed Galen's writings, ran hospitals and monasteries, and promoted prayer and pilgrimage as treatments. It also discouraged dissection of human bodies, limiting anatomical knowledge. Challenging Church-approved medical texts was considered heresy.",
+      "hint": "Who controlled hospitals, universities, and what you were allowed to read?"
+    },
+    {
+      "id": "med_006",
+      "category": "Medieval — Theory",
+      "question": "How did astrology feature in medieval medical diagnosis?",
+      "answer": "Physicians used astrological charts to diagnose and time treatments. The position of planets and the stars was believed to affect the balance of humours in the body. Urine charts (uroscopy) and zodiac diagrams (zodiac man) were standard tools.",
+      "hint": "What celestial forces did medieval doctors think affected your health?"
+    },
+    {
+      "id": "med_007",
+      "category": "Medieval — Theory",
+      "question": "What was uroscopy and why was it used?",
+      "answer": "The examination of a patient's urine — its colour, smell, taste, and consistency — to diagnose humour imbalances. Urine charts matched colours to conditions. It was a standard diagnostic tool throughout the medieval period because it followed logically from humour theory.",
+      "hint": "What was the most common diagnostic test a medieval physician would perform?"
+    },
+    {
+      "id": "med_008",
+      "category": "Medieval — Theory",
+      "question": "Why did medieval medical ideas change so slowly?",
+      "answer": "Three main reasons: (1) The Church endorsed Galen's writings and suppressed dissent; (2) there was no printing press to spread new ideas (pre-1440s); (3) human dissection was largely forbidden, blocking anatomical progress. Medieval thinkers valued ancient authority over direct observation.",
+      "hint": "Think about religion, communication, and what you weren't allowed to do with corpses."
+    },
+
+    {
+      "id": "med_009",
+      "category": "Medieval — Treatments",
+      "question": "What was bloodletting and why did medieval physicians use it?",
+      "answer": "Removing blood from the body using a lancet, fleam, or leeches to rebalance the humours. If a patient seemed to have excess blood (one of the four humours), drawing blood off was logical treatment. It was used for fevers, headaches, and many other conditions.",
+      "hint": "Which humour did this treatment aim to remove?"
+    },
+    {
+      "id": "med_010",
+      "category": "Medieval — Treatments",
+      "question": "Name three herbal remedies commonly used in medieval medicine and what they treated.",
+      "answer": "Many examples — e.g. willow bark (pain/fever), garlic (infection), sage (sore throat/digestion), lavender (headaches). Monastic gardens cultivated hundreds of medicinal plants. The Syon Abbey Herbal (c.1517) listed over 700 plants and their uses.",
+      "hint": "Where were these plants cultivated, and who used them most?"
+    },
+    {
+      "id": "med_011",
+      "category": "Medieval — Treatments",
+      "question": "What role did prayer and pilgrimage play in medieval treatment?",
+      "answer": "Since disease was seen as God's punishment for sin, prayer and pilgrimage to holy shrines were considered legitimate treatments. Visiting shrines of saints (e.g. Canterbury — Thomas Becket) or touching relics was believed to prompt miraculous healing through divine intervention.",
+      "hint": "If disease is God's punishment, what's the logical cure?"
+    },
+    {
+      "id": "med_012",
+      "category": "Medieval — Treatments",
+      "question": "What was the role of monasteries in medieval healthcare?",
+      "answer": "Monasteries were the best-organised healthcare providers in medieval Britain. They ran infirmaries, cultivated medicinal herb gardens, copied and preserved ancient medical texts, and provided care through a combination of herbal remedies, prayer, and bloodletting. They maintained higher hygiene standards than most of society.",
+      "hint": "Name two things a monastery provided that no other institution could match."
+    },
+    {
+      "id": "med_013",
+      "category": "Medieval — Treatments",
+      "question": "Who were barber-surgeons and how did they come to perform surgery?",
+      "answer": "After the Fourth Lateran Council (1215) prohibited clergy from shedding blood, laymen — barbers — took over surgical procedures like bloodletting, tooth-pulling, wound dressing, and basic amputations. They were craftsmen, not university-educated physicians, and were lower in status than physicians.",
+      "hint": "What Church ruling in 1215 created the need for barber-surgeons?"
+    },
+    {
+      "id": "med_014",
+      "category": "Medieval — Treatments",
+      "question": "What was Theodoric Borgognoni's contribution to medieval surgery?",
+      "answer": "Borgognoni (1205–1298) wrote Cyrurgia, a four-volume surgical treatise. Unusually for the time, he promoted cleaning wounds with wine (antiseptic properties), keeping them clean and dry rather than encouraging 'laudable pus', and using sponges soaked in herbs as anaesthesia. His ideas were ahead of his time but largely ignored.",
+      "hint": "What did he recommend for wounds that was very different from the standard approach?"
+    },
+    {
+      "id": "med_015",
+      "category": "Medieval — Treatments",
+      "question": "Why was surgery so dangerous in the medieval period?",
+      "answer": "No understanding of infection or antisepsis — wounds routinely became infected. No safe anaesthesia — patients were given alcohol or herbal mixtures but remained largely conscious. No knowledge of anatomy beyond what Galen had written. Surgeons were craftsmen with limited training. Death rates from surgery were extremely high.",
+      "hint": "Name three reasons why even a 'successful' operation often killed the patient."
+    },
+
+    {
+      "id": "med_016",
+      "category": "Medieval — Black Death",
+      "question": "When did the Black Death arrive in England and how did it spread?",
+      "answer": "The Black Death arrived in England in June 1348 (probably via Weymouth, Dorset) and spread across the entire country by summer 1349. It was caused by the bacterium Yersinia pestis, spread by fleas on infected rats — though medieval people had no understanding of this.",
+      "hint": "What year, what port, and what was the actual scientific cause (which they didn't know)?"
+    },
+    {
+      "id": "med_017",
+      "category": "Medieval — Black Death",
+      "question": "How many people did the Black Death kill in England?",
+      "answer": "Estimated 30–40% of England's entire population — approximately 2 million people out of 5–6 million. In London, around 30,000 of 70,000 inhabitants died. Some villages lost 80% of their population; others escaped more lightly. It was the worst demographic catastrophe in English history.",
+      "hint": "What percentage of England's population died? Give a London figure too."
+    },
+    {
+      "id": "med_018",
+      "category": "Medieval — Black Death",
+      "question": "What did medieval people believe caused the Black Death?",
+      "answer": "Various theories: (1) miasma — bad air from swamps and rotting matter; (2) God's punishment for sin; (3) an unfavourable alignment of planets (astrology); (4) the actions of outsiders or Jews (leading to persecution). None identified the actual cause (flea-borne bacteria).",
+      "hint": "Give two of the main theories medieval people used to explain the plague."
+    },
+    {
+      "id": "med_019",
+      "category": "Medieval — Black Death",
+      "question": "What public health measures were taken in response to the Black Death?",
+      "answer": "Authorities attempted: street cleaning to remove 'miasma'; moving bodies quickly; building new cemeteries outside towns; closing Parliament (1349); isolating new arrivals. These measures were largely ineffective because they were based on miasma theory rather than understanding of infection.",
+      "hint": "What measures were tried — and why did they not work?"
+    },
+    {
+      "id": "med_020",
+      "category": "Medieval — Black Death",
+      "question": "What were the symptoms of bubonic plague?",
+      "answer": "Swollen lymph nodes (buboes) in the groin, armpit, or neck; fever; vomiting blood; dark blotches on the skin. There were also pneumonic (lung) and septicaemic (blood) forms. The bubonic form had a mortality rate of around 30–60% without treatment; the pneumonic form was almost always fatal.",
+      "hint": "What is a 'bubo' — and where did it appear?"
+    },
+    {
+      "id": "med_021",
+      "category": "Medieval — Black Death",
+      "question": "How did the Flagellants respond to the Black Death and what does this reveal about medieval thinking?",
+      "answer": "Flagellants were groups of people who whipped themselves publicly as penance, believing God had sent the plague as punishment for sin. By suffering voluntarily, they hoped to appease God and be spared. This reveals how completely religious explanations dominated — the solution to disease was spiritual, not medical.",
+      "hint": "If God sent plague as punishment, what was the logical response for a religious person?"
+    },
+    {
+      "id": "med_022",
+      "category": "Medieval — Black Death",
+      "question": "Why was the Black Death a turning point in medieval society, even if medicine didn't improve?",
+      "answer": "Mass death disrupted the feudal system — surviving peasants could demand higher wages, leading to the Peasants' Revolt (1381). It undermined confidence in the Church (prayers hadn't helped), created labour shortages, and forced social change. Medically, however, ideas barely changed; the Church's grip on medical thinking remained strong.",
+      "hint": "The Black Death changed society but not medicine — how?"
+    },
+    {
+      "id": "med_023",
+      "category": "Medieval — Black Death",
+      "question": "What was the 'quarantine' approach used during the plague and where did the word come from?",
+      "answer": "Ships arriving from plague areas were made to wait before docking to prevent spread. The word 'quarantine' comes from the Italian 'quarantina giorni' — forty days — the required isolation period. English ports used this approach, though inconsistently.",
+      "hint": "What Italian word gives us 'quarantine', and how long was the wait?"
+    },
+
+    {
+      "id": "ren_001",
+      "category": "Renaissance — Vesalius",
+      "question": "Who was Andreas Vesalius and what was his major publication?",
+      "answer": "A Flemish physician (1514–1564) who published De Humani Corporis Fabrica (On the Fabric of the Human Body) in 1543. Based on direct human dissection, it contained over 200 detailed woodcut anatomical illustrations and corrected more than 200 errors in Galen's writings. It transformed anatomy into a modern observational science.",
+      "hint": "What was the title of his 1543 book and what did it prove about Galen?"
+    },
+    {
+      "id": "ren_002",
+      "category": "Renaissance — Vesalius",
+      "question": "How did Vesalius challenge Galen, and why was this revolutionary?",
+      "answer": "Vesalius showed through dissection that Galen had made major errors — e.g. Galen claimed the jaw was two bones (it is one), and that blood passed through pores in the septum of the heart (it doesn't). Challenging Galen was radical because his authority had been endorsed by the Church for centuries. Vesalius proved observation mattered more than ancient texts.",
+      "hint": "Name one specific error Galen made that Vesalius corrected."
+    },
+    {
+      "id": "ren_003",
+      "category": "Renaissance — Vesalius",
+      "question": "Why was Vesalius able to perform detailed human dissections when medieval physicians largely could not?",
+      "answer": "By the 16th century, the Reformation had weakened the Church's authority over universities. Authorities began permitting dissection of executed criminals. Vesalius also secretly obtained bodies and was based in Padua, a university with more liberal attitudes. The Renaissance's emphasis on direct observation also legitimised the practice.",
+      "hint": "Name two things that changed to make dissection possible — one religious, one intellectual."
+    },
+    {
+      "id": "ren_004",
+      "category": "Renaissance — Harvey",
+      "question": "What did William Harvey discover and when did he publish his findings?",
+      "answer": "Harvey (1578–1657) proved that blood circulates continuously around the body, pumped by the heart. He showed the liver did not continuously produce new blood (as Galen believed). He published An Anatomical Account of the Motion of the Heart and Blood in 1628. He proved valves in veins ensure one-way flow.",
+      "hint": "What did Harvey prove blood did — and what had Galen wrongly thought about the liver?"
+    },
+    {
+      "id": "ren_005",
+      "category": "Renaissance — Harvey",
+      "question": "How did Harvey prove blood circulates? What methods did he use?",
+      "answer": "Harvey used careful dissection and observation of living animals (vivisection), including frogs. He noted: (1) the heart acted as a pump; (2) valves in veins allowed blood to flow only one way back to the heart; (3) the volume of blood pumped per hour far exceeded what the liver could produce — so it must be recirculated.",
+      "hint": "What observation about the volume of blood disproved Galen's theory?"
+    },
+    {
+      "id": "ren_006",
+      "category": "Renaissance — Harvey",
+      "question": "What was the immediate impact of Harvey's discovery on medical treatment?",
+      "answer": "Surprisingly limited in the short term — treatments like bloodletting continued for decades. Harvey's work did eventually enable blood transfusion experiments, and it demonstrated that anatomy could be understood through experiment and observation. It was a long-term landmark rather than an immediate revolution in treatment.",
+      "hint": "Did Harvey's discovery immediately change how patients were treated? Why or why not?"
+    },
+    {
+      "id": "ren_007",
+      "category": "Renaissance — Sydenham",
+      "question": "Who was Thomas Sydenham and why was he called 'the English Hippocrates'?",
+      "answer": "Thomas Sydenham (1624–1689) was called this because he rejected reliance on ancient texts and instead observed patients carefully at the bedside. He kept detailed records, classified diseases by their symptoms, and described conditions like scarlet fever and gout. His Observationes Medicae (1676) remained a standard textbook for two centuries.",
+      "hint": "What approach did Sydenham use that made him different from most Renaissance physicians?"
+    },
+    {
+      "id": "ren_008",
+      "category": "Renaissance — Change & Continuity",
+      "question": "What were the main causes of change in medicine during the Renaissance?",
+      "answer": "Four key causes: (1) the Reformation weakening the Church's grip on universities; (2) the printing press (c.1440s) allowing new ideas to spread widely; (3) the Renaissance emphasis on observation and human achievement over ancient authority; (4) greater access to human dissection. These together allowed Vesalius and Harvey to challenge Galen.",
+      "hint": "Give four causes — they involve religion, technology, intellectual culture, and practical access."
+    },
+    {
+      "id": "ren_009",
+      "category": "Renaissance — Change & Continuity",
+      "question": "Why was there significant continuity in medicine during the Renaissance despite new discoveries?",
+      "answer": "Ordinary patients still received the same treatments (bloodletting, herbal remedies, purging) because the discoveries of Vesalius and Harvey improved anatomical understanding but did not yet explain the cause of disease. Galen's influence persisted well into the 17th century. New anatomy did not immediately translate into better cures.",
+      "hint": "Vesalius corrected anatomy — but did that help a sick patient? Why not?"
+    },
+    {
+      "id": "ren_010",
+      "category": "Renaissance — Great Plague",
+      "question": "When was the Great Plague of London and how deadly was it?",
+      "answer": "The Great Plague of 1665–1666 killed up to 30% of London's population. Confirmed cases began April 1665; the epidemic peaked in September 1665 with around 7,000 deaths per week. By autumn 1666 it had largely subsided. London lost approximately 100,000 people.",
+      "hint": "What percentage of London died, and in what years?"
+    },
+    {
+      "id": "ren_011",
+      "category": "Renaissance — Great Plague",
+      "question": "What public health measures were used during the Great Plague of 1665?",
+      "answer": "Household quarantine: infected households were locked in with a red cross painted on the door and a guard outside for 40 days. Pest houses were established for the sick. Ships were quarantined. By September 1665 the authorities were overwhelmed and enforcement collapsed. Breaking quarantine risked the death penalty.",
+      "hint": "What was painted on doors of plague houses — and for how long were families locked inside?"
+    },
+    {
+      "id": "ren_012",
+      "category": "Renaissance — Great Plague",
+      "question": "Why were the treatments attempted during the Great Plague ineffective?",
+      "answer": "Physicians still blamed miasma (bad air) — so they carried nosegays of flowers, burned aromatic herbs, and cleaned streets. None of this addressed the actual cause (Y. pestis bacteria spread by flea-infected rats). Bloodletting, purging, and lancing buboes were also used — all ineffective or harmful. The scientific knowledge to treat plague simply did not exist.",
+      "hint": "What did physicians think caused plague in 1665 — and why was that belief fatal?"
+    },
+
+    {
+      "id": "ind_001",
+      "category": "Industrial — Jenner & Vaccination",
+      "question": "What was Edward Jenner's key discovery and when did he make it?",
+      "answer": "Jenner (1749–1823) observed that milkmaids who caught cowpox seemed immune to smallpox. In 1796, he inoculated 8-year-old James Phipps with cowpox matter; the boy developed mild cowpox, then proved immune when exposed to smallpox. This was the world's first vaccine — though Jenner did not understand why it worked (germ theory came later).",
+      "hint": "Who was the boy, what was the year, and what had Jenner noticed about milkmaids?"
+    },
+    {
+      "id": "ind_002",
+      "category": "Industrial — Jenner & Vaccination",
+      "question": "What opposition did Jenner face and why?",
+      "answer": "Religious objections (using animal matter was seen as unnatural/ungodly); fear of introducing animal disease into humans; rival inoculation practitioners who lost income; scepticism from the medical establishment. Despite opposition, the government made vaccination compulsory in 1853 after its effectiveness became undeniable.",
+      "hint": "Give two types of objection — one religious, one economic."
+    },
+    {
+      "id": "ind_003",
+      "category": "Industrial — Jenner & Vaccination",
+      "question": "What was the significance of Jenner's work for the long-term history of medicine?",
+      "answer": "Jenner laid the foundation for immunology and the entire concept of vaccination. Smallpox was eventually eradicated globally in 1980 — the first disease ever wiped out. His work predated germ theory; Pasteur later built on the principle to develop vaccines for cholera, anthrax, and rabies.",
+      "hint": "What disease was eventually eradicated thanks to Jenner's principle — and when?"
+    },
+    {
+      "id": "ind_004",
+      "category": "Industrial — Germ Theory",
+      "question": "What was Louis Pasteur's germ theory and when did he develop it?",
+      "answer": "In the 1860s, Pasteur proved that microorganisms (germs) cause fermentation and disease — they do not arise spontaneously. His famous swan-neck flask experiment showed that broth kept germ-free did not putrefy. This disproved spontaneous generation and established that specific germs cause specific diseases.",
+      "hint": "What did the swan-neck flask experiment prove — and what did it disprove?"
+    },
+    {
+      "id": "ind_005",
+      "category": "Industrial — Germ Theory",
+      "question": "What was Robert Koch's contribution to germ theory?",
+      "answer": "Koch (1843–1910) developed the methodology for proving a specific microbe causes a specific disease — 'Koch's Postulates'. He identified the tuberculosis bacterium (1882) and the cholera bacterium (1883). His postulates: (1) the organism is present in every case; (2) it can be isolated; (3) it reproduces the disease in a healthy host. He also developed staining techniques to make bacteria visible under a microscope.",
+      "hint": "Name Koch's Postulates and one disease he identified the cause of."
+    },
+    {
+      "id": "ind_006",
+      "category": "Industrial — Germ Theory",
+      "question": "How did germ theory change medicine?",
+      "answer": "It explained why antiseptics, vaccination, and clean water worked. It opened the path to identifying causes of specific diseases, developing targeted treatments, creating new vaccines (Pasteur developed vaccines for chicken cholera, anthrax, and rabies), and eventually antibiotics. It replaced miasma theory as the dominant explanation of disease.",
+      "hint": "List three things germ theory made possible that miasma theory could not."
+    },
+    {
+      "id": "ind_007",
+      "category": "Industrial — John Snow",
+      "question": "How did John Snow prove cholera was spread through water, not air?",
+      "answer": "During the 1854 Broad Street cholera outbreak in London, Snow mapped the location of every death and traced them all to one water pump on Broad Street, Soho. He persuaded the authorities to remove the pump handle — the outbreak subsided. His statistical mapping proved waterborne transmission, undermining miasma theory decades before germ theory.",
+      "hint": "What was Snow's method — and what practical action did he take to stop the outbreak?"
+    },
+    {
+      "id": "ind_008",
+      "category": "Industrial — Anaesthetics",
+      "question": "Who introduced chloroform as a general anaesthetic and when?",
+      "answer": "James Young Simpson, a Scottish obstetrician, first used chloroform as a general anaesthetic in November 1847. His colleague David Waldie had suggested chloroform. Simpson had already experimented with ether (introduced as an anaesthetic in 1842). Chloroform acted faster and was non-flammable.",
+      "hint": "Name the Scottish physician, the year, and the colleague who suggested chloroform."
+    },
+    {
+      "id": "ind_009",
+      "category": "Industrial — Anaesthetics",
+      "question": "What opposition did chloroform face — and what ended the debate?",
+      "answer": "Opposition came from religious figures (pain in childbirth was 'God's punishment for Eve's sin'); some doctors feared patients would die; others believed pain helped the body fight disease. The debate ended decisively in 1853 when Queen Victoria used chloroform for the birth of her eighth child, Prince Leopold, calling it 'blessed chloroform'. Royal endorsement removed the stigma.",
+      "hint": "Who used chloroform in 1853 — and what effect did this have on public opinion?"
+    },
+    {
+      "id": "ind_010",
+      "category": "Industrial — Anaesthetics",
+      "question": "What was the 'Black Period' of surgery and why did anaesthetics initially make it worse?",
+      "answer": "After anaesthetics were introduced, surgeons could operate for longer (patients were unconscious), leading to more ambitious procedures — but death rates from infection actually rose. Patients no longer died from shock but still died from post-operative infection. This 'Black Period' lasted until antiseptics were introduced. Anaesthesia solved pain but not infection.",
+      "hint": "Anaesthetics removed pain — so why did death rates initially increase after their introduction?"
+    },
+    {
+      "id": "ind_011",
+      "category": "Industrial — Antiseptics",
+      "question": "Who introduced antiseptic surgery and how did it work?",
+      "answer": "Joseph Lister (1827–1912) used carbolic acid (phenol) as an antiseptic at Glasgow Royal Infirmary from 1865. He applied it to surgical instruments, patients' skin, sutures, surgeons' hands, and wards. During operations, a spray device continuously misted the air with carbolic acid. Mortality at his ward fell from ~46% to ~15%.",
+      "hint": "What chemical did Lister use — and where exactly did he apply it?"
+    },
+    {
+      "id": "ind_012",
+      "category": "Industrial — Antiseptics",
+      "question": "How did Lister's work connect to Pasteur's germ theory?",
+      "answer": "Lister read Pasteur's work on microorganisms causing fermentation and reasoned that the same germs might cause wound infections. If carbolic acid could kill microorganisms in fermenting wounds, it could prevent surgical infection. He tested this on compound fractures (open wounds) — proving the connection between germ theory and antiseptic practice.",
+      "hint": "What did Lister read, what logical leap did he make, and what was his first successful case?"
+    },
+    {
+      "id": "ind_013",
+      "category": "Industrial — Antiseptics",
+      "question": "What was the difference between antiseptic and aseptic surgery?",
+      "answer": "Antiseptic surgery (Lister) used chemicals to kill germs already present (reactive). Aseptic surgery (developed later, by the 1890s) aimed to exclude all germs from the operating theatre entirely — by sterilising instruments, wearing gloves, masks, and gowns, and scrubbing hands. Aseptic became the dominant approach by the early 20th century.",
+      "hint": "One approach kills germs; the other prevents them entering. Which is which?"
+    },
+    {
+      "id": "ind_014",
+      "category": "Industrial — Public Health",
+      "question": "What was the 1875 Public Health Act and why was it significant?",
+      "answer": "The 1875 Public Health Act made it compulsory for local councils to provide clean water, sewage disposal, street cleaning, and housing standards. It built on earlier legislation (1848, 1866 Acts) and on the evidence from John Snow and others that dirty water caused disease. It represented the government accepting responsibility for public health.",
+      "hint": "What did local councils become legally required to provide after 1875?"
+    },
+    {
+      "id": "ind_015",
+      "category": "Industrial — Nightingale",
+      "question": "What did Florence Nightingale achieve in the Crimean War?",
+      "answer": "Nightingale arrived in Scutari (1854) with 38 nurses. She found appalling conditions — overcrowding, filth, poor diet, inadequate supplies. She imposed sanitation, cleanliness, and order. Mortality in her hospital fell from 42% to 22% within six months. She collected and presented statistical data using a new form of diagram — her 'rose chart' — to prove that disease, not wounds, was killing soldiers.",
+      "hint": "What did she do to mortality rates — and what innovative tool did she use to prove her case?"
+    },
+    {
+      "id": "ind_016",
+      "category": "Industrial — Nightingale",
+      "question": "What was Nightingale's long-term impact on nursing and public health?",
+      "answer": "She founded the Nightingale Training School for Nurses at St Thomas' Hospital, London (1860), which professionalised nursing. She became the first female Fellow of the Royal Statistical Society (1858). Her statistical work helped lobby for sanitation reform. She transformed nursing from a lowly occupation into a respected profession.",
+      "hint": "Name the school she founded, the year, and what professional milestone she reached in 1858."
+    },
+
+    {
+      "id": "mod_001",
+      "category": "Modern — Blood Transfusion",
+      "question": "Who identified blood groups and when? Why was this essential for safe transfusions?",
+      "answer": "Karl Landsteiner (1868–1943) identified the ABO blood group system in 1901. He showed that mixing incompatible blood types caused agglutination (clumping), explaining why earlier transfusions often killed patients. Group AB was identified by his colleagues in 1902. Landsteiner won the Nobel Prize in 1930. Safe transfusions became possible only once blood could be matched.",
+      "hint": "Name the system, the year, and the problem his discovery solved."
+    },
+    {
+      "id": "mod_002",
+      "category": "Modern — Blood Transfusion",
+      "question": "How did WWI and WWII accelerate blood transfusion technology?",
+      "answer": "During WWI, blood storage and transfusion methods were improved in the field — a blood bank was established at Cambrai. Sodium citrate was used to prevent coagulation, allowing blood to be stored. By WWII these techniques were fully developed; blood transfusions became a standard tool that saved thousands of lives. The connection between Landsteiner's 1901 discovery and battlefield medicine was critical.",
+      "hint": "What was stored at Cambrai in WWI — and what chemical prevented blood clotting in storage?"
+    },
+    {
+      "id": "mod_003",
+      "category": "Modern — Penicillin",
+      "question": "How was penicillin discovered and by whom?",
+      "answer": "Alexander Fleming returned from holiday on 3 September 1928 to find a petri dish at St Mary's Hospital, London, contaminated with mould (Penicillium notatum). The area around the mould was clear — bacteria had been killed. Fleming identified that the mould produced an antibacterial substance he named penicillin. He published his findings but could not purify or mass-produce it.",
+      "hint": "What was Fleming's profession, where did he work, and what did he notice about the contaminated dish?"
+    },
+    {
+      "id": "mod_004",
+      "category": "Modern — Penicillin",
+      "question": "What role did Florey and Chain play in developing penicillin?",
+      "answer": "Howard Florey and Ernst Boris Chain at Oxford University took Fleming's discovery and, from 1939, developed a purification process. By 1940–41 they had enough for animal trials (mice injected with lethal streptococci survived if given penicillin). Mass production began in the USA. By D-Day (June 1944) enough penicillin existed to treat all Allied casualties. They shared the 1945 Nobel Prize with Fleming.",
+      "hint": "What university, what years, and what was the significance of D-Day for penicillin?"
+    },
+    {
+      "id": "mod_005",
+      "category": "Modern — Penicillin",
+      "question": "Why was penicillin described as a 'magic bullet'?",
+      "answer": "Because it targeted and killed specific bacteria without harming the patient — unlike antiseptics (which killed human tissue too). Penicillin dramatically reduced death rates from bacterial infections including pneumonia, rheumatic fever, syphilis, and wound infections. It transformed surgery and general medicine and opened the age of antibiotics.",
+      "hint": "How was penicillin different from antiseptics — and name two diseases it could now treat?"
+    },
+    {
+      "id": "mod_006",
+      "category": "Modern — NHS",
+      "question": "When was the NHS founded, who created it, and what were its three core principles?",
+      "answer": "The NHS was founded on 5 July 1948 by the Labour government. It was created by Aneurin Bevan, Minister for Health. Its three principles: (1) meet the needs of everyone; (2) free at the point of delivery; (3) based on clinical need, not ability to pay. It integrated 1,143 voluntary hospitals and 1,545 municipal hospitals from the start.",
+      "hint": "Give the exact date, the minister responsible, and the three principles."
+    },
+    {
+      "id": "mod_007",
+      "category": "Modern — NHS",
+      "question": "Why was the NHS a revolutionary development in British healthcare?",
+      "answer": "Britain became the first Western country to offer free medical care to its entire population. Before 1948, healthcare had to be paid for privately or through patchy insurance schemes — the poor often went untreated. The NHS created a system where access to doctors, hospitals, dentists, and nurses no longer depended on wealth.",
+      "hint": "What changed for ordinary working-class people who had previously been unable to afford a doctor?"
+    },
+    {
+      "id": "mod_008",
+      "category": "Modern — NHS",
+      "question": "What opposition did Bevan face in creating the NHS?",
+      "answer": "Fierce opposition from doctors — the British Medical Association (BMA) initially voted against the NHS, fearing loss of independence and income. Bevan famously said he 'stuffed their mouths with gold' by allowing senior doctors to continue private practice alongside NHS work and pay them per patient rather than a flat salary. The opposition was overcome and the NHS launched on time.",
+      "hint": "Which professional body opposed the NHS — and how did Bevan persuade them?"
+    },
+    {
+      "id": "mod_009",
+      "category": "Modern — DNA",
+      "question": "Who discovered the double helix structure of DNA, when, and why did it matter for medicine?",
+      "answer": "James Watson and Francis Crick announced the double helix structure of DNA in 1953, published in Nature on 25 April 1953. The base-pairing structure (A=T, C=G) immediately suggested a mechanism for DNA copying. This opened the path to genetic medicine: understanding inherited diseases, gene therapy, genetic fingerprinting, and eventually sequencing the entire human genome. Watson, Crick, and Maurice Wilkins won the Nobel Prize in 1962.",
+      "hint": "Name the pair, the year, and one medical application their discovery made possible."
+    },
+    {
+      "id": "mod_010",
+      "category": "Modern — DNA",
+      "question": "What contribution did Rosalind Franklin make to the discovery of DNA's structure?",
+      "answer": "Franklin produced high-quality X-ray crystallography images of DNA — particularly 'Photo 51' — that showed the helical structure clearly. Watson and Crick used this data (shown to them without her full knowledge or consent) to confirm their model. Franklin died in 1958 before the Nobel Prize was awarded, and Nobel Prizes are not given posthumously.",
+      "hint": "What image did Franklin produce — and why wasn't she recognised with the Nobel Prize?"
+    },
+    {
+      "id": "mod_011",
+      "category": "Modern — Lifestyle Medicine",
+      "question": "What is 'lifestyle medicine' and how has it shaped modern healthcare?",
+      "answer": "Lifestyle medicine focuses on preventing disease by modifying risk factors: diet, exercise, smoking, alcohol, and weight. Rather than just treating illness, modern medicine aims to prevent it. The NHS promotes stopping smoking (biggest cancer-prevention strategy), healthy diet, 150 minutes of moderate exercise per week, and healthy body weight. This shifts emphasis from treatment to prevention.",
+      "hint": "Name four lifestyle factors that modern medicine links to preventable disease."
+    },
+    {
+      "id": "mod_012",
+      "category": "Modern — Causes of Change",
+      "question": "What were the main factors driving medical progress in the 20th century?",
+      "answer": "Government funding and investment (NHS, wartime research); science and technology (DNA, X-rays, scanning); industry (pharmaceutical companies mass-producing drugs); communication (international scientific publications); chance (Fleming's discovery of penicillin). The role of war also accelerated progress in surgery, blood transfusion, and rehabilitation.",
+      "hint": "Give four causes of 20th-century medical change — think government, science, industry, war."
+    },
+
+    {
+      "id": "wf_001",
+      "category": "Western Front — Overview",
+      "question": "What was the Western Front and why was it medically significant?",
+      "answer": "The trench system in northern France and Belgium during WWI (1914–1918), where British and Allied forces faced the German army across 'No Man's Land'. Medically significant because: the scale of casualties (millions) forced rapid innovation; trench conditions created new diseases; the pressure of war accelerated developments in surgery, antiseptics, blood transfusion, and psychological medicine.",
+      "hint": "Where was it, what years, and why did it force medical innovation?"
+    },
+    {
+      "id": "wf_002",
+      "category": "Western Front — Evacuation Chain",
+      "question": "Describe the evacuation chain used to treat wounded soldiers on the Western Front.",
+      "answer": "1. Regimental Aid Post (RAP) — ~200m from front line; immediate first aid from the Medical Officer. 2. Advanced Dressing Station (ADS) — further back; stretcher-bearers brought casualties here. 3. Main Dressing Station (MDS) — half a mile back; more treatment in dug-outs. 4. Casualty Clearing Station (CCS) — first point where female nurses could work; triage and surgery. 5. Base/General Hospital — by lorry, barge, or train. 6. Hospital ship — for evacuation to Britain.",
+      "hint": "Name the six stages in order, starting at the front line."
+    },
+    {
+      "id": "wf_003",
+      "category": "Western Front — Evacuation Chain",
+      "question": "What was a Casualty Clearing Station (CCS) and why was it important?",
+      "answer": "A large medical facility behind the lines, the first point where trained nurses (women) could work. CCSs carried out triage (sorting patients by severity) and surgical procedures. They were centres of medical innovation — many advances in wound treatment, blood transfusion, and surgery were developed or refined at CCSs. They could treat hundreds of patients at once.",
+      "hint": "What was the significance of it being the first point where women nurses worked?"
+    },
+    {
+      "id": "wf_004",
+      "category": "Western Front — RAMC & FANY",
+      "question": "What was the RAMC and what did it do?",
+      "answer": "The Royal Army Medical Corps (RAMC), founded 1898, managed all medical care on the Western Front. Each infantry battalion had a Medical Officer (MO) plus at least 16 stretcher-bearers. The RAMC was responsible for the entire evacuation chain, field hospitals, sanitation, and medical supplies for millions of men throughout the war.",
+      "hint": "What do the initials stand for — and what was attached to each battalion?"
+    },
+    {
+      "id": "wf_005",
+      "category": "Western Front — RAMC & FANY",
+      "question": "What was the FANY and what role did women play on the Western Front?",
+      "answer": "The First Aid Nursing Yeomanry (FANY), founded 1907, was a women's voluntary organisation. Around 450 FANY members served in France during WWI, working as ambulance drivers, nurses' aides, and in welfare roles. Women also served as nurses in Casualty Clearing Stations. Their work challenged pre-war assumptions about gender roles in military contexts.",
+      "hint": "What does FANY stand for — and name two roles women played on the Western Front?"
+    },
+    {
+      "id": "wf_006",
+      "category": "Western Front — Diseases",
+      "question": "What was trench foot and how was it caused and treated?",
+      "answer": "A fungal/bacterial condition caused by prolonged exposure to cold, wet conditions in waterlogged trenches. Feet became numb, swollen, and gangrenous; in severe cases amputation was necessary. Treatment: drying and warming feet, whale oil (applied preventively), and rest. Prevention became a command priority — officers were ordered to ensure men changed socks regularly.",
+      "hint": "What environment caused it — and what preventive measure was ordered?"
+    },
+    {
+      "id": "wf_007",
+      "category": "Western Front — Diseases",
+      "question": "What diseases were prevalent in the trenches besides combat wounds?",
+      "answer": "Trench fever (flea/louse-borne, causing flu-like symptoms); trench foot (waterlogged conditions); dysentery (contaminated water/food); gas gangrene (infected by soil bacteria Clostridium, made worse by heavily manured French farmland); tetanus; frostbite; deafness (from artillery explosions); scurvy (vitamin C deficiency). More soldiers died from disease than from battle wounds in some campaigns.",
+      "hint": "Name four diseases that killed or disabled soldiers in the trenches."
+    },
+    {
+      "id": "wf_008",
+      "category": "Western Front — Diseases",
+      "question": "Why was gas gangrene so prevalent on the Western Front specifically?",
+      "answer": "The trenches were dug into French and Belgian farmland that had been heavily manured for centuries. The soil was rich in Clostridium bacteria (which cause gas gangrene). Shell and bullet wounds drove contaminated soil deep into tissue, creating anaerobic (oxygen-free) conditions ideal for bacterial growth. Gas gangrene rapidly destroyed tissue and required amputation or caused death.",
+      "hint": "What was special about the soil in this part of France/Belgium that made gangrene so common?"
+    },
+    {
+      "id": "wf_009",
+      "category": "Western Front — Shell Shock",
+      "question": "What was shell shock and why was it medically significant?",
+      "answer": "Shell shock (now called PTSD — Post-Traumatic Stress Disorder) was a psychological condition caused by the trauma of combat: constant artillery, witnessing death, helplessness. Symptoms included tremors, blindness, paralysis, and inability to speak with no physical injury. The WWI medical corps were among the first to recognise it as a genuine medical condition, though many sufferers were still court-martialled for cowardice. It was a landmark in the history of mental health.",
+      "hint": "What was shell shock's modern medical name — and how were some sufferers treated by the military?"
+    },
+    {
+      "id": "wf_010",
+      "category": "Western Front — Innovations",
+      "question": "What was the Thomas splint and why did it save lives?",
+      "answer": "The Thomas splint was a metal frame that immobilised fractures of the femur (thigh bone). Before its widespread use, compound femur fractures had a near-80% mortality rate from shock and blood loss. After the Thomas splint was made standard in 1916, mortality fell to around 20%. It is one of the most significant medical innovations of WWI.",
+      "hint": "What bone did it treat — and how dramatically did it change the survival rate?"
+    },
+    {
+      "id": "wf_011",
+      "category": "Western Front — Innovations",
+      "question": "What was the Carrel-Dakin solution and what problem did it solve?",
+      "answer": "A dilute antiseptic solution of sodium hypochlorite developed by Alexis Carrel and Henry Dakin to irrigate infected wounds. It was pumped into wounds continuously via rubber tubes (the Carrel-Dakin method). Unlike stronger antiseptics, it was gentle enough not to damage tissue while still killing bacteria. It dramatically reduced gas gangrene and wound infection, and was described as one of the most important advances in wound treatment.",
+      "hint": "What was unique about this antiseptic compared to older ones — and how was it applied?"
+    },
+    {
+      "id": "wf_012",
+      "category": "Western Front — Innovations",
+      "question": "How did blood transfusion develop on the Western Front?",
+      "answer": "Landsteiner's 1901 blood group discovery made safe transfusions theoretically possible. During WWI, methods for storing blood (using sodium citrate to prevent clotting) were developed. A blood depot/bank was established at Cambrai in 1917 — one of the first battlefield blood banks. This enabled stored blood to be available in advance of operations rather than requiring live donors at the bedside.",
+      "hint": "What chemical allowed blood to be stored — and what was established at Cambrai?"
+    },
+    {
+      "id": "wf_013",
+      "category": "Western Front — Innovations",
+      "question": "Who was Harold Gillies and what did he contribute to medicine?",
+      "answer": "Harold Gillies (1882–1960) is considered the father of modern plastic surgery. Posted to France in 1915, he witnessed severe facial wounds from artillery. He established a specialist facial reconstruction ward at Aldershot, then Queen's Hospital (opened June 1917), which performed over 11,000 operations on more than 5,000 men. He invented the 'tubed pedicle' technique — skin flaps kept attached to maintain blood supply — dramatically reducing infection.",
+      "hint": "What is Gillies called — and what technique did he invent to rebuild faces?"
+    },
+    {
+      "id": "wf_014",
+      "category": "Western Front — Innovations",
+      "question": "What was the 'tubed pedicle' technique invented by Gillies?",
+      "answer": "A skin flap — taken from the chest or forehead — was stitched into a tube while remaining attached to its original blood supply. The tube was then gradually transferred to the damaged area (e.g. face). By keeping the flap attached, the blood supply was maintained throughout the process, preventing tissue death and reducing infection. It made large-scale facial reconstruction possible.",
+      "hint": "Why did keeping the skin 'attached' matter — what did it prevent?"
+    },
+    {
+      "id": "wf_015",
+      "category": "Western Front — Innovations",
+      "question": "How did mobile X-ray units contribute to Western Front medicine?",
+      "answer": "Marie Curie developed and drove mobile X-ray units (nicknamed 'petites Curies') to field hospitals near the front. X-rays allowed surgeons to locate shrapnel and bullets before operating, reducing unnecessary exploratory surgery and enabling more precise, faster procedures. Curie trained around 150 women to operate the equipment.",
+      "hint": "Who developed these units — and what surgical problem did they solve?"
+    },
+    {
+      "id": "wf_016",
+      "category": "Western Front — Innovations",
+      "question": "Why is the Western Front described as a 'turning point' in the history of medicine?",
+      "answer": "It accelerated progress across multiple fields simultaneously: surgery (anaesthetics, aseptic technique at scale), blood transfusion (storage and banking), wound treatment (Carrel-Dakin), psychological medicine (shell shock), plastic surgery (Gillies), and triage organisation. The pressure of mass casualties forced innovation at a speed peacetime medicine could not have matched. Many modern medical practices trace directly to Western Front developments.",
+      "hint": "Name four specific areas of medicine that advanced because of the Western Front."
+    },
+    {
+      "id": "wf_017",
+      "category": "Western Front — Context",
+      "question": "What were the main types of wound caused by WWI combat?",
+      "answer": "Gunshot wounds; shrapnel (from artillery shells — the most common cause of casualties); gas burns (from chlorine, phosgene, and mustard gas); bayonet wounds; blast injuries causing concussion and psychological trauma. Artillery bombardment was responsible for around 60% of all casualties. The nature of trench warfare meant wounds were often contaminated with soil.",
+      "hint": "What was the single biggest cause of casualties on the Western Front?"
+    },
+    {
+      "id": "wf_018",
+      "category": "Western Front — Context",
+      "question": "What was 'No Man's Land' and why did it create a medical problem?",
+      "answer": "No Man's Land was the area between Allied and German trenches — often 50–250 metres wide, swept by machine-gun fire. Wounded soldiers lying in No Man's Land often could not be reached for hours or days. Stretcher-bearers risked their lives to retrieve casualties; delays meant blood loss, shock, and infection worsened. The longer the evacuation time, the lower the survival rate.",
+      "hint": "What was No Man's Land — and why did it make evacuating the wounded so dangerous?"
+    },
+    {
+      "id": "wf_019",
+      "category": "Western Front — Context",
+      "question": "How did vaccination programmes contribute to health on the Western Front?",
+      "answer": "The British Army ran systematic vaccination programmes against typhoid, which had been a mass killer in earlier wars (including the Boer War, where more British soldiers died of typhoid than combat). Vaccination reduced typhoid deaths dramatically — it was one of the clearest early demonstrations of vaccines' value at population scale. Tetanus vaccination was also used from 1914.",
+      "hint": "Which disease had killed more British soldiers than combat in the Boer War — and how was it controlled in WWI?"
+    },
+    {
+      "id": "wf_020",
+      "category": "Western Front — Context",
+      "question": "How many operations did British medical services carry out during WWI and what does this reveal?",
+      "answer": "The Royal Army Medical Corps handled approximately 2.5 million sick and wounded British soldiers over the course of WWI. This scale forced systematic organisation — triage, specialist units, supply chains — that transformed military medicine from improvised first aid into a structured system that influenced civilian healthcare after the war.",
+      "hint": "What was the scale of casualties — and how did this scale force change in the way medicine was organised?"
+    },
+
+    {
+      "id": "ren_013",
+      "category": "Renaissance — Paré",
+      "question": "Who was Ambroise Paré and what were his contributions to surgery?",
+      "answer": "Ambroise Paré (1510–1590) was a French barber-surgeon who revolutionised wound treatment. He stopped using boiling oil to cauterise gunshot wounds (he ran out on the battlefield and used a soothing salve of egg yolk, oil, and turpentine instead — patients recovered better). He also reintroduced ligature (tying blood vessels) to control bleeding after amputation instead of cauterisation. His work spread via print across Europe.",
+      "hint": "What happened when Paré ran out of boiling oil — and what did he discover by accident?"
+    },
+    {
+      "id": "ren_014",
+      "category": "Renaissance — Change & Continuity",
+      "question": "How did the printing press (c.1440s) change the speed of medical progress?",
+      "answer": "Before printing, medical knowledge spread only through handwritten manuscripts — slow, expensive, and prone to copying errors. The printing press allowed Vesalius's Fabrica (1543) to reach hundreds of universities across Europe within years. Anatomical diagrams could be reproduced accurately. Challenges to Galen could spread faster than any single Church authority could suppress.",
+      "hint": "How did printing change both the speed and accuracy of spreading medical knowledge?"
+    },
+    {
+      "id": "ind_017",
+      "category": "Industrial — Causes of Change",
+      "question": "Why did public health improve in 19th-century Britain? Give three causes.",
+      "answer": "1. Cholera epidemics (1831, 1848, 1854, 1866) forced government action — visible crisis demanded response. 2. John Snow's 1854 evidence proved waterborne disease, giving authorities a target. 3. Germ theory (1860s) eventually explained why clean water worked. 4. Edwin Chadwick's 1842 Report on Sanitary Conditions gave statistical evidence for reform. 5. Growing political will: the 1848 and 1875 Public Health Acts.",
+      "hint": "Think cholera epidemics, Snow's evidence, Chadwick's report, and government legislation."
+    },
+    {
+      "id": "ind_018",
+      "category": "Industrial — Key Figures",
+      "question": "Who was Edwin Chadwick and why was his 1842 report important?",
+      "answer": "Edwin Chadwick was a social reformer who produced the Report on the Sanitary Conditions of the Labouring Population (1842). It showed with statistics that the poor lived much shorter lives than the wealthy, and linked poverty, overcrowding, and dirty water to disease. It provided the evidence base for the 1848 Public Health Act and later reforms, though Chadwick incorrectly attributed the cause to miasma rather than germs.",
+      "hint": "What did Chadwick's data prove — and what did he get wrong about the cause?"
+    },
+    {
+      "id": "mod_013",
+      "category": "Modern — Technology",
+      "question": "How has technology transformed diagnosis and treatment in the 20th–21st centuries?",
+      "answer": "X-rays (discovered 1895 by Röntgen) enabled internal imaging without surgery. CT scans, MRI scanners, and ultrasound further revolutionised diagnosis. Laparoscopic ('keyhole') surgery reduced recovery times. Vaccines eliminated diseases (smallpox, polio). Dialysis machines, organ transplants, and pacemakers extended lives. Technology now allows personalised medicine based on genetic profiling.",
+      "hint": "Name three diagnostic technologies and one treatment technology that changed 20th-century medicine."
+    },
+    {
+      "id": "mod_014",
+      "category": "Modern — Key Individuals",
+      "question": "What was the significance of Paul Ehrlich's 'magic bullet' concept?",
+      "answer": "Paul Ehrlich (1854–1915) proposed the idea of a 'magic bullet' — a chemical that would target and kill a specific pathogen without harming the patient. In 1909 he and his team discovered Salvarsan (compound 606), a treatment for syphilis. It was the first modern chemotherapy drug and demonstrated that targeted drug treatment was possible, paving the way for antibiotics and cancer chemotherapy.",
+      "hint": "What disease did his 'magic bullet' (Salvarsan/compound 606) treat — and why was the concept revolutionary?"
+    },
+    {
+      "id": "wf_021",
+      "category": "Western Front — Source Skills",
+      "question": "When evaluating a source about Western Front medicine, what questions should you ask?",
+      "answer": "1. Provenance: Who created it, when, and why? (A government poster has a different purpose from a soldier's diary.) 2. Content: What does it claim — is this consistent with other knowledge? 3. Tone/nature: Propaganda? Personal account? Official report? 4. Utility: What can this source tell us, and what are its limitations? For Edexcel, always link to your contextual knowledge to assess reliability.",
+      "hint": "Edexcel source questions ask about utility — always link to context, not just provenance."
+    },
+    {
+      "id": "ovr_009",
+      "category": "Overview — Key Individuals",
+      "question": "Match each individual to their discovery: Jenner, Pasteur, Koch, Lister, Fleming, Landsteiner, Watson & Crick.",
+      "answer": "Jenner (1796) → vaccination (cowpox/smallpox). Pasteur (1860s) → germ theory, swan-neck flask. Koch (1882) → TB bacterium, Koch's Postulates. Lister (1867) → carbolic acid antiseptic surgery. Fleming (1928) → penicillin. Landsteiner (1901) → ABO blood groups. Watson & Crick (1953) → DNA double helix.",
+      "hint": "Seven names, seven dates, seven discoveries — commit this timeline to memory."
+    },
+    {
+      "id": "ovr_010",
+      "category": "Overview — Significance",
+      "question": "Which development was more important for reducing deaths in Britain: germ theory or the NHS? Argue both sides.",
+      "answer": "Germ theory (Pasteur/Koch, 1860s–1880s): underpinned antiseptics, clean water, vaccines, and antibiotics — saved millions over 150 years. NHS (1948): gave universal free access to all these treatments, ensuring working-class people could actually benefit from advances. Counter: discoveries mean nothing without access; but without germ theory, the NHS would have far less to offer. Both are interdependent.",
+      "hint": "Don't just describe both — argue which created MORE change, and why. That's the exam skill."
+    },
+
+    {
+      "id": "ovr_001",
+      "category": "Overview — Key Dates",
+      "question": "Place these medical milestones in chronological order: germ theory (Pasteur), Harvey's circulation, Vesalius's anatomy, Jenner's vaccine, NHS founded, Fleming's penicillin, Lister's antiseptics.",
+      "answer": "1543 — Vesalius (De Humani Corporis Fabrica); 1628 — Harvey (circulation of blood); 1796 — Jenner (vaccination); 1860s — Pasteur (germ theory); 1867 — Lister (carbolic acid antiseptics); 1928 — Fleming (penicillin); 1948 — NHS founded.",
+      "hint": "Think centuries: 16th → 17th → 18th → 19th → 19th → 20th → 20th."
+    },
+    {
+      "id": "ovr_002",
+      "category": "Overview — Key Dates",
+      "question": "What medical advances happened in 1843, 1847, 1854, 1867, and 1882?",
+      "answer": "1843 — Nothing specifically (Vesalius was 1543!); 1847 — Simpson uses chloroform as anaesthetic; 1854 — John Snow traces cholera to Broad Street pump; 1867 — Lister publishes on carbolic acid antiseptics; 1882 — Koch identifies the tuberculosis bacterium.",
+      "hint": "These are all 19th-century milestones — anaesthesia, epidemiology, antiseptics, bacteriology."
+    },
+    {
+      "id": "ovr_003",
+      "category": "Overview — Causes of Change",
+      "question": "What four factors does Edexcel emphasise as causes of change in medicine across history?",
+      "answer": "1. Science and technology — new instruments, techniques, discoveries. 2. Government — legislation, funding, war. 3. Communications — printing press, scientific journals, international collaboration. 4. Chance — accidental discoveries (Fleming/penicillin). Edexcel also considers the role of individuals and war as specific drivers.",
+      "hint": "Edexcel uses a framework: science/tech, government, communication, chance — and also individuals and war."
+    },
+    {
+      "id": "ovr_004",
+      "category": "Overview — Causes of Change",
+      "question": "How did war act as a catalyst for medical change in Britain?",
+      "answer": "The Crimean War → Nightingale reforms nursing and sanitation. The Boer War → revealed poor working-class health, prompting Liberal welfare reforms (1906–1911). WWI → accelerated surgery, blood transfusion, shell shock awareness, plastic surgery. WWII → mass production of penicillin, blood transfusion services. War creates urgent need, large-scale funding, and willingness to experiment.",
+      "hint": "Name a medical advance from each of four different wars."
+    },
+    {
+      "id": "ovr_005",
+      "category": "Overview — Continuity",
+      "question": "Give three examples of long-term continuity in medicine — ideas or practices that persisted for centuries despite being wrong or ineffective.",
+      "answer": "1. Four Humours / bloodletting — from Hippocrates (c.400 BC) through to the 19th century. 2. Miasma theory — from ancient times to the 1850s–1860s. 3. Reliance on Galen's anatomy — from c.200 AD to Vesalius (1543). These show that authority and tradition often outweighed observation for long periods.",
+      "hint": "Pick three ideas that survived for over 1,000 years despite being incorrect."
+    },
+    {
+      "id": "ovr_006",
+      "category": "Overview — Individuals",
+      "question": "Which individual do you consider most important to the history of medicine in Britain, and why? (Practice question)",
+      "answer": "Possible answers: Pasteur (germ theory — foundational for antiseptics, vaccines, antibiotics); Jenner (vaccination principle — eradication of smallpox); Fleming/Florey/Chain (penicillin — antibiotic age); Nightingale (sanitation + nursing profession); Bevan (NHS — universal healthcare). For top marks, choose one, argue why theirs was the biggest change, and acknowledge counter-arguments.",
+      "hint": "For a 4-mark or 16-mark question, you need a clear argument with evidence — pick your champion and defend them."
+    },
+    {
+      "id": "ovr_007",
+      "category": "Overview — Exam Technique",
+      "question": "What does a high-mark answer to a 'How far do you agree?' 16-mark question need to include?",
+      "answer": "1. A clear argument (agree/partially agree/disagree) stated in the introduction. 2. Two or three well-explained points supporting one side. 3. At least one counterargument explained. 4. Specific factual evidence for all points. 5. A substantiated conclusion that directly answers the question. Avoid simply describing both sides — you must reach and defend a judgement.",
+      "hint": "A judgement + evidence + counter + conclusion — not just a list of facts."
+    },
+    {
+      "id": "ovr_008",
+      "category": "Overview — Exam Technique",
+      "question": "What are the three Assessment Objectives for Edexcel GCSE History and what does each require?",
+      "answer": "AO1 — Demonstrate knowledge and understanding of the key features of periods studied. AO2 — Explain and analyse historical events using second-order concepts (causation, consequence, change, continuity, significance, similarity, difference). AO3 — Analyse, evaluate, and use sources and interpretations. In Medicine in Britain questions, AO1 and AO2 dominate; source/interpretation questions also test AO3.",
+      "hint": "Knowledge; explanation/analysis; source evaluation — which type of question tests each?"
+    }
+
+  ]
+}

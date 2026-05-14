@@ -15,7 +15,19 @@
       "WebFetch(domain:poemanalysis.com)",
       "WebFetch(domain:pmt.physicsandmathstutor.com)",
       "WebFetch(domain:www.bbc.co.uk)",
-      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs remote get-url origin)"
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs remote get-url origin)",
+      "WebFetch(domain:shared.gcsehistory.com)",
+      "WebFetch(domain:www.williamsphysics.co.uk)",
+      "WebFetch(domain:www.walton-ac.org.uk)",
+      "WebFetch(domain:senecalearning.com)",
+      "WebFetch(domain:schoolhistory.co.uk)",
+      "WebFetch(domain:www.carringtonschool.org)",
+      "WebFetch(domain:www.kingsdownschool.co.uk)",
+      "WebFetch(domain:quizlet.com)",
+      "WebFetch(domain:www.nationalarchives.gov.uk)",
+      "WebFetch(domain:www.iwm.org.uk)",
+      "Bash(python3 -c \"import json; d = json.load\\(open\\('/Users/jon/Documents/Claude/Projects/EliGCSEs/flashcards/decks/medicine_in_britain.json'\\)\\); print\\(f'Valid JSON. {len\\(d[\\\\\"cards\\\\\"]\\)} cards, title: {d[\\\\\"title\\\\\"]}'\\)\")",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
