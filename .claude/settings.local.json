@@ -27,7 +27,17 @@
       "WebFetch(domain:www.nationalarchives.gov.uk)",
       "WebFetch(domain:www.iwm.org.uk)",
       "Bash(python3 -c \"import json; d = json.load\\(open\\('/Users/jon/Documents/Claude/Projects/EliGCSEs/flashcards/decks/medicine_in_britain.json'\\)\\); print\\(f'Valid JSON. {len\\(d[\\\\\"cards\\\\\"]\\)} cards, title: {d[\\\\\"title\\\\\"]}'\\)\")",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs remote -v)",
+      "Bash(bash /Users/jon/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/brainstorming/scripts/start-server.sh --project-dir /Users/jon/Documents/Claude/Projects/EliGCSEs)",
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs add docs/superpowers/specs/2026-05-14-github-pages-hub-design.md)",
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs commit -m ' *)",
+      "Bash(git -C /Users/jon/Documents/Claude/Projects/EliGCSEs add docs/superpowers/plans/2026-05-14-github-pages-hub.md)",
+      "Bash(python3 -m json.tool /Users/jon/Documents/Claude/Projects/EliGCSEs/flashcards/decks/manifest.json)",
+      "Bash(git commit *)",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(curl -s http://localhost:8080/flashcards/)",
+      "Bash(kill %1)"
     ]
   }
 }
