@@ -617,6 +617,7 @@
 // STATE
 // ════════════════════════════════════════════════════════════
 const state = {
+  fetchMode: false,          // true when running on https:/http: — loads via fetch()
   dirHandle: null,           // FileSystemDirectoryHandle
   decks: [],                 // [{ filename, handle, data }]
   activeDeck: null,          // { filename, handle, data }
@@ -772,7 +773,7 @@ function renderDeckList() {
   const folderName = document.getElementById('folder-name');
   const folderHint = document.getElementById('folder-hint');
 
-  if (!state.fsapiSupported) {
+  if (!state.fsapiSupported && !state.fetchMode) {
     document.getElementById('ls-notice').style.display = 'block';
   }
 
@@ -847,6 +848,32 @@ function getLsDecks() {
       return { filename, handle: null, data };
     } catch { return null; }
   }).filter(Boolean);
+}
+
+async function loadDecksFromManifest() {
+  try {
+    const res = await fetch('decks/manifest.json');
+    if (!res.ok) throw new Error('manifest.json not found (' + res.status + ')');
+    const filenames = await res.json();
+
+    const results = await Promise.all(filenames.map(async filename => {
+      try {
+        const r = await fetch('decks/' + filename);
+        if (!r.ok) return null;
+        const data = await r.json();
+        if (!data.cards || !data.title) return null;
+        return { filename, handle: null, data };
+      } catch { return null; }
+    }));
+
+    state.decks = results.filter(Boolean);
+    renderDeckList();
+  } catch (e) {
+    document.getElementById('deck-list').innerHTML =
+      `<div style="color:var(--text-muted);font-size:.9rem;grid-column:1/-1;text-align:center;padding:40px 0;">
+        Could not load decks: ${esc(e.message)}
+      </div>`;
+  }
 }
 
 // ════════════════════════════════════════════════════════════
@@ -1214,10 +1241,17 @@ document.addEventListener('keydown', e => {
 // INIT
 // ════════════════════════════════════════════════════════════
 (function init() {
+  state.fetchMode = (window.location.protocol === 'https:' || window.location.protocol === 'http:');
+
+  if (state.fetchMode) {
+    document.getElementById('folder-banner').style.display = 'none';
+    loadDecksFromManifest();
+    return;
+  }
+
   if (!state.fsapiSupported) {
     document.getElementById('ls-notice').style.display = 'block';
     document.getElementById('folder-banner').style.display = 'none';
-    // Load any localStorage-saved decks
     state.decks = getLsDecks();
     renderDeckList();
   } else {
