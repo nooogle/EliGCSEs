@@ -37,7 +37,9 @@
       "Bash(git commit *)",
       "Bash(python3 -m http.server 8080)",
       "Bash(curl -s http://localhost:8080/flashcards/)",
-      "Bash(kill %1)"
+      "Bash(kill %1)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'cards: {len\\(d[\\\\\"cards\\\\\"]\\)}'\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")"
     ]
   }
 }
