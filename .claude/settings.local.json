@@ -43,7 +43,10 @@
       "WebFetch(domain:www.sparknotes.com)",
       "WebFetch(domain:filestore.aqa.org.uk)",
       "WebFetch(domain:www.litcharts.com)",
-      "Bash(python3 -c \"import json; d=json.load\\(open\\('flashcards/decks/an_inspector_calls.json'\\)\\); print\\(f'{len\\(d[\\\\\"cards\\\\\"]\\)} cards, {len\\(set\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)\\)} categories'\\); [print\\(f'  {cat}: {sum\\(1 for c in d[\\\\\"cards\\\\\"] if c[\\\\\"category\\\\\"]==cat\\)}'\\) for cat in dict.fromkeys\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)]\")"
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('flashcards/decks/an_inspector_calls.json'\\)\\); print\\(f'{len\\(d[\\\\\"cards\\\\\"]\\)} cards, {len\\(set\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)\\)} categories'\\); [print\\(f'  {cat}: {sum\\(1 for c in d[\\\\\"cards\\\\\"] if c[\\\\\"category\\\\\"]==cat\\)}'\\) for cat in dict.fromkeys\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)]\")",
+      "Bash(grep -n \"html\\\\s*{\\\\\\\\|html,body\\\\|font-size\\\\|back\\\\|href.*index\\\\|a\\\\.back\\\\|\\\\.back\" /Users/jon/Documents/Claude/Projects/EliGCSEs/calendar.html)",
+      "Bash(sed -n '1284,1292p' /Users/jon/Documents/Claude/Projects/EliGCSEs/flashcards/index.html)",
+      "Bash(sed -n '1302,1310p' /Users/jon/Documents/Claude/Projects/EliGCSEs/flashcards/index.html)"
     ]
   }
 }
