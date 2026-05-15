@@ -1,56 +1,306 @@
 {
-    "title": "An Inspector Calls",
-    "description": "50 Flashcards covering J.B. Priestley's An Inspector Calls (Plot, Characters, Themes, Quotes).",
-    "cards": [
-        {"q": "Who wrote An Inspector Calls?", "a": "J.B. Priestley"},
-        {"q": "In what year is the play set?", "a": "1912"},
-        {"q": "In what year was the play written and first performed?", "a": "1945 (first performed in USSR), 1946 (in UK)"},
-        {"q": "How does the play's setting (1912) contrast with its writing time (1945)?", "a": "1912 was pre-WW1 (Edwardian era class system), 1945 was post-WW2 (desire for a fairer, socialist society)."},
-        {"q": "Which affluent manufacturing town is the play set in?", "a": "Brumley (a fictional Midlands town)"},
-        {"q": "What is Arthur Birling's primary concern in life?", "a": "Business, profit, and maintaining his social status."},
-        {"q": "Quote Arthur Birling: 'A man has to make his own way—has to look after himself—and ______'", "a": "his family too, of course"},
-        {"q": "Which historical event does Mr Birling say is 'impossible'?", "a": "War (The First World War)"},
-        {"q": "What does Mr Birling call the Titanic?", "a": "'Unsinkable, absolutely unsinkable'"},
-        {"q": "What dramatic device is used when Birling talks about the Titanic and war?", "a": "Dramatic Irony"},
-        {"q": "Who is Sybil Birling?", "a": "Arthur's wife, a cold woman and her husband's social superior."},
-        {"q": "Why is Arthur Birling trying to impress Gerald Croft?", "a": "Gerald's family (Crofts Limited) is socially and economically superior to the Birlings."},
-        {"q": "What is the name of the girl who died?", "a": "Eva Smith (also known as Daisy Renton)"},
-        {"q": "How did Eva Smith die?", "a": "She drank strong disinfectant (suicide)."},
-        {"q": "What was the Inspector's name?", "a": "Inspector Goole"},
-        {"q": "How is the Inspector's lighting described when he enters?", "a": "The lighting changes from 'pink and intimate' to 'brighter and harder'."},
-        {"q": "Why did Arthur Birling sack Eva Smith?", "a": "She was one of the ringleaders of a strike asking for a pay rise (from 22.5 to 25 shillings a week)."},
-        {"q": "How did Sheila Birling get Eva Smith sacked from Milwards?", "a": "She complained out of jealousy because Eva looked better in a dress than she did."},
-        {"q": "How does Sheila feel after finding out her role in Eva's death?", "a": "Guilty, repentant, and distressed."},
-        {"q": "Where did Gerald Croft meet Daisy Renton (Eva Smith)?", "a": "The Palace Bar"},
-        {"q": "What did Gerald Croft do for Daisy Renton?", "a": "He rescued her from Alderman Meggarty, gave her money, and let her stay in some rooms he had the keys to. They had an affair."},
-        {"q": "How does Sybil Birling know Eva Smith?", "a": "Eva came to her Women's Charity Organization asking for help when she was pregnant."},
-        {"q": "Why did Sybil Birling refuse to help Eva?", "a": "Eva initially used the name 'Mrs Birling', which offended Sybil, calling it an piece of 'gross impertinence'."},
-        {"q": "Who does Sybil Birling blame for Eva's death?", "a": "The father of her unborn child."},
-        {"q": "Who was the father of Eva's baby?", "a": "Eric Birling"},
-        {"q": "How did Eric meet Eva/Daisy?", "a": "In the Palace Bar. He was drunk and forced his way into her lodgings."},
-        {"q": "How did Eric get the money he gave to Eva?", "a": "He stole it from his father's company office."},
-        {"q": "What is the Inspector's final message about humanity?", "a": "'We don't live alone. We are members of one body. We are responsible for each other.'"},
-        {"q": "What does the Inspector warn will happen if men do not learn their lesson?", "a": "They will be taught it in 'fire and blood and anguish'."},
-        {"q": "How does Priestley use the Inspector?", "a": "As his mouthpiece to express his socialist views."},
-        {"q": "What happens after the Inspector leaves?", "a": "Gerald returns and reveals that 'Inspector Goole' is not a real police officer."},
-        {"q": "How do the older generation (Arthur and Sybil) react to the revelation that the Inspector was fake?", "a": "They are relieved and think they are off the hook, reverting to their old ways."},
-        {"q": "How do the younger generation (Sheila and Eric) react?", "a": "They believe that whether the Inspector was real or not, the guilt remains the same."},
-        {"q": "What twist happens at the very end of the play?", "a": "The phone rings: a girl has just died on her way to the infirmary after swallowing disinfectant, and a police inspector is on his way."},
-        {"q": "Quote Inspector Goole: 'There are millions and millions and millions of ______'", "a": "Eva Smiths and John Smiths still left with us"},
-        {"q": "Quote Sheila Birling: 'But these girls aren't cheap labour - they're ______'", "a": "people"},
-        {"q": "Quote Mrs Birling: 'Girls of that ______'", "a": "class"},
-        {"q": "What does Eric represent regarding the younger generation?", "a": "The capacity for change and accepting responsibility."},
-        {"q": "What theme is highlighted by the Birlings' initial dinner party?", "a": "Capitalist greed, complacency, and the illusion of a perfect middle-class family."},
-        {"q": "What does the play suggest about social class?", "a": "It criticizes the rigid class system of 1912 and shows how the upper classes abuse their power over the working classes."},
-        {"q": "What role does Edna the maid play?", "a": "She highlights the invisible working-class presence in the Birling household and announces the Inspector's arrival."},
-        {"q": "What is Priestley's views on capitalism as depicted in the play?", "a": "He criticizes capitalism as selfish and exploitative, advocating for socialism instead."},
-        {"q": "What is the significance of the photograph the Inspector shows?", "a": "He only shows it to one person at a time, allowing for the possibility that they are all recognizing different girls."},
-        {"q": "How does the play follow the 'Aristotelian Unities'?", "a": "It takes place in one location, continuously in real-time, focusing on one single plot."},
-        {"q": "What genres could 'An Inspector Calls' be classified as?", "a": "A morality play, a well-made play, and a whodunit/detective thriller."},
-        {"q": "Who says: 'You're beginning to pretend now that nothing's really happened at all.'", "a": "Eric Birling"},
-        {"q": "Who says: 'Everything's all right now, Sheila. What about this ring?'", "a": "Gerald Croft"},
-        {"q": "What does the disinfectant symbolize?", "a": "The harsh reality and suffering of the working classes; purging/cleansing the Birlings of their secrets."},
-        {"q": "Why is the play called cyclical or having a circular structure?", "a": "It ends exactly as it threatens to begin again: a police inspector arriving to investigate a suicide."},
-        {"q": "What does Gerald's character demonstrate about the young upper class?", "a": "He is younger but holds older, traditional views; representing that the aristocracy's attitudes are entrenched."}
-    ]
+  "title": "An Inspector Calls",
+  "description": "50 Flashcards covering J.B. Priestley's An Inspector Calls (Plot, Characters, Themes, Quotes).",
+  "cards": [
+    {
+      "id": "aic_001",
+      "category": "General",
+      "question": "Who wrote An Inspector Calls?",
+      "answer": "J.B. Priestley"
+    },
+    {
+      "id": "aic_002",
+      "category": "General",
+      "question": "In what year is the play set?",
+      "answer": "1912"
+    },
+    {
+      "id": "aic_003",
+      "category": "General",
+      "question": "In what year was the play written and first performed?",
+      "answer": "1945 (first performed in USSR), 1946 (in UK)"
+    },
+    {
+      "id": "aic_004",
+      "category": "General",
+      "question": "How does the play's setting (1912) contrast with its writing time (1945)?",
+      "answer": "1912 was pre-WW1 (Edwardian era class system), 1945 was post-WW2 (desire for a fairer, socialist society)."
+    },
+    {
+      "id": "aic_005",
+      "category": "General",
+      "question": "Which affluent manufacturing town is the play set in?",
+      "answer": "Brumley (a fictional Midlands town)"
+    },
+    {
+      "id": "aic_006",
+      "category": "General",
+      "question": "What is Arthur Birling's primary concern in life?",
+      "answer": "Business, profit, and maintaining his social status."
+    },
+    {
+      "id": "aic_007",
+      "category": "General",
+      "question": "Quote Arthur Birling: 'A man has to make his own way\u2014has to look after himself\u2014and ______'",
+      "answer": "his family too, of course"
+    },
+    {
+      "id": "aic_008",
+      "category": "General",
+      "question": "Which historical event does Mr Birling say is 'impossible'?",
+      "answer": "War (The First World War)"
+    },
+    {
+      "id": "aic_009",
+      "category": "General",
+      "question": "What does Mr Birling call the Titanic?",
+      "answer": "'Unsinkable, absolutely unsinkable'"
+    },
+    {
+      "id": "aic_010",
+      "category": "General",
+      "question": "What dramatic device is used when Birling talks about the Titanic and war?",
+      "answer": "Dramatic Irony"
+    },
+    {
+      "id": "aic_011",
+      "category": "General",
+      "question": "Who is Sybil Birling?",
+      "answer": "Arthur's wife, a cold woman and her husband's social superior."
+    },
+    {
+      "id": "aic_012",
+      "category": "General",
+      "question": "Why is Arthur Birling trying to impress Gerald Croft?",
+      "answer": "Gerald's family (Crofts Limited) is socially and economically superior to the Birlings."
+    },
+    {
+      "id": "aic_013",
+      "category": "General",
+      "question": "What is the name of the girl who died?",
+      "answer": "Eva Smith (also known as Daisy Renton)"
+    },
+    {
+      "id": "aic_014",
+      "category": "General",
+      "question": "How did Eva Smith die?",
+      "answer": "She drank strong disinfectant (suicide)."
+    },
+    {
+      "id": "aic_015",
+      "category": "General",
+      "question": "What was the Inspector's name?",
+      "answer": "Inspector Goole"
+    },
+    {
+      "id": "aic_016",
+      "category": "General",
+      "question": "How is the Inspector's lighting described when he enters?",
+      "answer": "The lighting changes from 'pink and intimate' to 'brighter and harder'."
+    },
+    {
+      "id": "aic_017",
+      "category": "General",
+      "question": "Why did Arthur Birling sack Eva Smith?",
+      "answer": "She was one of the ringleaders of a strike asking for a pay rise (from 22.5 to 25 shillings a week)."
+    },
+    {
+      "id": "aic_018",
+      "category": "General",
+      "question": "How did Sheila Birling get Eva Smith sacked from Milwards?",
+      "answer": "She complained out of jealousy because Eva looked better in a dress than she did."
+    },
+    {
+      "id": "aic_019",
+      "category": "General",
+      "question": "How does Sheila feel after finding out her role in Eva's death?",
+      "answer": "Guilty, repentant, and distressed."
+    },
+    {
+      "id": "aic_020",
+      "category": "General",
+      "question": "Where did Gerald Croft meet Daisy Renton (Eva Smith)?",
+      "answer": "The Palace Bar"
+    },
+    {
+      "id": "aic_021",
+      "category": "General",
+      "question": "What did Gerald Croft do for Daisy Renton?",
+      "answer": "He rescued her from Alderman Meggarty, gave her money, and let her stay in some rooms he had the keys to. They had an affair."
+    },
+    {
+      "id": "aic_022",
+      "category": "General",
+      "question": "How does Sybil Birling know Eva Smith?",
+      "answer": "Eva came to her Women's Charity Organization asking for help when she was pregnant."
+    },
+    {
+      "id": "aic_023",
+      "category": "General",
+      "question": "Why did Sybil Birling refuse to help Eva?",
+      "answer": "Eva initially used the name 'Mrs Birling', which offended Sybil, calling it an piece of 'gross impertinence'."
+    },
+    {
+      "id": "aic_024",
+      "category": "General",
+      "question": "Who does Sybil Birling blame for Eva's death?",
+      "answer": "The father of her unborn child."
+    },
+    {
+      "id": "aic_025",
+      "category": "General",
+      "question": "Who was the father of Eva's baby?",
+      "answer": "Eric Birling"
+    },
+    {
+      "id": "aic_026",
+      "category": "General",
+      "question": "How did Eric meet Eva/Daisy?",
+      "answer": "In the Palace Bar. He was drunk and forced his way into her lodgings."
+    },
+    {
+      "id": "aic_027",
+      "category": "General",
+      "question": "How did Eric get the money he gave to Eva?",
+      "answer": "He stole it from his father's company office."
+    },
+    {
+      "id": "aic_028",
+      "category": "General",
+      "question": "What is the Inspector's final message about humanity?",
+      "answer": "'We don't live alone. We are members of one body. We are responsible for each other.'"
+    },
+    {
+      "id": "aic_029",
+      "category": "General",
+      "question": "What does the Inspector warn will happen if men do not learn their lesson?",
+      "answer": "They will be taught it in 'fire and blood and anguish'."
+    },
+    {
+      "id": "aic_030",
+      "category": "General",
+      "question": "How does Priestley use the Inspector?",
+      "answer": "As his mouthpiece to express his socialist views."
+    },
+    {
+      "id": "aic_031",
+      "category": "General",
+      "question": "What happens after the Inspector leaves?",
+      "answer": "Gerald returns and reveals that 'Inspector Goole' is not a real police officer."
+    },
+    {
+      "id": "aic_032",
+      "category": "General",
+      "question": "How do the older generation (Arthur and Sybil) react to the revelation that the Inspector was fake?",
+      "answer": "They are relieved and think they are off the hook, reverting to their old ways."
+    },
+    {
+      "id": "aic_033",
+      "category": "General",
+      "question": "How do the younger generation (Sheila and Eric) react?",
+      "answer": "They believe that whether the Inspector was real or not, the guilt remains the same."
+    },
+    {
+      "id": "aic_034",
+      "category": "General",
+      "question": "What twist happens at the very end of the play?",
+      "answer": "The phone rings: a girl has just died on her way to the infirmary after swallowing disinfectant, and a police inspector is on his way."
+    },
+    {
+      "id": "aic_035",
+      "category": "General",
+      "question": "Quote Inspector Goole: 'There are millions and millions and millions of ______'",
+      "answer": "Eva Smiths and John Smiths still left with us"
+    },
+    {
+      "id": "aic_036",
+      "category": "General",
+      "question": "Quote Sheila Birling: 'But these girls aren't cheap labour - they're ______'",
+      "answer": "people"
+    },
+    {
+      "id": "aic_037",
+      "category": "General",
+      "question": "Quote Mrs Birling: 'Girls of that ______'",
+      "answer": "class"
+    },
+    {
+      "id": "aic_038",
+      "category": "General",
+      "question": "What does Eric represent regarding the younger generation?",
+      "answer": "The capacity for change and accepting responsibility."
+    },
+    {
+      "id": "aic_039",
+      "category": "General",
+      "question": "What theme is highlighted by the Birlings' initial dinner party?",
+      "answer": "Capitalist greed, complacency, and the illusion of a perfect middle-class family."
+    },
+    {
+      "id": "aic_040",
+      "category": "General",
+      "question": "What does the play suggest about social class?",
+      "answer": "It criticizes the rigid class system of 1912 and shows how the upper classes abuse their power over the working classes."
+    },
+    {
+      "id": "aic_041",
+      "category": "General",
+      "question": "What role does Edna the maid play?",
+      "answer": "She highlights the invisible working-class presence in the Birling household and announces the Inspector's arrival."
+    },
+    {
+      "id": "aic_042",
+      "category": "General",
+      "question": "What is Priestley's views on capitalism as depicted in the play?",
+      "answer": "He criticizes capitalism as selfish and exploitative, advocating for socialism instead."
+    },
+    {
+      "id": "aic_043",
+      "category": "General",
+      "question": "What is the significance of the photograph the Inspector shows?",
+      "answer": "He only shows it to one person at a time, allowing for the possibility that they are all recognizing different girls."
+    },
+    {
+      "id": "aic_044",
+      "category": "General",
+      "question": "How does the play follow the 'Aristotelian Unities'?",
+      "answer": "It takes place in one location, continuously in real-time, focusing on one single plot."
+    },
+    {
+      "id": "aic_045",
+      "category": "General",
+      "question": "What genres could 'An Inspector Calls' be classified as?",
+      "answer": "A morality play, a well-made play, and a whodunit/detective thriller."
+    },
+    {
+      "id": "aic_046",
+      "category": "General",
+      "question": "Who says: 'You're beginning to pretend now that nothing's really happened at all.'",
+      "answer": "Eric Birling"
+    },
+    {
+      "id": "aic_047",
+      "category": "General",
+      "question": "Who says: 'Everything's all right now, Sheila. What about this ring?'",
+      "answer": "Gerald Croft"
+    },
+    {
+      "id": "aic_048",
+      "category": "General",
+      "question": "What does the disinfectant symbolize?",
+      "answer": "The harsh reality and suffering of the working classes; purging/cleansing the Birlings of their secrets."
+    },
+    {
+      "id": "aic_049",
+      "category": "General",
+      "question": "Why is the play called cyclical or having a circular structure?",
+      "answer": "It ends exactly as it threatens to begin again: a police inspector arriving to investigate a suicide."
+    },
+    {
+      "id": "aic_050",
+      "category": "General",
+      "question": "What does Gerald's character demonstrate about the young upper class?",
+      "answer": "He is younger but holds older, traditional views; representing that the aristocracy's attitudes are entrenched."
+    }
+  ]
 }
