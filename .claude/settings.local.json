@@ -39,7 +39,11 @@
       "Bash(curl -s http://localhost:8080/flashcards/)",
       "Bash(kill %1)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'cards: {len\\(d[\\\\\"cards\\\\\"]\\)}'\\)\")",
-      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")"
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "WebFetch(domain:www.sparknotes.com)",
+      "WebFetch(domain:filestore.aqa.org.uk)",
+      "WebFetch(domain:www.litcharts.com)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('flashcards/decks/an_inspector_calls.json'\\)\\); print\\(f'{len\\(d[\\\\\"cards\\\\\"]\\)} cards, {len\\(set\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)\\)} categories'\\); [print\\(f'  {cat}: {sum\\(1 for c in d[\\\\\"cards\\\\\"] if c[\\\\\"category\\\\\"]==cat\\)}'\\) for cat in dict.fromkeys\\(c[\\\\\"category\\\\\"] for c in d[\\\\\"cards\\\\\"]\\)]\")"
     ]
   }
 }

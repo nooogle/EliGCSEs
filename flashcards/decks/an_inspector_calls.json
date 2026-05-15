@@ -2,305 +2,502 @@
   "title": "An Inspector Calls — AQA GCSE",
   "subject": "English Literature",
   "cards": [
+
     {
-      "id": "aic_001",
-      "category": "General",
-      "question": "Who wrote An Inspector Calls?",
-      "answer": "J.B. Priestley"
+      "id": "aic_ctx_001",
+      "category": "Context",
+      "question": "Why did Priestley write the play in 1945 but set it in 1912? What does the temporal gap achieve?",
+      "answer": "The gap is strategic. Writing in 1945 (post-WW2, as Britain moved toward the welfare state), Priestley set the play in 1912 (pre-WW1, Edwardian England) to create dramatic irony — the audience knows both world wars happened and Birling's complacency was catastrophically wrong. The gap also lets Priestley critique the pre-war capitalism that caused social suffering, while his 1945 audience was receptive to his socialist message after experiencing war's communal solidarity.",
+      "hint": "What does the audience in 1945 know that the characters in 1912 don't — and how does that change how we judge them?"
     },
     {
-      "id": "aic_002",
-      "category": "General",
-      "question": "In what year is the play set?",
-      "answer": "1912"
+      "id": "aic_ctx_002",
+      "category": "Context",
+      "question": "Who was J.B. Priestley and what were his political beliefs?",
+      "answer": "John Boynton Priestley (1894–1984) was a working-class Yorkshire writer who became a prominent socialist broadcaster. During WW2 his BBC Postscripts reached 16 million listeners — second only to Churchill — and championed a post-war welfare state. He co-founded the Common Wealth Party in 1942 and believed society had a collective responsibility to care for the vulnerable. His personal experience of working-class poverty shaped the play directly — the Inspector is his mouthpiece.",
+      "hint": "What did Priestley broadcast during WW2, and how did that work shape his writing of this play?"
     },
     {
-      "id": "aic_003",
-      "category": "General",
-      "question": "In what year was the play written and first performed?",
-      "answer": "1945 (first performed in USSR), 1946 (in UK)"
+      "id": "aic_ctx_003",
+      "category": "Context",
+      "question": "What was the Edwardian class system like in 1912, and why does it matter for the play?",
+      "answer": "1912 England was rigidly stratified. Working-class people had no job security, no unemployment benefit, no welfare safety net, and no minimum wage. Being dismissed without a reference made further employment nearly impossible. Employers like Birling held absolute power over workers like Eva with no accountability. The play exposes how this system destroyed lives while the wealthy felt nothing — Eva's situation (fired, homeless, pregnant, refused charity) was the legal norm, not an exceptional injustice.",
+      "hint": "What resources did Eva Smith have if she lost her job in 1912? What was the safety net?"
     },
     {
-      "id": "aic_004",
-      "category": "General",
-      "question": "How does the play's setting (1912) contrast with its writing time (1945)?",
-      "answer": "1912 was pre-WW1 (Edwardian era class system), 1945 was post-WW2 (desire for a fairer, socialist society)."
+      "id": "aic_ctx_004",
+      "category": "Context",
+      "question": "What was the status of women in 1912, particularly working-class women?",
+      "answer": "Women couldn't vote in general elections (universal female suffrage came only in 1928). Working-class women like Eva faced extreme economic vulnerability — they could be fired without recourse, exploited sexually by higher-class men, and refused charity on moral grounds. Upper-class women like Sheila had security but were still expected to be passive and decorative. Sybil's power on the charity committee was one of the few legitimate spheres for upper-class women. Eva's helplessness is not unusual — it is the systemic condition of her class and gender.",
+      "hint": "Why couldn't Eva go to the authorities, a union, or a legal body when she was treated badly by the Birlings?"
     },
     {
-      "id": "aic_005",
-      "category": "General",
-      "question": "Which affluent manufacturing town is the play set in?",
-      "answer": "Brumley (a fictional Midlands town)"
+      "id": "aic_ctx_005",
+      "category": "Context",
+      "question": "What is the significance of post-WW2 Britain for the play's original 1946 audience?",
+      "answer": "In 1945 Labour won a landslide election; the NHS was established in 1948; the welfare state was being built. Priestley had helped shape this mood through his broadcasts. For audiences in 1945–46, the Inspector's message ('we are responsible for each other') was not abstract — it was a justification for the welfare state being created around them. The Birlings' selfishness represented everything the post-war generation was trying to move beyond. The play was political intervention as much as art.",
+      "hint": "What major political changes were happening in Britain in 1945–48, and how do they connect to the Inspector's message?"
     },
     {
-      "id": "aic_006",
-      "category": "General",
-      "question": "What is Arthur Birling's primary concern in life?",
-      "answer": "Business, profit, and maintaining his social status."
+      "id": "aic_ctx_006",
+      "category": "Context",
+      "question": "How does An Inspector Calls function as a morality play?",
+      "answer": "A morality play (a medieval dramatic form) teaches moral lessons through allegorical figures. The Inspector functions as the divine judge — he arrives like an avenging conscience, interrogates each character about their moral failings, delivers judgment, and departs. Eva Smith is the allegorical victim of social sin. The Birlings represent types more than rounded individuals: Birling embodies capitalism, Sybil class prejudice. Priestley updates the form: his morality is socialist rather than religious, but the structure — sin, investigation, judgment — is the same.",
+      "hint": "What medieval theatrical tradition does the Inspector's role most closely resemble — and who does he represent symbolically?"
     },
     {
-      "id": "aic_007",
-      "category": "General",
-      "question": "Quote Arthur Birling: 'A man has to make his own way\u2014has to look after himself\u2014and ______'",
-      "answer": "his family too, of course"
+      "id": "aic_ctx_007",
+      "category": "Context",
+      "question": "What are the Aristotelian unities and how does the play follow all three?",
+      "answer": "Aristotle's three classical dramatic unities: Unity of Time (single time period), Unity of Place (one location), Unity of Action (one plot). An Inspector Calls follows all three rigorously: the play unfolds in approximately real time (one evening), is set entirely in the Birlings' dining room, and focuses on a single investigation. The effect is claustrophobic — the characters cannot escape, change the subject, or go home. The enclosed pressure-cooker structure concentrates the moral interrogation and denies the family any relief.",
+      "hint": "Why might setting the whole play in one room, in real time, intensify the moral impact on the audience?"
     },
     {
-      "id": "aic_008",
-      "category": "General",
-      "question": "Which historical event does Mr Birling say is 'impossible'?",
-      "answer": "War (The First World War)"
+      "id": "aic_ctx_008",
+      "category": "Context",
+      "question": "Why is Eva Smith never shown on stage? What is the effect of her absence?",
+      "answer": "Eva's absence is deliberate. We know her only through the characters' accounts and the Inspector's photograph — she could be any working-class woman. This makes her simultaneously individual (one specific life destroyed) and universal: the Inspector says she represents 'millions and millions of Eva Smiths.' Her invisibility mirrors the actual invisibility of the working class to the wealthy: the Birlings literally never have to look at what their actions do to another human being. Her absence also gives the audience imaginative power — we construct her suffering ourselves.",
+      "hint": "If Eva appeared on stage, she would be one specific person. What does remaining invisible allow her to become?"
+    },
+
+    {
+      "id": "aic_char_001",
+      "category": "Characters",
+      "question": "What is the significance of Inspector Goole's name, and what does it suggest about his nature?",
+      "answer": "'Goole' is a homophone of 'ghoul' — a supernatural creature associated with death and consuming the dead. This hints that the Inspector may not be a human police officer but a manifestation of conscience, guilt, or divine judgment. It also suggests purposefulness: he has a goal, a mission. Priestley leaves his nature deliberately ambiguous — human, supernatural, or purely symbolic. The name forewarns us before he even speaks that this is no ordinary investigation.",
+      "hint": "What does 'Goole' sound like — and why might a supernatural interpretation of the Inspector change how we read the whole play?"
     },
     {
-      "id": "aic_009",
-      "category": "General",
-      "question": "What does Mr Birling call the Titanic?",
-      "answer": "'Unsinkable, absolutely unsinkable'"
+      "id": "aic_char_002",
+      "category": "Characters",
+      "question": "Is Inspector Goole real? What are the competing interpretations?",
+      "answer": "The play offers at least three readings: (1) a real inspector with impossible foreknowledge — perhaps clairvoyant; (2) a supernatural figure — ghost or avenging angel — explaining why he's not in police records; (3) a purely symbolic device — Priestley's dramatic tool for exploring collective guilt, not intended as literally real. Crucially, the Inspector's ambiguity doesn't affect the moral argument. Sheila makes this explicit: whether or not he was a real police officer, what each character did to Eva Smith was real. The guilt stands regardless.",
+      "hint": "Sheila says 'whether he was a police inspector or not' doesn't matter — why? What does that argument do to the Inspector's ambiguity?"
     },
     {
-      "id": "aic_010",
-      "category": "General",
-      "question": "What dramatic device is used when Birling talks about the Titanic and war?",
-      "answer": "Dramatic Irony"
+      "id": "aic_char_003",
+      "category": "Characters",
+      "question": "How does the Inspector function as Priestley's mouthpiece, and what makes this dramatically effective?",
+      "answer": "The Inspector articulates Priestley's socialist worldview directly: collective responsibility, interconnected society, the moral bankruptcy of capitalism. He is the only character who never wavers, evades, or lies — he embodies moral clarity in a play full of moral evasion. Dramatically, this positions the audience alongside him: we share his information and his judgments, watching the Birlings through his eyes. When he departs, he takes moral authority with him — and the question becomes whether anyone will carry it forward. Sheila and Eric do; the older generation cannot.",
+      "hint": "What does it mean that the Inspector never lies, hedges, or shows social deference — how does this differ from every other character?"
     },
     {
-      "id": "aic_011",
-      "category": "General",
-      "question": "Who is Sybil Birling?",
-      "answer": "Arthur's wife, a cold woman and her husband's social superior."
+      "id": "aic_char_004",
+      "category": "Characters",
+      "question": "How does Arthur Birling represent capitalism, and how does Priestley systematically discredit him?",
+      "answer": "Birling embodies Priestley's critique of capitalism: individualist ('a man has to make his own way'), profit-driven (he sacked Eva for striking over a 2–3 shilling pay rise), contemptuous of collective responsibility. Priestley discredits him before the Inspector even arrives through dramatic irony — his confident predictions about the Titanic and war are catastrophically wrong. If Birling is wrong about major historical facts, the audience is primed to distrust his moral judgements. His knighthood hopes and business connections reveal his priorities: reputation before conscience, always.",
+      "hint": "How does Priestley use dramatic irony about the Titanic and WWI to make the audience distrust Birling's ethics before the Inspector says a word?"
     },
     {
-      "id": "aic_012",
-      "category": "General",
-      "question": "Why is Arthur Birling trying to impress Gerald Croft?",
-      "answer": "Gerald's family (Crofts Limited) is socially and economically superior to the Birlings."
+      "id": "aic_char_005",
+      "category": "Characters",
+      "question": "How does Sybil Birling represent class prejudice, and why is she the play's least sympathetic character?",
+      "answer": "Sybil is the most class-conscious character: cold, judgmental, and utterly without empathy for those beneath her. She chairs a women's charity yet refuses Eva on the grounds that she used the Birling name ('gross impertinence') and was 'girls of that class.' The phrase reduces Eva from an individual to a class category, implying working-class women are morally inferior and deserve what they get. Crucially, Sybil shows no genuine remorse at any point — not even when she discovers Eric is the father she was loudly condemning. Her refusal to accept any responsibility is absolute.",
+      "hint": "What is the particular irony of the woman who chairs a charity for women being the one who refuses help to a pregnant, suicidal woman?"
     },
     {
-      "id": "aic_013",
-      "category": "General",
-      "question": "What is the name of the girl who died?",
-      "answer": "Eva Smith (also known as Daisy Renton)"
+      "id": "aic_char_006",
+      "category": "Characters",
+      "question": "How does Sheila Birling develop through the play? Trace her arc from Act 1 to Act 3.",
+      "answer": "Act 1: Sheila is sheltered and consumerist — her first concern is her engagement ring. She gets Eva fired from Milwards out of petty jealousy (Eva looked better in a dress). Act 2: She is immediately horrified — 'I'll never, never do it again' — and moves physically closer to the Inspector, aligning with his moral position. She is the first to see his truth. Act 3: When her parents try to dismiss the Inspector as a fraud, Sheila refuses: 'the point is, you don't seem to have learnt anything.' She represents Priestley's hope that the younger generation can genuinely change.",
+      "hint": "At what point does Sheila stop being a 'good daughter' and start being an independent moral agent?"
     },
     {
-      "id": "aic_014",
-      "category": "General",
-      "question": "How did Eva Smith die?",
-      "answer": "She drank strong disinfectant (suicide)."
+      "id": "aic_char_007",
+      "category": "Characters",
+      "question": "How is Eric Birling presented as both deeply guilty and capable of genuine moral response?",
+      "answer": "Eric is the most morally compromised of the younger generation: he got Eva pregnant while drunk, stole from his father's business to support her, and abandoned her. Yet his response when he first hears of her death is involuntary — 'My God!' — not performed for approval. He accepts responsibility where his parents refuse to: 'we all helped to kill her.' He also indicts his father personally: 'you're not the kind of father a chap could go to when he's in trouble.' Priestley implies Eric was damaged by the system he criticises — a product of Birling's values, slowly rejecting them.",
+      "hint": "Eric does terrible things — why does Priestley still present him as more sympathetic than his parents?"
     },
     {
-      "id": "aic_015",
-      "category": "General",
-      "question": "What was the Inspector's name?",
-      "answer": "Inspector Goole"
+      "id": "aic_char_008",
+      "category": "Characters",
+      "question": "How does Gerald Croft represent the ambiguity of the upper-class moral position?",
+      "answer": "Gerald is harder to categorise than the Birlings. He genuinely rescued Eva/Daisy from harassment at the Palace Bar and gave her months of happiness. But the relationship was fundamentally unequal: she was financially dependent on him, loved him, and he abandoned her when convenient. He shows more remorse than the older Birlings — he leaves to walk and think — but returns having found a way out (the Inspector may be fake), and promptly offers Sheila the ring. He represents people who do some good but ultimately cannot escape their class loyalty and self-interest.",
+      "hint": "Is Gerald's 'rescue' of Eva genuinely generous, or another form of control — and what does his behaviour after the Inspector leaves tell us?"
     },
     {
-      "id": "aic_016",
-      "category": "General",
-      "question": "How is the Inspector's lighting described when he enters?",
-      "answer": "The lighting changes from 'pink and intimate' to 'brighter and harder'."
+      "id": "aic_char_009",
+      "category": "Characters",
+      "question": "What is the symbolic significance of Eva Smith's name?",
+      "answer": "'Eva' echoes Eve — the first woman in the Bible, associated with suffering and the Fall (though here the failure is the Birlings', not Eva's). 'Smith' is the most common English surname — deliberately generic, making Eva everyone and no one, a universal figure. Together 'Eva Smith' signals the archetypal working-class woman: singular in her suffering, universal in her significance. The Inspector makes this explicit: she represents 'millions and millions of Eva Smiths and John Smiths.' Her individual death indicts a whole social system.",
+      "hint": "Why would Priestley choose the most common English surname for the play's central victim?"
     },
     {
-      "id": "aic_017",
-      "category": "General",
-      "question": "Why did Arthur Birling sack Eva Smith?",
-      "answer": "She was one of the ringleaders of a strike asking for a pay rise (from 22.5 to 25 shillings a week)."
+      "id": "aic_char_010",
+      "category": "Characters",
+      "question": "How do the older and younger generations divide in their response to the Inspector — and what does this division mean thematically?",
+      "answer": "The older generation (Birling, Sybil) experience the Inspector as a social threat — a disruption to status and reputation. When they discover he may be fake, they are immediately relieved and revert to their pre-Inspector attitudes. The younger generation (Sheila, Eric) experience the same interrogation as genuine moral awakening. They understand that what they did to Eva was real regardless of who exposed it. Gerald sits between — more flexible than the parents, less changed than Sheila. Priestley's argument: the future depends on whether the young generation chooses the Inspector's path.",
+      "hint": "What test does Priestley put the characters through when it seems the Inspector wasn't real — and what does each generation's reaction reveal?"
     },
     {
-      "id": "aic_018",
-      "category": "General",
-      "question": "How did Sheila Birling get Eva Smith sacked from Milwards?",
-      "answer": "She complained out of jealousy because Eva looked better in a dress than she did."
+      "id": "aic_char_011",
+      "category": "Characters",
+      "question": "How does Priestley use Gerald to complicate the simple reading that youth = moral growth?",
+      "answer": "Gerald is young but holds establishment values: he is heir to Crofts Limited, comfortable with class privilege, and ultimately sides with the older generation. This shows Priestley's message is not simply about age — it's about whether someone is capable of genuine moral self-examination. Gerald can perform remorse (the walk to think) but uses the time to find a way out rather than a way forward. His line 'Everything's all right now, Sheila. What about this ring?' at the play's end confirms he has chosen self-interest over conscience.",
+      "hint": "Gerald is not middle-aged — why does he behave more like the older generation than the younger one?"
     },
     {
-      "id": "aic_019",
-      "category": "General",
-      "question": "How does Sheila feel after finding out her role in Eva's death?",
-      "answer": "Guilty, repentant, and distressed."
+      "id": "aic_char_012",
+      "category": "Characters",
+      "question": "How does Priestley use the Inspector's physical entrance and the lighting change to create dramatic impact?",
+      "answer": "Priestley's stage directions specify the Birlings' dining room before the Inspector arrives is lit 'pink and intimate' — warm, comfortable, concealing. When the Inspector enters, lighting becomes 'brighter and harder.' This is a physical staging of the play's central movement: the Inspector brings the harsh light of truth into a world that has been comfortable in its self-deception. The stage direction operates on a symbolic level — it is not just a lighting cue but a moral announcement. The cosy domestic performance is over; scrutiny has arrived.",
+      "hint": "What does the shift from 'pink and intimate' to 'brighter and harder' lighting physically represent about what the Inspector brings?"
+    },
+
+    {
+      "id": "aic_thm_001",
+      "category": "Themes",
+      "question": "How does Priestley present the theme of social responsibility?",
+      "answer": "Social responsibility is the play's central argument: human beings are not isolated individuals but interconnected members of one society whose actions affect each other. The Inspector demonstrates this by tracing how each character's apparently separate, minor act of selfishness combined to destroy Eva's life. No single character killed her — all of them did. The Inspector's final speech addresses this to the audience as well as the characters: Priestley intends us to examine our own complicity in social injustice, not merely judge the Birlings from a comfortable distance.",
+      "hint": "Why does Priestley show that many people contributed to Eva's death rather than making one person solely responsible?"
     },
     {
-      "id": "aic_020",
-      "category": "General",
-      "question": "Where did Gerald Croft meet Daisy Renton (Eva Smith)?",
-      "answer": "The Palace Bar"
+      "id": "aic_thm_002",
+      "category": "Themes",
+      "question": "How does the play expose class and inequality as a systemic problem, not just individual cruelty?",
+      "answer": "Eva Smith has no recourse when exploited at any point — no minimum wage, no welfare, no union protection, no vote. Every character who encounters her has more power. Birling fires her to protect profit. Sheila fires her out of jealousy. Gerald controls her financially. Eric exploits her sexually. Sybil judges her morally inferior. Priestley's point is not that any one character is uniquely evil — it is that the class system creates conditions where exploitation is normal and invisible to those who benefit. Eva is destroyed not by one villain but by a system operating through ordinary selfishness.",
+      "hint": "What does the chain of Birling → Sheila → Gerald → Sybil → Eric each harming Eva reveal about individual evil versus systemic injustice?"
     },
     {
-      "id": "aic_021",
-      "category": "General",
-      "question": "What did Gerald Croft do for Daisy Renton?",
-      "answer": "He rescued her from Alderman Meggarty, gave her money, and let her stay in some rooms he had the keys to. They had an affair."
+      "id": "aic_thm_003",
+      "category": "Themes",
+      "question": "How does the play present the conflict between capitalism and socialism?",
+      "answer": "Birling is the capitalist spokesman: individual responsibility over collective welfare, profit over people. He is systematically discredited — by dramatic irony (wrong predictions), moral blindness (Eva as an economic unit, not a person), and the play's resolution (he learns nothing). The Inspector represents socialism: collective responsibility, the welfare state in miniature. Written in 1945 as Britain moved toward the NHS and welfare state, the play is Priestley's direct argument for collective over individual morality. The Inspector wins the argument — but only with the young, suggesting the struggle is ongoing.",
+      "hint": "How does Priestley signal to the audience that Birling's individualist philosophy is wrong, before the Inspector even challenges it directly?"
     },
     {
-      "id": "aic_022",
-      "category": "General",
-      "question": "How does Sybil Birling know Eva Smith?",
-      "answer": "Eva came to her Women's Charity Organization asking for help when she was pregnant."
+      "id": "aic_thm_004",
+      "category": "Themes",
+      "question": "How does the theme of generational difference function — and what does it mirror about Britain in 1945?",
+      "answer": "The old (Birlings, Sybil) represent entrenched pre-war capitalism: unable or unwilling to change. The young (Sheila, Eric) represent the possibility of a more just post-war society. This mirrors Priestley's actual historical moment: Britain in 1945 was choosing between returning to pre-war capitalism or building the welfare state. The play argues for the younger generation's vision. However, Gerald complicates this: class loyalty can override generational difference. Priestley's hope is conditional — it depends on young people actually choosing differently, not merely feeling guilty.",
+      "hint": "Written in 1945, what real political choice facing Britain does the play's generational divide mirror?"
     },
     {
-      "id": "aic_023",
-      "category": "General",
-      "question": "Why did Sybil Birling refuse to help Eva?",
-      "answer": "Eva initially used the name 'Mrs Birling', which offended Sybil, calling it an piece of 'gross impertinence'."
+      "id": "aic_thm_005",
+      "category": "Themes",
+      "question": "How does Priestley explore gender and women's vulnerability?",
+      "answer": "Female vulnerability in 1912 operates at multiple levels. Eva — working class — has no economic protection, no vote, no welfare, no legal recourse when exploited. Sheila — upper class — is initially decorative and passive (her first thought is her ring). Even Sybil's power exists only within the narrow domestic sphere of the charity committee. The women who exploit Eva (Sheila, Sybil) do so within patriarchal structures they have internalised. Priestley shows gender intersects with class: Eva's vulnerability is multiply determined. Sheila's transformation represents the possibility of women claiming independent moral agency.",
+      "hint": "Eva is exploited by characters of both genders — how does Priestley show that women also perpetuate the system that harms working-class women?"
     },
     {
-      "id": "aic_024",
-      "category": "General",
-      "question": "Who does Sybil Birling blame for Eva's death?",
-      "answer": "The father of her unborn child."
+      "id": "aic_thm_006",
+      "category": "Themes",
+      "question": "How does the theme of guilt and responsibility develop — and what is Priestley's argument about good intentions?",
+      "answer": "The Inspector forces each character to acknowledge their role in Eva's death. None of them intended to kill anyone. Priestley's radical argument is that good intentions are irrelevant when your actions destroy a vulnerable person. The characters' responses to guilt reveal their moral character: Sheila and Eric accept it as real and permanent; the Birlings manage it, minimise it, or deny it. The final phone call raises the stakes: guilt without change is worthless. The question is not whether they felt guilty on this particular evening, but whether they will actually live differently.",
+      "hint": "What does the Inspector mean by 'each of you helped to kill her' when no single person intended her death?"
     },
     {
-      "id": "aic_025",
-      "category": "General",
-      "question": "Who was the father of Eva's baby?",
-      "answer": "Eric Birling"
+      "id": "aic_thm_007",
+      "category": "Themes",
+      "question": "How does dramatic irony function as a thematic tool throughout the play?",
+      "answer": "Priestley deploys dramatic irony at two levels. First, historical irony: Birling's confident predictions about the Titanic, war, and prosperity are all wrong — the 1945 audience knows this immediately, exposing his judgement as worthless before the Inspector challenges it. Second, situational irony: Sybil condemns the man who got Eva pregnant ('he should be made a public example') not knowing it's her own son. Both ironies serve the themes: they discredit Birling's capitalist philosophy and show how class blindness prevents self-knowledge. The audience always shares the Inspector's omniscience, which positions us to judge.",
+      "hint": "What are the two different kinds of dramatic irony in the play — historical and situational — and what does each one expose?"
     },
     {
-      "id": "aic_026",
-      "category": "General",
-      "question": "How did Eric meet Eva/Daisy?",
-      "answer": "In the Palace Bar. He was drunk and forced his way into her lodgings."
+      "id": "aic_thm_008",
+      "category": "Themes",
+      "question": "What is Priestley's message about whether society can change — is the ending hopeful or pessimistic?",
+      "answer": "The ending is deliberately ambiguous but conditionally hopeful. The older generation cannot change and will face the same situation again — the phone call confirms tragedy repeating. But Sheila and Eric have been genuinely transformed, suggesting individuals can choose differently. The Inspector's warning ('fire and blood and anguish') is retrospective (two world wars already proved the cost) and urgent (change or it happens again). Priestley addresses his audience directly through the Inspector's speech: the play is not a record of failure but a challenge to do better. Hope exists, but only if the lesson is acted on.",
+      "hint": "The phone call suggests tragedy is coming again. Is Priestley being pessimistic, or is there something in the younger generation's response that qualifies that?"
+    },
+
+    {
+      "id": "aic_q_insp_001",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: 'We don't live alone. We are members of one body. We are responsible for each other.' (Act 3)",
+      "answer": "This is the Inspector's — and Priestley's — central moral statement. The body politic metaphor ('members of one body') insists on human interconnectedness: if one part suffers, the whole suffers. 'We don't live alone' directly counters Birling's individualist creed ('a man has to make his own way'). The short declarative sentences give the speech the rhythm of a sermon or moral law — the Inspector speaks not as a detective but as a moral judge. Written in 1945, this advocates for the welfare state's founding principle: society is responsible for the wellbeing of all its members.",
+      "hint": "How does this speech directly contradict what Birling said in Act 1 — and whose philosophy does an audience in 1945 already know has been proven right?"
     },
     {
-      "id": "aic_027",
-      "category": "General",
-      "question": "How did Eric get the money he gave to Eva?",
-      "answer": "He stole it from his father's company office."
+      "id": "aic_q_insp_002",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: 'There are millions and millions of Eva Smiths and John Smiths still left with us, with their lives, their hopes and fears, their suffering and a chance of happiness...' (Act 3)",
+      "answer": "The anaphoric repetition of 'millions and millions' gives the speech urgent, evangelical rhythm — insisting on scale. Eva's death is not isolated but symptomatic. 'John Smiths' alongside 'Eva Smiths' broadens the indictment beyond working-class women to all ordinary people. The phrase 'their lives, their hopes and fears' humanises the abstract mass — these are not statistics but people with interior lives. It is Priestley's indictment of a system that renders the working class invisible until their deaths expose the comfortable classes' complicity.",
+      "hint": "Why does Priestley use the plural 'Eva Smiths and John Smiths' rather than focusing only on Eva as an individual?"
     },
     {
-      "id": "aic_028",
-      "category": "General",
-      "question": "What is the Inspector's final message about humanity?",
-      "answer": "'We don't live alone. We are members of one body. We are responsible for each other.'"
+      "id": "aic_q_insp_003",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: '...if men will not learn that lesson, then they will be taught it in fire and blood and anguish.' (Act 3)",
+      "answer": "This is the Inspector's prophecy — the political climax of his speech. Written in 1945, 'fire and blood and anguish' is transparently a reference to two world wars — the human cost of a society that refused social responsibility before 1914 and again before 1939. The conditional ('if men will not learn') holds open the possibility of avoiding this fate. The biblical register ('I tell you') gives the Inspector prophetic authority, elevating his socialist argument into the register of moral law. Priestley tells his 1945 audience: the wars just ended are what happens when you fail each other.",
+      "hint": "Why does 'fire and blood and anguish' resonate especially for an audience in 1945? What had they just lived through?"
     },
     {
-      "id": "aic_029",
-      "category": "General",
-      "question": "What does the Inspector warn will happen if men do not learn their lesson?",
-      "answer": "They will be taught it in 'fire and blood and anguish'."
+      "id": "aic_q_insp_004",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: 'Each of you helped to kill her.' (Act 3)",
+      "answer": "The verb 'helped' is carefully chosen — it insists on collective, cumulative guilt rather than individual murder. No single character intended Eva's death. Priestley's moral argument is that good intentions are irrelevant when your actions combine with others' selfishness to destroy a person. 'Each' isolates every character — no one is exempt, even those with partial sympathy (Gerald's genuine affection, Sheila's remorse). 'Kill' refuses comfortable euphemism. This is the Inspector's verdict before he departs — an accusation the audience is primed to endorse having watched all the evidence accumulate.",
+      "hint": "Why does Priestley use 'helped' rather than 'caused' — what is he saying about individual versus collective responsibility?"
     },
     {
-      "id": "aic_030",
-      "category": "General",
-      "question": "How does Priestley use the Inspector?",
-      "answer": "As his mouthpiece to express his socialist views."
+      "id": "aic_q_insp_005",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: 'Public men, Mr Birling, have responsibilities as well as privileges.' (Act 1)",
+      "answer": "This line challenges Birling's view that wealth and social position entitle one to ignore the welfare of others. 'Public men' — those with business power, civic positions — carry moral obligations, not just benefits. Birling believes his only responsibility is to family and shareholders. The Inspector insists it extends to workforce, community, and society. This is the play's central conflict stated plainly early on: Birling's capitalism ('look after yourself') versus Priestley's socialism ('we are responsible for each other'). The word 'as well as' is doing precise work — it doesn't deny privilege, but demands accountability alongside it.",
+      "hint": "What single word does Birling emphasise in his self-image — and what word does the Inspector insist must accompany it?"
     },
     {
-      "id": "aic_031",
-      "category": "General",
-      "question": "What happens after the Inspector leaves?",
-      "answer": "Gerald returns and reveals that 'Inspector Goole' is not a real police officer."
+      "id": "aic_q_insp_006",
+      "category": "Key Quotes: Inspector Goole",
+      "question": "Analyse: 'I don't play golf.' (Act 1, responding to Birling's name-dropping of the Chief Constable)",
+      "answer": "Birling tries to intimidate the Inspector by invoking his friendship with Colonel Roberts, whom he sees 'on the golf course.' The Inspector's flat refusal — 'I don't play golf' — is devastating in its brevity. It refuses class-based intimidation entirely. Golf, the sport of the male upper class, is Birling's social currency — his network of mutual back-scratching that manages all other challenges to his authority. The Inspector operates outside this hierarchy entirely. The line establishes that he cannot be bought, managed, or impressed — which makes everything that follows more threatening to the Birlings.",
+      "hint": "Why is a four-word refusal more powerful here than a lengthy rebuttal? What does the Inspector's brevity communicate about how he sees Birling's social world?"
+    },
+
+    {
+      "id": "aic_q_bir_001",
+      "category": "Key Quotes: Arthur Birling",
+      "question": "Analyse: 'A man has to make his own way — has to look after himself — and his family, too, of course, when he has one.' (Act 1)",
+      "answer": "This is Birling's philosophical manifesto and the play's capitalist creed. The repetition of 'has to' presents individualism as natural law — not a moral choice but an obvious fact. 'Look after himself' explicitly excludes responsibility for those outside his family. The afterthought 'his family, too, of course' makes even family secondary to self-interest. The Inspector's collective responsibility ('members of one body') directly contradicts every word. Priestley positions this speech as the exact philosophy that enables every subsequent exploitation of Eva — self-interest rationalised as common sense.",
+      "hint": "What does the phrase 'has to' suggest — is Birling presenting individualism as a moral choice or an inevitable truth? Why does that matter?"
     },
     {
-      "id": "aic_032",
-      "category": "General",
-      "question": "How do the older generation (Arthur and Sybil) react to the revelation that the Inspector was fake?",
-      "answer": "They are relieved and think they are off the hook, reverting to their old ways."
+      "id": "aic_q_bir_002",
+      "category": "Key Quotes: Arthur Birling",
+      "question": "Analyse: '...she's unsinkable, absolutely unsinkable.' (Act 1, on the Titanic)",
+      "answer": "Birling's enthusiasm for the Titanic — describing its tonnage, speed, and luxury before delivering 'absolutely unsinkable' — is the play's most famous dramatic irony. It sailed the following week and sank on its maiden voyage. The accumulation of impressive facts mirrors Birling's characteristic confidence: he is always 'absolutely' certain. Priestley deploys this moment to systematically discredit Birling before the Inspector arrives — if his factual judgement is this catastrophically wrong, the audience should not trust his moral judgements either. The dramatic irony functions as a preemptive philosophical discrediting.",
+      "hint": "Why does Priestley include the long list of impressive facts about the Titanic before the punchline 'absolutely unsinkable'? What is the cumulative effect?"
     },
     {
-      "id": "aic_033",
-      "category": "General",
-      "question": "How do the younger generation (Sheila and Eric) react?",
-      "answer": "They believe that whether the Inspector was real or not, the guilt remains the same."
+      "id": "aic_q_bir_003",
+      "category": "Key Quotes: Arthur Birling",
+      "question": "Analyse: 'If you don't come down sharply on some of these people, they'd soon be asking for the Earth.' (Act 1, on sacking Eva)",
+      "answer": "'These people' is dehumanising — Eva's fellow workers are not individuals with families but an undifferentiated class threat. 'Come down sharply' reveals Birling's management philosophy as punitive and pre-emptive: workers who request fair wages must be suppressed, not negotiated with. 'Asking for the Earth' reduces a 2–3 shilling pay rise (Eva was earning 22.5 shillings) to limitless greed — a rhetorical move that dismisses legitimate demands as unreasonable. The phrase exposes Birling's contempt not just for Eva but for the working class as a category.",
+      "hint": "What does 'these people' reveal about how Birling sees Eva and the other workers — as individuals or as something else?"
     },
     {
-      "id": "aic_034",
-      "category": "General",
-      "question": "What twist happens at the very end of the play?",
-      "answer": "The phone rings: a girl has just died on her way to the infirmary after swallowing disinfectant, and a police inspector is on his way."
+      "id": "aic_q_bir_004",
+      "category": "Key Quotes: Arthur Birling",
+      "question": "Analyse Birling's immediate relief and triumphalism when he discovers the Inspector may be fake. (Act 3)",
+      "answer": "When Gerald reveals there may be no Inspector Goole, Birling immediately moves from defensive to triumphal: 'Everything's all right now.' The speed and completeness of this reversal is damning — the evening's moral crisis instantly becomes a social scandal avoided, not a reckoning confronted. His relief reveals what the Inspector's visit actually meant to him: a reputational threat, not a moral awakening. He has learned precisely nothing. Priestley uses this moment to indict not just Birling but the class attitude he represents — selfishness so complete that Eva's death matters only insofar as it poses a reputational risk.",
+      "hint": "What does Birling's instant relief reveal about what the Inspector's visit meant to him — crisis of conscience, or crisis of reputation?"
+    },
+
+    {
+      "id": "aic_q_sh_001",
+      "category": "Key Quotes: Sheila Birling",
+      "question": "Analyse: 'But these girls aren't cheap labour — they're people.' (Act 2)",
+      "answer": "This is Sheila's most politically significant line and marks her moral awakening. It directly challenges her father's language: Birling sees Eva as a unit of 'labour' to be priced and dismissed. Sheila insists on her humanity — 'people', not workers, not 'girls of that class.' The plural extends her insight beyond Eva to all working-class women in the Birlings' orbit. This line represents the shift from comfortable complacency to moral argument. Sheila becomes Priestley's proxy for the audience's own moral re-education — she articulates what we have been thinking as we watch Birling speak.",
+      "hint": "How does this line directly challenge the language her father has been using — what word of his does she implicitly reject?"
     },
     {
-      "id": "aic_035",
-      "category": "General",
-      "question": "Quote Inspector Goole: 'There are millions and millions and millions of ______'",
-      "answer": "Eva Smiths and John Smiths still left with us"
+      "id": "aic_q_sh_002",
+      "category": "Key Quotes: Sheila Birling",
+      "question": "Analyse: 'I'll never, never do it again.' (Act 2, after confessing her role)",
+      "answer": "The repetition of 'never' intensifies the vow, expressing genuine horror at herself rather than at being caught. Unlike her parents — who minimise, deflect, and manage — Sheila immediately accepts what she did and commits to changing. This is the play's first example of genuine moral growth: she is not performing remorse for the Inspector but examining herself and finding her behaviour unacceptable. The simplicity of the language (no legal hedging, no reputation management) makes the vow credible. Priestley uses her unmediated emotional response as a direct contrast to the older generation's calculated self-interest.",
+      "hint": "Why is this reaction so different from her parents' initial responses — what does its simplicity suggest about its sincerity?"
     },
     {
-      "id": "aic_036",
-      "category": "General",
-      "question": "Quote Sheila Birling: 'But these girls aren't cheap labour - they're ______'",
-      "answer": "people"
+      "id": "aic_q_sh_003",
+      "category": "Key Quotes: Sheila Birling",
+      "question": "Analyse: 'We are not the same people who sat down to dinner here tonight.' (Act 3)",
+      "answer": "This is the play's clearest statement of the distinction between those genuinely changed by the Inspector and those who aren't. Sheila's 'we' is deliberately selective — it includes Eric and herself, but implicitly excludes her parents and Gerald. 'Not the same' insists the transformation is real and permanent, not just a temporary emotional response. The reference to 'dinner' grounds the play's moral arc: they began in comfortable celebration and have ended in crisis. The evening has functioned as a moral education — but only for some. For Sheila this is not a statement of satisfaction but a line in the sand.",
+      "hint": "Why does Sheila refer back to 'dinner' — what does the contrast between the beginning and end of the evening represent thematically?"
     },
     {
-      "id": "aic_037",
-      "category": "General",
-      "question": "Quote Mrs Birling: 'Girls of that ______'",
-      "answer": "class"
+      "id": "aic_q_sh_004",
+      "category": "Key Quotes: Sheila Birling",
+      "question": "Analyse the moment Sheila cries 'Stop — stop!' to her mother in Act 2.",
+      "answer": "Sheila has realised — before Sybil — that the father of Eva's unborn child is Eric. She desperately tries to stop her mother, who is loudly condemning whoever got Eva pregnant and demanding he be made 'a public example.' Sybil continues, her confident moral pronouncements growing more absolute — unknowingly condemning her own son. The dramatic irony is excruciating. Sheila's 'Stop — stop!' shows she is morally and intellectually ahead of everyone in the room: she can see the truth and its human consequences while others remain blind. Priestley uses her clairvoyance here as evidence that she has genuinely internalised the Inspector's perspective.",
+      "hint": "Why is this moment particularly damning for Sybil — what is she doing without realising it, and how does Sheila's reaction show her moral development?"
+    },
+
+    {
+      "id": "aic_q_syb_001",
+      "category": "Key Quotes: Sybil Birling",
+      "question": "Analyse: 'Girls of that class...' (Act 2)",
+      "answer": "This three-word phrase is one of the most damning in the play. It reduces Eva Smith from an individual to a representative of her class, implying that class determines moral worth. 'That class' is delivered with visible contempt — Eva is not just poor but morally inferior by virtue of her poverty. Sybil uses this phrase while chairing a charity ostensibly designed to help such women — the irony is stark: her charity is conditional on working-class women knowing their place. Priestley uses the phrase to expose the depth of class prejudice: it is not a lapse but a worldview.",
+      "hint": "Why is it particularly hypocritical for the chair of a women's charity to use the phrase 'girls of that class'?"
     },
     {
-      "id": "aic_038",
-      "category": "General",
-      "question": "What does Eric represent regarding the younger generation?",
-      "answer": "The capacity for change and accepting responsibility."
+      "id": "aic_q_syb_002",
+      "category": "Key Quotes: Sybil Birling",
+      "question": "Analyse Sybil's claim that Eva was 'impertinent' for using the name 'Mrs Birling' when seeking help. (Act 2)",
+      "answer": "Eva had adopted the alias 'Mrs Birling' — possibly to present herself as a respectable married woman. Sybil finds this use of her name an act of 'gross impertinence' sufficient to justify refusing emergency charity to a pregnant, suicidal woman. This response reveals the absolute hierarchy of Sybil's worldview: social propriety outweighs human life. A working-class woman using a name above her station is a greater offence than leaving her to die. Priestley presents this as the play's most cold-blooded act — not an explosion of anger but a calm, principled decision rooted in class contempt.",
+      "hint": "What does it reveal about Sybil's priorities that a pregnant woman's use of her surname outweighs the woman's need for food, money, and shelter?"
     },
     {
-      "id": "aic_039",
-      "category": "General",
-      "question": "What theme is highlighted by the Birlings' initial dinner party?",
-      "answer": "Capitalist greed, complacency, and the illusion of a perfect middle-class family."
+      "id": "aic_q_syb_003",
+      "category": "Key Quotes: Sybil Birling",
+      "question": "Analyse Sybil's condemnation of 'the father' of Eva's child before she realises it is Eric. (Act 2–3 boundary)",
+      "answer": "Sybil loudly declares that the man who got Eva pregnant and then 'deserted her' bears all responsibility and should be 'made a public example.' Sheila — who has already worked out it is Eric — tries desperately to stop her. But Sybil continues, her confident moral pronouncements growing more absolute. This is the play's most pointed dramatic irony: the woman who refused to help Eva is now pronouncing judgment on her own son without knowing it. Priestley uses the moment to show both Sybil's moral blindness (she lacks self-knowledge) and the unavoidable interconnectedness the Inspector warned about — her own family is implicated.",
+      "hint": "In what way does this moment prove the Inspector's argument about interconnectedness — how does Sybil's moral condemnation circle back to her own house?"
+    },
+
+    {
+      "id": "aic_q_er_001",
+      "category": "Key Quotes: Eric Birling",
+      "question": "Analyse: '[Involuntarily] My God!' (Act 3, on first hearing the full details of Eva's death)",
+      "answer": "The stage direction 'involuntarily' is crucial — this is an uncontrolled, genuine response, not a performance for approval. 'My God!' is spontaneous moral horror. Compare Arthur Birling's response to the same information — calculating (who is this inspector? what are the reputational risks?). Eric's involuntary reaction signals that beneath his dissolute, troubled exterior he retains a moral conscience his parents have suppressed or never had. Priestley uses this stage direction to differentiate Eric from his parents before we even know his full involvement — the body speaks where the social mask hasn't yet been applied.",
+      "hint": "Why does the stage direction 'involuntarily' matter so much — what would it mean if he said 'My God' deliberately, for effect?"
     },
     {
-      "id": "aic_040",
-      "category": "General",
-      "question": "What does the play suggest about social class?",
-      "answer": "It criticizes the rigid class system of 1912 and shows how the upper classes abuse their power over the working classes."
+      "id": "aic_q_er_002",
+      "category": "Key Quotes: Eric Birling",
+      "question": "Analyse: 'You're not the kind of father a chap could go to when he's in trouble.' (Act 3, to Birling)",
+      "answer": "This line reveals the human cost of Birling's philosophy at the most personal level. Birling's values — self-sufficiency, reputation management, emotional distance — have made him inaccessible as a parent. Eric turned to theft and sexual exploitation partly because there was nowhere legitimate to turn. 'A chap' is tellingly boyish — Eric is still, in some ways, a frightened young man who needed guidance he never received. Priestley's argument here is that capitalism damages not only its economic victims (Eva) but also the families of those who practise it: the Birlings' emotional austerity mirrors their moral austerity.",
+      "hint": "What does this reveal about the real cost of Birling's philosophy — who, besides Eva Smith, has it damaged?"
     },
     {
-      "id": "aic_041",
-      "category": "General",
-      "question": "What role does Edna the maid play?",
-      "answer": "She highlights the invisible working-class presence in the Birling household and announces the Inspector's arrival."
+      "id": "aic_q_er_003",
+      "category": "Key Quotes: Eric Birling",
+      "question": "Analyse Eric's confession: 'We all helped to kill her.' (Act 3)",
+      "answer": "Eric's use of 'we' is striking — he extends responsibility beyond himself to the whole family, echoing the Inspector's judgment. Unlike his parents, who frame the evening as something that happened to them rather than something they caused, Eric fully owns the collective guilt. 'Helped to kill' is deliberately heavy — it accepts moral responsibility without legal exculpation. Eric has, by Act 3, completed the same moral journey Sheila began in Act 2. Together they represent the play's conditional hope: that those capable of genuine guilt are also capable of genuine change.",
+      "hint": "Why does Eric say 'we' rather than 'I' — and what does this echo in the play's language?"
+    },
+
+    {
+      "id": "aic_q_ger_001",
+      "category": "Key Quotes: Gerald Croft",
+      "question": "Analyse Gerald's account of his relationship with Daisy Renton — care, dependency, and abandonment.",
+      "answer": "Gerald presents the relationship as a rescue: he saved Eva from harassment, provided a flat, gave her money. He says she was 'very pleased with life' in those months. But he also admits he ended it when it became 'all over' — when convenient for him. Eva's happiness was entirely dependent on his generosity, which he withdrew at will. Gerald's account is simultaneously genuine (he did feel something for her) and self-serving (he cannot see that financial dependency and abandonment constitute harm). He represents the comfortable upper-class inability to distinguish between charity and justice, patronage and care.",
+      "hint": "Is Gerald's account evidence he's better than the other Birlings, or another form of exploitation — and why is the answer complicated?"
     },
     {
-      "id": "aic_042",
-      "category": "General",
-      "question": "What is Priestley's views on capitalism as depicted in the play?",
-      "answer": "He criticizes capitalism as selfish and exploitative, advocating for socialism instead."
+      "id": "aic_q_ger_002",
+      "category": "Key Quotes: Gerald Croft",
+      "question": "Analyse: 'Everything's all right now, Sheila. What about this ring?' (Act 3 ending)",
+      "answer": "Gerald offers Sheila the ring at the play's close after discovering the Inspector may not have been real — trying to restore normality as though the evening hadn't happened. 'Everything's all right now' echoes the older Birlings' response: relief that reputation is safe, eagerness for the status quo. The ring — symbol of their engagement and the comfortable social world the Inspector disrupted — is offered back as if it can unspool everything. Priestley uses this line to confirm that Gerald, despite partial remorse, ultimately sides with the older generation's self-interest over the younger generation's moral transformation.",
+      "hint": "What does 'everything's all right now' reveal about what Gerald thinks the evening was fundamentally about?"
     },
     {
-      "id": "aic_043",
-      "category": "General",
-      "question": "What is the significance of the photograph the Inspector shows?",
-      "answer": "He only shows it to one person at a time, allowing for the possibility that they are all recognizing different girls."
+      "id": "aic_q_ger_003",
+      "category": "Key Quotes: Gerald Croft",
+      "question": "Analyse Gerald's departure to walk alone and his return with the 'fake inspector' information. (Act 3)",
+      "answer": "Gerald asks to leave to 'think about things' after confessing his affair — an opportunity for the kind of genuine moral reckoning Sheila and Eric undertake while staying in the room. But when he returns, he brings not moral clarity but an escape route: he has discovered there is no Inspector Goole in the police records. His walk represents a choice — between confronting his guilt and finding a way out of it. He chooses the latter, and in doing so provides the older Birlings with the ammunition they need to dismiss the entire evening. Gerald is the character who helps comfort defeat conscience.",
+      "hint": "Gerald goes for a walk 'to think.' What does he actually do with that time — and what does that choice reveal about him?"
+    },
+
+    {
+      "id": "aic_plt_001",
+      "category": "Plot",
+      "question": "Why did Arthur Birling sack Eva Smith, and what is the moral significance of the amount involved?",
+      "answer": "Eva was a machine operator who led a workers' strike demanding a pay rise from 22.5 to 25 shillings per week — an additional 2–3 shillings. Birling sacked her immediately as a 'ringleader.' The moral significance is in the scale: Eva's request was modest subsistence, not luxury. Birling's refusal was not driven by inability to pay but by the principle that workers who ask for fair treatment must be punished. He frames it purely as business ('I was quite justified') — the language of calculation applied to a human being's livelihood. Priestley deliberately makes the amount small to expose the disproportionality of Birling's response.",
+      "hint": "How much extra money per week was Eva asking for — and what does that tiny amount reveal about Birling's actual priorities?"
     },
     {
-      "id": "aic_044",
-      "category": "General",
-      "question": "How does the play follow the 'Aristotelian Unities'?",
-      "answer": "It takes place in one location, continuously in real-time, focusing on one single plot."
+      "id": "aic_plt_002",
+      "category": "Plot",
+      "question": "Why did Sheila get Eva dismissed from Milwards, and what does her motivation reveal?",
+      "answer": "Eva (using the name 'Miss Francis') had found work at Milwards. Sheila tried on a dress that didn't suit her; Eva, holding it up against herself, smiled. Sheila interpreted this as mockery of her figure, complained to the manager, and had Eva dismissed. The act was petty, vindictive, and rooted in social jealousy — Eva was prettier and the dress suited her better. It reveals Sheila's pre-Inspector character: she used her class position to punish a social inferior for making her feel bad, without any awareness of the consequences for Eva's survival. This is why her subsequent remorse is both genuine and proportionate to her guilt.",
+      "hint": "What was Sheila's actual motivation — and why does Priestley make it so petty rather than more dramatic?"
     },
     {
-      "id": "aic_045",
-      "category": "General",
-      "question": "What genres could 'An Inspector Calls' be classified as?",
-      "answer": "A morality play, a well-made play, and a whodunit/detective thriller."
+      "id": "aic_plt_003",
+      "category": "Plot",
+      "question": "How does the Inspector use the photograph as a dramatic device, and why is this technique significant?",
+      "answer": "The Inspector shows the photograph to only one character at a time, never allowing two to view it together. This isolates each person in their guilt, prevents a collective defence, and preserves the possibility that the characters are confessing to different girls — the ambiguity about whether Eva Smith and Daisy Renton and 'Mrs Birling' are the same woman is never definitively resolved. Birling cannot challenge Sheila's identification because he never saw her look at it. The technique is both dramatically effective (creates tension and suspense) and thematically pointed: the Inspector exposes individual consciences one at a time, not through collective confrontation.",
+      "hint": "If the Inspector showed the photograph to everyone at once, what could the characters do that they cannot do in isolation?"
     },
     {
-      "id": "aic_046",
-      "category": "General",
-      "question": "Who says: 'You're beginning to pretend now that nothing's really happened at all.'",
-      "answer": "Eric Birling"
+      "id": "aic_plt_004",
+      "category": "Plot",
+      "question": "What happens after the Inspector leaves — how do the characters divide, and what does this division mean?",
+      "answer": "Gerald returns with the information that no Inspector Goole is in police records. Mr. and Mrs. Birling are immediately relieved — if he was fake, the whole evening was meaningless, the guilt dissolves, reputation is safe. Sheila and Eric refuse this: what they did to Eva was real regardless of who exposed it. The division is sharp and mirrors the generational divide exactly: the older generation's reaction is reputational (crisis averted); the younger generation's is moral (nothing is resolved, the guilt stands). Gerald sides with the Birlings. Priestley structures this moment as the play's ultimate test of character — and the results confirm everything the Inspector argued.",
+      "hint": "What does each generation think the Inspector's possible fraudulence means — and why do they interpret the same information so differently?"
     },
     {
-      "id": "aic_047",
-      "category": "General",
-      "question": "Who says: 'Everything's all right now, Sheila. What about this ring?'",
-      "answer": "Gerald Croft"
+      "id": "aic_plt_005",
+      "category": "Plot",
+      "question": "What is the significance of the final telephone call?",
+      "answer": "After the characters have argued about the Inspector's reality, the telephone rings. Birling answers: a girl has just died on her way to the infirmary after swallowing disinfectant, and a police inspector is on his way. The play ends here. This circular ending creates multiple simultaneous readings: the Inspector was a supernatural warning before the real event; supernatural intervention failed to prevent the tragedy; history repeats for those who don't learn. For those who changed (Sheila, Eric) it is a confirmation that the stakes were always real. For those who didn't, it is cosmic punishment. Priestley refuses to resolve it — the audience must decide.",
+      "hint": "What are at least two different ways of interpreting the final phone call — and why does Priestley leave all of them open?"
     },
     {
-      "id": "aic_048",
-      "category": "General",
-      "question": "What does the disinfectant symbolize?",
-      "answer": "The harsh reality and suffering of the working classes; purging/cleansing the Birlings of their secrets."
+      "id": "aic_plt_006",
+      "category": "Plot",
+      "question": "What is the dramatic purpose of the opening dinner scene in Act 1?",
+      "answer": "The dinner scene establishes what the Inspector's arrival will disrupt: a wealthy family celebrating Sheila's engagement to Gerald, with associated business advantages (Birling hopes for a merger with Crofts Limited). The mood is self-congratulatory; Birling's speeches are confident and wrong; the family appear united and successful. Priestley establishes this as a performance of prosperity and respectability that conceals multiple hypocrisies. The engagement ring Sheila receives at the opening, gives back mid-play, and is offered again at the close is the symbol of the comfortable world the Inspector disrupts — and whether it will be accepted or rejected is the play's final question.",
+      "hint": "Why does Priestley open with such a comfortable, celebratory scene — what is he setting up for the Inspector to disrupt, and what does the ring symbolise?"
+    },
+
+    {
+      "id": "aic_str_001",
+      "category": "Structure & Form",
+      "question": "How does An Inspector Calls follow the conventions of the 'well-made play'?",
+      "answer": "The 'well-made play' (pièce bien faite) is a 19th-century theatrical form featuring tight plotting, exposition that plants seeds for later revelation, and a climax where all elements converge. An Inspector Calls follows this rigorously: the opening dinner plants details (the engagement, business deal, Birling's speeches) that all matter later; the investigation builds methodically with each revelation adding to the last; the climax (Inspector's speech, Eric's confession) resolves all threads; the twist ending re-opens everything. The form creates inevitability — as though the play had always been heading toward Eva's death and the Birlings' exposure.",
+      "hint": "What does the 'well-made play' form do to the audience's experience — does it make events feel random or inevitable?"
     },
     {
-      "id": "aic_049",
-      "category": "General",
-      "question": "Why is the play called cyclical or having a circular structure?",
-      "answer": "It ends exactly as it threatens to begin again: a police inspector arriving to investigate a suicide."
+      "id": "aic_str_002",
+      "category": "Structure & Form",
+      "question": "How does Priestley use the three-act structure to develop his moral argument?",
+      "answer": "Act 1: Exposition and disruption — Birling's capitalism established, Inspector arrives, examines Birling and Sheila (business exploitation and personal pettiness). Act 2: Escalation — Gerald and Sybil exposed (upper-class sexual exploitation and institutional cruelty). Act 3: Crisis and division — Eric's confession, the Inspector's climactic speech, then the crucial test: who changes and who doesn't? Each act ends on a revelation that makes the next act necessary. The structure mimics a trial: gathering evidence (Acts 1–2), hearing verdict and seeing its reception (Act 3). The audience is placed in the position of juror.",
+      "hint": "If the play is structured like a trial, what roles do the three acts play — evidence, testimony, verdict and aftermath?"
     },
     {
-      "id": "aic_050",
-      "category": "General",
-      "question": "What does Gerald's character demonstrate about the young upper class?",
-      "answer": "He is younger but holds older, traditional views; representing that the aristocracy's attitudes are entrenched."
+      "id": "aic_str_003",
+      "category": "Structure & Form",
+      "question": "How does the circular structure of the ending reinforce the play's themes?",
+      "answer": "The play begins with a family dinner about to be disrupted and ends with the same scenario arriving again (the phone call announcing a real inspector is coming). For those who haven't changed, this circularity is a warning that history repeats — they will face this again. For those who have changed (Sheila, Eric), it is an urgent confirmation that the world requires their sustained moral attention. The circle is not comforting but demanding: Priestley says without genuine, lasting change, society keeps producing the same tragedies. The structure embodies the Inspector's warning about 'fire and blood and anguish' continuing.",
+      "hint": "Is the circular ending a sign of hope, despair, or warning — or can it be read as all three simultaneously?"
+    },
+    {
+      "id": "aic_str_004",
+      "category": "Structure & Form",
+      "question": "What is the dramatic effect of setting the entire play in one room in real time?",
+      "answer": "Unity of place (one room) and unity of time (real time) create a pressurised, claustrophobic atmosphere — the Birlings cannot escape, change the subject, or go home. This concentrates the moral pressure: their discomfort is enacted for the audience in real time. The single room also subverts the Birlings' power: in their dining room they have all social authority; under the Inspector's interrogation of that same room they have none. The real-time constraint makes the audience feel the evening's weight alongside the characters — we experience their exhaustion and their revelations at the same pace.",
+      "hint": "What does the Birlings' inability to leave their own house — to physically escape the investigation — feel like as a theatrical choice?"
+    },
+    {
+      "id": "aic_str_005",
+      "category": "Structure & Form",
+      "question": "How does each act end dramatically, and why is this structurally important?",
+      "answer": "Act 1 ends with Sheila's realisation that Gerald knew Eva/Daisy — a new betrayal within the engagement. Act 2 ends with Sybil's self-incriminating speech condemning the father of Eva's child, not knowing it's Eric — excruciating dramatic irony. Act 3 ends with the telephone call re-opening everything. Each act ending is a revelation that makes the next act necessary and propels the audience forward. No act feels complete — we are always pulled toward the next by unresolved moral questions. Priestley designs the structure so that discomfort is never permitted to settle into relief.",
+      "hint": "What technique does Priestley use at the end of each act — and why does it make the audience desperate to continue?"
+    },
+
+    {
+      "id": "aic_lng_001",
+      "category": "Language & Methods",
+      "question": "How does Priestley use dramatic irony to discredit Birling's philosophy before the Inspector says a word?",
+      "answer": "Before the Inspector arrives, Birling delivers confident speeches about the impossibility of war, the permanence of prosperity, and the Titanic as 'absolutely unsinkable.' A 1945 audience knows all three are catastrophically wrong: WW1 and WW2 happened, the Great Depression followed, the Titanic sank immediately. The dramatic irony operates as a preemptive discrediting of Birling — his moral philosophy (individualism, anti-welfare) is presented alongside his confident factual errors, so when the Inspector challenges his ethics, the audience already distrusts him. Priestley ensures we are predisposed to side with the Inspector's worldview from the opening scene.",
+      "hint": "What comes before Birling's moral arguments — and how does that context shape how we receive those arguments?"
+    },
+    {
+      "id": "aic_lng_002",
+      "category": "Language & Methods",
+      "question": "How does the Inspector's language differ from all the other characters', and what effect does this create?",
+      "answer": "The Inspector speaks formally, directly, in short declarative sentences — never evading, apologising, or small-talking. He does not adjust his register for social superiors: he refuses to be impressed by Birling's name-dropping, does not soften his accusations to spare feelings, does not fill silences socially. This is distinctive because every other character is performing — managing their image, hedging, deflecting. The Inspector's refusal to perform creates the effect of moral authority: his words carry weight precisely because they are stripped of social management. He says exactly what he means, which is disorienting in a world of euphemism.",
+      "hint": "In what ways does the Inspector's refusal to be polite, deferential, or flattering make him powerful in a household where social performance is everything?"
+    },
+    {
+      "id": "aic_lng_003",
+      "category": "Language & Methods",
+      "question": "How does Priestley use the language of commerce and business to characterise Birling?",
+      "answer": "Birling consistently uses economic language to describe human relationships: Eva's wages are 'the maximum we could afford to pay her,' workers who strike are 'asking for the Earth,' social responsibility is 'meddling.' This language reveals a worldview where human beings are factors in a profit calculation — their value is economic, their needs are costs to be minimised. Priestley uses Birling's vocabulary to expose the dehumanising effect of pure capitalism: it has no words for care, community, or responsibility. The Inspector's language, by contrast, is moral and relational: 'members of one body,' 'responsible for each other.'",
+      "hint": "What kind of vocabulary does Birling use about the workers — and what does that language reveal about how he conceptualises other human beings?"
+    },
+    {
+      "id": "aic_lng_004",
+      "category": "Language & Methods",
+      "question": "How does Priestley write the Inspector's final speech as a theatrical sermon?",
+      "answer": "The speech is written in a biblical, homiletic register: short declarative sentences, anaphoric repetition ('millions and millions'), the pattern of statement-elaboration-warning that mirrors a sermon's structure. The prophecy ('fire and blood and anguish') has the rhythm of a biblical threat. 'I tell you' is an authority-claiming construction ('Verily I say unto you'). Priestley deliberately writes the Inspector as a secular moral prophet — his message is socialist politics, but the form borrows from religious tradition to give it moral urgency. The speech feels like moral law, not just political argument, because it is structured like one.",
+      "hint": "What form of speech (not a police report or a political speech) does the Inspector's final address most resemble — and why might Priestley want that association?"
+    },
+
+    {
+      "id": "aic_exam_001",
+      "category": "Exam Technique",
+      "question": "What are the AQA Assessment Objectives for An Inspector Calls (Paper 2, Section A), and how should you weave them together?",
+      "answer": "AO1: Make an argument and support it with quotations — respond to the text with insight and evidence. AO2: Analyse Priestley's methods — language, form, structure — using subject terminology. Not just what he does but how and why. AO3: Show understanding of context — 1912 setting, 1945 writing, Edwardian class system, socialism, women's position, post-WW2 Britain. AO4: Spelling, punctuation, grammar, vocabulary (4 separate marks). The best answers weave all three analytical objectives into each paragraph: make a point (AO1) + quote (AO1) + analyse specific language choices (AO2) + explain contextual significance (AO3).",
+      "hint": "What is the difference between AO1, AO2, and AO3 — what does each one specifically ask you to do?"
+    },
+    {
+      "id": "aic_exam_002",
+      "category": "Exam Technique",
+      "question": "How does the AIC question differ from the Paper 1 questions — and what skill does it test above all others?",
+      "answer": "Unlike Paper 1 (Shakespeare and the 19th-century novel), which provides an extract, the AIC question gives no extract — the exam is entirely from memory. You must bring your own evidence. The question offers a choice of two (usually one on a character, one on a theme); you have approximately 45 minutes for 34 marks (30 + 4 SPaG). Because there's no extract to anchor your writing, quotation recall is the foundational skill — without accurate quotes you cannot analyse language (AO2). Structure is also crucial: a clear argument in the introduction, one point per paragraph with quotation and analysis, a conclusion that opens outward to broader significance.",
+      "hint": "Why is the no-extract format harder than the extract-based Paper 1 questions — what does it demand that an extract question doesn't?"
+    },
+    {
+      "id": "aic_exam_003",
+      "category": "Exam Technique",
+      "question": "How do you write about context in an AIC essay without 'bolting it on'?",
+      "answer": "Context should be woven into analysis, not added as a separate history paragraph. The best approach: make a point → quote → analyse the language → explain why this would have resonated differently for a 1945 audience than for the 1912 characters, or what specific social reality makes the moment significant. For example: don't write 'In 1912 women couldn't vote.' Write: Sheila's line 'these girls aren't cheap labour — they're people' was radical in 1912, when working-class women had no union protection, no vote, and no legal recourse if dismissed — Eva's situation was the legal norm, not an individual injustice. Context should illuminate the text, not sit beside it.",
+      "hint": "What is the difference between 'bolt-on' context (a paragraph of history) and integrated context (woven into literary analysis)?"
     }
+
   ]
 }
