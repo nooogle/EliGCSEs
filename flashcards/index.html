@@ -4,31 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flashcards</title>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=Special+Elite&family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
   /* ── Reset & base ─────────────────────────────────────────── */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg:        #f5f4f0;
-    --surface:   #ffffff;
-    --surface2:  #f0efe9;
-    --border:    #e0ddd5;
-    --text:      #1a1a1a;
-    --text-muted:#6b6860;
-    --accent:    #5b6af0;
-    --accent-dk: #4454d4;
-    --green:     #22c55e;
-    --amber:     #f59e0b;
-    --red:       #ef4444;
+    --bg:         #0a0805;
+    --surface:    #18120c;
+    --surface2:   #231b13;
+    --border:     rgba(210,168,88,0.3);
+    --border2:    rgba(210,168,88,0.48);
+    --text:       #e7dab3;
+    --text-muted: #d7c9a3;
+    --text-soft:  #b39f78;
+    --accent:     #c0392b;
+    --accent-dk:  #a82f24;
+    --green:      #6dbf84;
+    --amber:      #d8ac56;
+    --red:        #d37a72;
+    --font-display:'VT323',monospace;
+    --font-body:  'Special Elite',cursive;
+    --font-label: 'Oswald',sans-serif;
     --radius:    12px;
-    --shadow:    0 2px 8px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
-    --shadow-lg: 0 8px 32px rgba(0,0,0,.12), 0 2px 8px rgba(0,0,0,.08);
+    --shadow:    0 2px 10px rgba(0,0,0,.35), 0 1px 2px rgba(0,0,0,.22);
+    --shadow-lg: 0 10px 36px rgba(0,0,0,.45), 0 3px 8px rgba(0,0,0,.3);
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: var(--font-body);
     background: var(--bg);
     color: var(--text);
+    font-size: 17px;
+    line-height: 1.5;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -58,14 +66,21 @@
     width: 100%;
     max-width: 680px;
   }
-  .topbar h1 { font-size: 1.3rem; font-weight: 700; flex: 1; }
+  .topbar h1 {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    letter-spacing: .08em;
+    color: var(--text);
+    flex: 1;
+  }
   .topbar .back-btn {
     background: none; border: none; cursor: pointer;
-    color: var(--accent); font-size: .95rem; font-weight: 600;
+    color: var(--text-muted); font-family: var(--font-label); font-size: .92rem; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase;
     padding: 4px 8px; border-radius: 6px;
     display: flex; align-items: center; gap: 4px;
   }
-  .topbar .back-btn:hover { background: var(--surface2); }
+  .topbar .back-btn:hover { background: var(--surface2); color: var(--text); }
 
   /* ── Cards / surfaces ─────────────────────────────────────── */
   .card {
@@ -81,12 +96,25 @@
     text-align: center;
     padding: 32px 0 8px;
   }
-  #screen-home .hero h2 { font-size: 2rem; font-weight: 800; }
-  #screen-home .hero p  { color: var(--text-muted); margin-top: 6px; }
+  #screen-home .hero h2 {
+    font-family: var(--font-display);
+    font-size: 3.2rem;
+    letter-spacing: .1em;
+    color: var(--text);
+    text-shadow: 3px 3px 0 rgba(139,26,26,.35);
+  }
+  #screen-home .hero p  {
+    font-family: var(--font-label);
+    color: var(--text-muted);
+    font-size: .88rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
 
   .folder-banner {
-    background: linear-gradient(135deg, #eef0ff 0%, #e8f4ff 100%);
-    border: 1px solid #c7cdf7;
+    background: linear-gradient(135deg, #1f1710 0%, #18120c 100%);
+    border: 1px solid var(--border2);
     border-radius: var(--radius);
     padding: 16px 20px;
     display: flex;
@@ -95,8 +123,14 @@
   }
   .folder-banner .icon { font-size: 1.8rem; }
   .folder-banner .info { flex: 1; }
-  .folder-banner .info strong { display: block; font-size: .95rem; }
-  .folder-banner .info span  { font-size: .82rem; color: var(--text-muted); }
+  .folder-banner .info strong {
+    display: block;
+    font-family: var(--font-label);
+    font-size: .96rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .folder-banner .info span  { font-size: .9rem; color: var(--text-muted); }
   .folder-banner button { white-space: nowrap; }
 
   .deck-grid {
@@ -119,20 +153,21 @@
   }
   .deck-item:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); border-color: var(--accent); }
   .deck-item .subject-tag {
-    font-size: .72rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .06em; color: var(--accent);
-    background: #eef0ff; border-radius: 4px; padding: 2px 7px;
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--text);
+    background: rgba(192,57,43,.28); border: 1px solid rgba(192,57,43,.45); border-radius: 4px; padding: 2px 7px;
     align-self: flex-start;
+    font-family: var(--font-label);
   }
-  .deck-item h3 { font-size: 1.1rem; font-weight: 700; }
-  .deck-item .meta { font-size: .82rem; color: var(--text-muted); }
+  .deck-item h3 { font-size: 1.12rem; font-weight: 700; line-height: 1.35; }
+  .deck-item .meta { font-size: .88rem; color: var(--text-muted); }
   .deck-item .due-badge {
     position: absolute; top: 14px; right: 14px;
-    background: var(--accent); color: #fff;
-    font-size: .75rem; font-weight: 700;
+    background: var(--accent); color: var(--text);
+    font-size: .8rem; font-weight: 700;
     border-radius: 20px; padding: 2px 9px;
   }
-  .deck-item .due-badge.none { background: var(--green); }
+  .deck-item .due-badge.none { background: #31503a; color: #d9f1e1; }
 
   .deck-item .mini-bars { display: flex; gap: 3px; margin-top: 4px; }
   .deck-item .mini-bar { height: 4px; border-radius: 2px; flex: 1; background: var(--border); }
@@ -143,7 +178,7 @@
   /* ── Buttons ──────────────────────────────────────────────── */
   button {
     font-family: inherit;
-    font-size: .9rem;
+    font-size: .92rem;
     font-weight: 600;
     border: none;
     border-radius: 8px;
@@ -153,17 +188,26 @@
   }
   button:active { transform: scale(.97); }
 
-  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--text);
+    font-family: var(--font-label);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
   .btn-primary:hover { background: var(--accent-dk); }
 
   .btn-ghost {
     background: var(--surface2);
     color: var(--text);
-    border: 1px solid var(--border);
+    border: 1px solid var(--border2);
+    font-family: var(--font-label);
+    letter-spacing: .06em;
+    text-transform: uppercase;
   }
-  .btn-ghost:hover { background: var(--border); }
+  .btn-ghost:hover { background: #30251b; }
 
-  .btn-sm { font-size: .8rem; padding: 7px 13px; }
+  .btn-sm { font-size: .84rem; padding: 7px 13px; }
 
   /* ── Study screen ─────────────────────────────────────────── */
   .session-stats {
@@ -173,14 +217,17 @@
   }
   .stat-pill {
     background: var(--surface);
-    border: 1px solid var(--border);
+    border: 1px solid var(--border2);
     border-radius: 20px;
     padding: 6px 14px;
-    font-size: .8rem;
+    font-size: .84rem;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 5px;
+    font-family: var(--font-label);
+    letter-spacing: .03em;
+    text-transform: uppercase;
   }
   .stat-pill .dot {
     width: 8px; height: 8px; border-radius: 50%;
@@ -228,9 +275,10 @@
   .flashcard-face.back { transform: rotateX(180deg); }
 
   .card-category {
-    font-size: .72rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .07em; color: var(--accent);
-    background: #eef0ff; border-radius: 4px; padding: 3px 9px;
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--text);
+    background: rgba(192,57,43,.28); border: 1px solid rgba(192,57,43,.45); border-radius: 4px; padding: 3px 9px;
+    font-family: var(--font-label);
   }
   .card-question {
     font-size: 1.25rem;
@@ -238,7 +286,7 @@
     line-height: 1.4;
   }
   .card-hint {
-    font-size: .82rem;
+    font-size: .88rem;
     color: var(--text-muted);
     font-style: italic;
     background: var(--surface2);
@@ -246,9 +294,11 @@
     padding: 6px 12px;
   }
   .tap-hint {
-    font-size: .78rem;
+    font-size: .9rem;
     color: var(--text-muted);
     display: flex; align-items: center; gap: 4px;
+    font-family: var(--font-label);
+    letter-spacing: .03em;
   }
 
   /* Card image */
@@ -263,14 +313,15 @@
   .card-img-broken { display: none !important; }
 
   .card-answer {
-    font-size: 1rem;
+    font-size: 1.03rem;
     line-height: 1.6;
     color: var(--text);
   }
   .card-answer-label {
-    font-size: .72rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .07em; color: var(--green);
-    background: #dcfce7; border-radius: 4px; padding: 3px 9px;
+    font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: #b9e9c8;
+    background: rgba(95,191,120,.2); border: 1px solid rgba(95,191,120,.4); border-radius: 4px; padding: 3px 9px;
+    font-family: var(--font-label);
   }
 
   /* Response buttons */
@@ -288,13 +339,13 @@
     align-items: center; gap: 4px;
     border: 2px solid transparent;
   }
-  .resp-btn span { font-size: .7rem; font-weight: 500; opacity: .7; }
-  .resp-btn.got-it { background: #dcfce7; color: #15803d; border-color: #86efac; }
-  .resp-btn.got-it:hover { background: #bbf7d0; }
-  .resp-btn.nearly  { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
-  .resp-btn.nearly:hover  { background: #fde68a; }
-  .resp-btn.no-idea { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
-  .resp-btn.no-idea:hover { background: #fecaca; }
+  .resp-btn span { font-size: .78rem; font-weight: 500; opacity: .9; }
+  .resp-btn.got-it { background: #1c3324; color: #b9e9c8; border-color: #3f7250; }
+  .resp-btn.got-it:hover { background: #24442f; }
+  .resp-btn.nearly  { background: #3a2e16; color: #f5ddb0; border-color: #8d6c30; }
+  .resp-btn.nearly:hover  { background: #4b3b1d; }
+  .resp-btn.no-idea { background: #3a1918; color: #f2c0bc; border-color: #8f4a46; }
+  .resp-btn.no-idea:hover { background: #4a201f; }
 
   .flip-prompt {
     text-align: center;
@@ -303,7 +354,7 @@
 
   /* Progress bar */
   .progress-bar-wrap {
-    background: var(--border);
+    background: #2f251a;
     border-radius: 4px;
     height: 6px;
     overflow: hidden;
@@ -338,7 +389,7 @@
     text-align: center;
   }
   .summary-item .num { font-size: 1.8rem; font-weight: 800; }
-  .summary-item .lbl { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+  .summary-item .lbl { font-size: .86rem; color: var(--text-muted); margin-top: 2px; font-family: var(--font-label); letter-spacing: .03em; text-transform: uppercase; }
 
   /* ── Progress screen ──────────────────────────────────────── */
   .progress-table-wrap {
@@ -347,25 +398,25 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    font-size: .85rem;
+    font-size: .9rem;
   }
   th, td {
     padding: 10px 12px;
     text-align: left;
     border-bottom: 1px solid var(--border);
   }
-  th { font-weight: 700; color: var(--text-muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+  th { font-weight: 700; color: var(--text-muted); font-size: .83rem; text-transform: uppercase; letter-spacing: .05em; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: var(--surface2); }
 
   .status-badge {
-    font-size: .72rem; font-weight: 700;
+    font-size: .78rem; font-weight: 700;
     border-radius: 4px; padding: 2px 8px;
     text-transform: uppercase; letter-spacing: .04em;
   }
-  .status-new      { background: var(--surface2); color: var(--text-muted); }
-  .status-learning { background: #fef3c7; color: #92400e; }
-  .status-mastered { background: #dcfce7; color: #15803d; }
+  .status-new      { background: #2a2118; color: var(--text-muted); }
+  .status-learning { background: #3a2e16; color: #f5ddb0; }
+  .status-mastered { background: #1c3324; color: #b9e9c8; }
 
   .progress-header {
     display: flex; gap: 12px; flex-wrap: wrap;
@@ -380,7 +431,7 @@
     box-shadow: var(--shadow);
   }
   .big-stat .num { font-size: 2rem; font-weight: 800; }
-  .big-stat .lbl { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+  .big-stat .lbl { font-size: .84rem; color: var(--text-muted); margin-top: 2px; }
 
   /* ── Add card modal ───────────────────────────────────────── */
   .modal-backdrop {
@@ -408,7 +459,16 @@
   }
   .modal h3 { font-size: 1.2rem; font-weight: 800; }
 
-  label { display: block; font-size: .83rem; font-weight: 600; margin-bottom: 5px; }
+  label {
+    display: block;
+    font-size: .86rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--text-muted);
+    font-family: var(--font-label);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
   input[type=text], textarea, select {
     width: 100%;
     font-family: inherit;
@@ -416,7 +476,7 @@
     padding: 9px 12px;
     border: 1.5px solid var(--border);
     border-radius: 8px;
-    background: var(--bg);
+    background: var(--surface2);
     color: var(--text);
     outline: none;
     transition: border-color .15s;
@@ -430,21 +490,56 @@
   /* ── Toast ────────────────────────────────────────────────── */
   #toast {
     position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
-    background: #1a1a1a; color: #fff;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border2);
     padding: 10px 20px; border-radius: 20px;
-    font-size: .85rem; font-weight: 600;
+    font-size: .9rem; font-weight: 600;
     transition: transform .25s ease;
     z-index: 200; pointer-events: none;
   }
   #toast.show { transform: translateX(-50%) translateY(0); }
 
   /* ── Responsive ───────────────────────────────────────────── */
+  @media (max-width: 560px) {
+    .screen { padding: 18px 12px 36px; gap: 16px; }
+    .topbar { padding: 10px 8px 0; }
+    .topbar h1 { font-size: 1.9rem; letter-spacing: .05em; }
+    .topbar #topbar-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .folder-banner { padding: 14px 14px; gap: 10px; }
+    .deck-grid { grid-template-columns: 1fr; gap: 10px; }
+    .deck-item { padding: 14px 14px; }
+    .session-stats { flex-wrap: wrap; justify-content: flex-start; }
+    .stat-pill { font-size: .8rem; padding: 5px 10px; }
+    .progress-header { gap: 8px; }
+    .big-stat { min-width: 46%; }
+    .modal { padding: 18px; }
+  }
+
   @media (max-width: 480px) {
+    .topbar { flex-wrap: wrap; gap: 8px; }
+    .topbar h1 { width: 100%; order: -1; font-size: 1.7rem; }
+    .topbar #topbar-actions { width: 100%; justify-content: flex-start; }
+    #screen-home .hero h2 { font-size: 2.5rem; letter-spacing: .07em; }
+    #screen-home .hero p { letter-spacing: .06em; }
+    .folder-banner { flex-direction: column; align-items: flex-start; }
+    .folder-banner button { width: 100%; }
     .response-btns { grid-template-columns: 1fr; }
     .flashcard-wrap { height: 260px; }
     .flashcard-wrap.has-image { height: 400px; }
     .card-img { max-height: 160px; }
-    .card-question { font-size: 1.1rem; }
+    .card-question { font-size: 1.15rem; }
+    th, td { padding: 8px 8px; }
+    table { font-size: .84rem; }
+  }
+
+  @media (max-width: 390px) {
+    .topbar h1 { font-size: 1.5rem; }
+    .card { padding: 14px; }
+    .flashcard-face { padding: 18px 14px; }
+    .card-question { font-size: 1.08rem; }
+    .tap-hint { font-size: .84rem; }
+    .btn-primary, .btn-ghost { width: 100%; }
+    .modal-footer { flex-direction: column; }
   }
 </style>
 </head>
@@ -475,7 +570,7 @@
   </div>
 
   <!-- fallback notice shown if FSAPI not supported -->
-  <div id="ls-notice" class="card" style="display:none; font-size:.85rem; color:var(--text-muted);">
+  <div id="ls-notice" class="card" style="display:none; font-size:.92rem; color:var(--text-muted);">
     ⚠️ Your browser doesn't support the File System Access API. Progress is being saved to <strong>localStorage</strong> only. For full file-based persistence, use Chrome or Edge.
   </div>
 
@@ -1064,10 +1159,10 @@ async function showProgressScreen(deck) {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(card.question)}">${esc(card.question)}</td>
-      <td><span style="font-size:.8rem;color:var(--text-muted)">${esc(card.category || '—')}</span></td>
+      <td><span style="font-size:.86rem;color:var(--text-muted)">${esc(card.category || '—')}</span></td>
       <td><span class="status-badge status-${status}">${status}</span></td>
-      <td style="font-size:.82rem;color:var(--text-muted)">${nextDue}</td>
-      <td style="font-size:.82rem">${reps}</td>
+      <td style="font-size:.9rem;color:var(--text-muted)">${nextDue}</td>
+      <td style="font-size:.9rem">${reps}</td>
     `;
     tbody.appendChild(tr);
   });
