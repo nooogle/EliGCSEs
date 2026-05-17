@@ -1,0 +1,300 @@
+{
+  "title": "Religious Studies — AQA GCSE",
+  "subject": "Religious Studies",
+  "cards": [
+
+    {
+      "id": "rs_thA_001",
+      "category": "Theme A — Relationships & Families",
+      "question": "What is the Christian teaching on sex before marriage?",
+      "answer": "Traditional: sex belongs within marriage only. Catholics and many evangelicals teach it is sinful outside marriage. 'The body is a temple of the Holy Spirit' (1 Corinthians 6:19) and sex is God's gift for a married couple. Genesis 2:24: 'a man shall be united to his wife, and they become one flesh.' Liberal Christians may accept sex in a committed, loving relationship as consistent with Christian values of love.",
+      "hint": "1 Cor 6:19 (temple of the Holy Spirit) + Genesis 2:24 (one flesh)"
+    },
+    {
+      "id": "rs_thA_002",
+      "category": "Theme A — Relationships & Families",
+      "question": "What is the Sikh view on marriage and sex?",
+      "answer": "Sikhs believe sex should only take place within marriage. The Sikh wedding ceremony, the Anand Karaj ('ceremony of bliss'), involves circling the Guru Granth Sahib four times, pledging their union before Waheguru. Marriage is a spiritual journey. The four lavan (circumambulations) represent four stages of the spiritual union with God. Premarital sex is discouraged as it distracts from this spiritual purpose.",
+      "hint": "Anand Karaj = ceremony of bliss. Four lavan = four stages of spiritual journey"
+    },
+    {
+      "id": "rs_thA_003",
+      "category": "Theme A — Relationships & Families",
+      "question": "What is the Christian teaching on contraception?",
+      "answer": "Catholic Church: opposes artificial contraception (Humanae Vitae, 1968, Pope Paul VI). God said 'be fruitful and multiply' (Genesis 1:28) — sex must remain open to procreation. Natural Family Planning is permitted. Protestant and Anglican Christians generally accept contraception as responsible family planning and do not consider it contrary to God's will. The key division is Catholic vs. Protestant.",
+      "hint": "Catholic = no artificial contraception (Humanae Vitae). Protestant = generally accept it"
+    },
+    {
+      "id": "rs_thA_004",
+      "category": "Theme A — Relationships & Families",
+      "question": "What do Christianity and Sikhism teach about same-sex relationships?",
+      "answer": "Christianity: Traditional/Catholic teaching opposes same-sex relationships (Leviticus 18:22, 1 Corinthians 6:9). Liberal Christians support them citing 'love your neighbour' (Matthew 22:39) and Jesus's message of love. The Church of England is divided. Sikhism: The Sikh Rehat Maryada defines marriage as between a man and a woman. The SGPC (highest Sikh authority) does not permit same-sex marriage in Gurdwaras. However, Sikhism strongly values the equality and dignity of all people.",
+      "hint": "Key tension: traditional teachings vs. modern interpretations of love and equality"
+    },
+    {
+      "id": "rs_thA_005",
+      "category": "Theme A — Relationships & Families",
+      "question": "What does Christianity teach about divorce?",
+      "answer": "Catholic Church: marriage is a sacrament and indissoluble. Divorce is not recognised; only annulment (marriage declared invalid from the start) is permitted. Key quote: 'What God has joined together, let no one separate' (Matthew 19:6). Protestant/Anglican: allow divorce as a last resort, believing in forgiveness and the possibility of a fresh start. The Church of England permits remarriage after divorce in some circumstances.",
+      "hint": "Catholic = no divorce, only annulment. Matthew 19:6. Protestant = divorce allowed as last resort"
+    },
+    {
+      "id": "rs_thA_006",
+      "category": "Theme A — Relationships & Families",
+      "question": "What does Sikhism teach about gender equality in relationships and family?",
+      "answer": "Guru Nanak abolished gender discrimination: 'So why call her inferior? From her, kings are born.' Women can lead prayers, read from the Guru Granth Sahib, and participate fully in all religious ceremonies. The Langar (community kitchen) serves all equally regardless of gender. The Anand Karaj ceremony treats husband and wife as equals journeying toward God. In practice, some Sikh communities hold cultural patriarchal attitudes that contradict Sikh theology.",
+      "hint": "Guru Nanak quote on women. Langar = practical equality. Theory vs. practice"
+    },
+
+    {
+      "id": "rs_thB_001",
+      "category": "Theme B — Religion & Life",
+      "question": "What is the 'sanctity of life' and why is it central to RS ethics?",
+      "answer": "The belief that all human life is sacred and has inherent value because it was created by God. For Christians: 'You knitted me together in my mother's womb' (Psalm 139:13) — life begins at conception and is God's gift. For Sikhs: life is given by Waheguru and follows Hukam (God's will). Sanctity of life underpins opposition to abortion, euthanasia, and capital punishment. Contrast with 'quality of life' — wellbeing and ability to live meaningfully.",
+      "hint": "Psalm 139:13 (Christian). Hukam = God's will (Sikh). Contrast: sanctity vs. quality of life"
+    },
+    {
+      "id": "rs_thB_002",
+      "category": "Theme B — Religion & Life",
+      "question": "What is the Christian teaching on abortion?",
+      "answer": "Catholic Church: opposes abortion at all stages — life begins at conception (Psalm 139:13: 'You knitted me together in my mother's womb'). It is always morally wrong to take a human life. Protestant/Anglican: may accept abortion in limited circumstances — risk to mother's life, severe foetal abnormality, rape. The Church of England calls it 'a lesser evil' in genuine dilemmas. Key tension: sanctity of life (absolute) vs. compassion for mother (contextual).",
+      "hint": "Catholic = always wrong. C of E = lesser evil in limited cases. Psalm 139:13"
+    },
+    {
+      "id": "rs_thB_003",
+      "category": "Theme B — Religion & Life",
+      "question": "What is the Sikh teaching on abortion and euthanasia?",
+      "answer": "Abortion: Life is sacred and begins at conception — a gift of Waheguru. Abortion interferes with Hukam (God's will). Most Sikhs discourage abortion but may accept it in exceptional circumstances (risk to mother's life, rape). No absolute prohibition. Euthanasia: Sikhs oppose it — life and death are in Waheguru's hands. To end life prematurely interferes with Hukam. Naam Japna (meditating on God's name) and Sikh community support help the dying find peace.",
+      "hint": "Both: Hukam (God's will). Abortion discouraged but not absolute. Euthanasia: opposed — Naam Japna as alternative"
+    },
+    {
+      "id": "rs_thB_004",
+      "category": "Theme B — Religion & Life",
+      "question": "What is the Christian teaching on euthanasia?",
+      "answer": "Most Christians oppose euthanasia because only God can give and take life. Catholic Church: euthanasia is always morally wrong — equivalent to murder; violates the sanctity of life. Palliative care (hospice movement) is the Christian alternative — caring for the dying with compassion, not hastening death. Some liberal Christians argue allowing someone to die with dignity can be an act of love. Key quote: 'I have come that they may have life, and have it to the full' (John 10:10).",
+      "hint": "Catholic = always wrong. Alternative = palliative care/hospices. John 10:10"
+    },
+    {
+      "id": "rs_thB_005",
+      "category": "Theme B — Religion & Life",
+      "question": "What do Christianity and Sikhism teach about care for the environment?",
+      "answer": "Christianity: God gave humans stewardship of creation (Genesis 1:28, 2:15 — 'to tend and keep it'). 'The earth is the Lord's, and everything in it' (Psalm 24:1). Destroying the environment is failing God's trust. Christian Aid campaigns for climate justice. Sikhism: The Guru Granth Sahib teaches 'Air is the Guru, Water is the Father, Earth is the Great Mother.' Sewa (selfless service) extends to caring for God's creation. Many Gurdwaras run eco-friendly initiatives.",
+      "hint": "Christianity: stewardship (Genesis 2:15, Psalm 24:1). Sikhism: Guru Granth Sahib — air/water/earth quote"
+    },
+    {
+      "id": "rs_thB_006",
+      "category": "Theme B — Religion & Life",
+      "question": "What does Christianity teach about the use of animals — experimentation and food?",
+      "answer": "Genesis 1:28: God gave humans 'dominion' over animals — some use this to permit experimentation if it reduces human suffering. However, stewardship suggests humans should care for animals responsibly, not exploit them. Many Christians oppose unnecessary animal suffering (RSPCA founded by Anglican clergyman). Catholics permit animal experimentation if essential for medical benefit and suffering is minimised. Quakers and some evangelicals may be vegetarian as an expression of care for creation.",
+      "hint": "Dominion (use) vs. stewardship (care). Genesis 1:28. RSPCA has Christian roots"
+    },
+
+    {
+      "id": "rs_thC_001",
+      "category": "Theme C — The Existence of God",
+      "question": "What is the Design Argument (Teleological Argument) for God's existence?",
+      "answer": "Paley's Watchmaker Analogy (1802): just as a complex watch implies a watchmaker/designer, the complexity and order of the universe implies a designer — God. Evidence: the human eye, the laws of nature, the fine-tuning of conditions for life. Criticism: Darwin's theory of evolution shows complexity can arise through natural selection without a designer. Counter: evolution could be God's chosen mechanism for creation. The argument connects to general revelation — God is visible in nature.",
+      "hint": "Paley + watchmaker = implies designer. Criticism: Darwinian evolution. Counter: God used evolution"
+    },
+    {
+      "id": "rs_thC_002",
+      "category": "Theme C — The Existence of God",
+      "question": "What is the First Cause Argument (Cosmological Argument) for God's existence?",
+      "answer": "Aquinas argued: everything that exists has a cause. The universe must have had a cause. There cannot be an infinite regress of causes — so there must be an 'uncaused cause' that caused everything else but was not itself caused. This is God. Criticism: 'Why can't the universe be its own uncaused cause?' or 'If everything needs a cause, what caused God?' Counter: the universe cannot be self-creating; something outside space and time must have caused it.",
+      "hint": "Aquinas: uncaused cause. Criticism: why can't the universe be uncaused? Counter: universe cannot self-create"
+    },
+    {
+      "id": "rs_thC_003",
+      "category": "Theme C — The Existence of God",
+      "question": "What is the Problem of Evil and how do Christians and Sikhs respond?",
+      "answer": "The Problem: If God is omnipotent, omniscient, and omnibenevolent, why does evil and suffering exist? Christian responses: (1) Free will — God allows humans to choose, and some choose evil; (2) Soul-making (Irenaeus) — suffering helps us develop spiritually; (3) God's greater purpose — suffering is part of a plan we cannot fully understand (Book of Job); (4) Evil is absence of good, not created (Augustine). Sikh response: Hukam (God's will) — suffering follows God's plan; meditation on Waheguru brings peace amid suffering.",
+      "hint": "Christian: Free will / Soul-making / God's purpose / Evil as absence. Sikh: Hukam"
+    },
+    {
+      "id": "rs_thC_004",
+      "category": "Theme C — The Existence of God",
+      "question": "What is the difference between general revelation and special revelation?",
+      "answer": "General revelation: God reveals himself through means available to everyone — nature, the universe, conscience, human reason. It points toward God's existence but not specific details of his character. Special revelation: God reveals himself through specific events or texts. For Christians: the Bible; Jesus is the ultimate special revelation — God made human. For Sikhs: the Guru Granth Sahib is God's eternal word; Guru Nanak's direct vision of Waheguru is a special revelation.",
+      "hint": "General = nature/reason (all have access). Special = Bible/Jesus (Christianity) or Guru Granth Sahib/Guru Nanak (Sikhism)"
+    },
+    {
+      "id": "rs_thC_005",
+      "category": "Theme C — The Existence of God",
+      "question": "What does Sikhism teach about God (Waheguru)?",
+      "answer": "Waheguru is the Sikh name for God. The Mool Mantar (opening of the Guru Granth Sahib) states: 'There is One God; Truth is His Name; He is the Creator; without fear; without enmity; beyond time; not born; self-existent; realised through the grace of the Guru.' God is Ik Onkar (One), eternal, formless, immanent (within all creation) and transcendent (beyond all creation). God cannot be fully known through reason alone — devotion and living by the Guru's teachings are the path to knowing God.",
+      "hint": "Mool Mantar + Ik Onkar + immanent AND transcendent. Known through devotion, not just reason"
+    },
+
+    {
+      "id": "rs_thD_001",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What are the six criteria of the Just War Theory?",
+      "answer": "A war is 'just' ONLY if it meets ALL six criteria (developed by Augustine and Aquinas): (1) Just cause — e.g., self-defence; (2) Declared by a legitimate authority; (3) Right intention — not for power or wealth; (4) Last resort — all peaceful means exhausted; (5) Proportionality — harm caused must not exceed good achieved; (6) Reasonable chance of success. Used by most mainstream Christians to evaluate whether a specific war is morally permissible.",
+      "hint": "Just cause / Legitimate authority / Right intention / Last resort / Proportionality / Reasonable success"
+    },
+    {
+      "id": "rs_thD_002",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What is the Christian teaching on war and peace?",
+      "answer": "Ideal: 'Blessed are the peacemakers, for they will be called children of God' (Matthew 5:9). 'Love your enemies' (Matthew 5:44). 'Put your sword back in its place' (Matthew 26:52). Christian pacifists (especially Quakers) oppose all war. Most mainstream Christians accept the Just War Theory — some wars are moral necessities to prevent greater evil. The Catholic Church supports Just War but campaigns actively for peace and disarmament.",
+      "hint": "Matthew 5:9 (peacemakers). Quakers = pacifist. Most Christians = Just War"
+    },
+    {
+      "id": "rs_thD_003",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What is the Sikh teaching on war (Dharam Yudh)?",
+      "answer": "Sikhism allows Dharam Yudh (righteous/holy war) but only as an absolute last resort to defend the innocent or protect religious freedom. Conditions: just cause, last resort, protect civilians, no revenge or looting. Guru Gobind Singh founded the Khalsa partly to provide trained defenders for the oppressed. The Kirpan (small ceremonial dagger — one of the 5 Ks) symbolises the Sikh duty to protect the innocent. This is similar to Just War Theory but comes from a different tradition.",
+      "hint": "Dharam Yudh = righteous war, last resort. Khalsa = defenders. Kirpan = duty to protect"
+    },
+    {
+      "id": "rs_thD_004",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What is pacifism and what is the Christian basis for it?",
+      "answer": "Pacifism: the belief that war and violence are always wrong and conflicts must be resolved peacefully. Christian pacifists (Quakers/Religious Society of Friends): 'Love your enemies' (Matthew 5:44), 'Those who live by the sword will die by the sword' (Matthew 26:52). They refuse military service and run peace organisations such as the IFRC. The Quaker tradition sees that of God in every person, making killing impossible to justify. Most other Christians are not pacifists but accept Just War.",
+      "hint": "Quakers = pacifist. Matthew 5:44 (love enemies) + Matthew 26:52 (sword/sword). Not all Christians are pacifists"
+    },
+    {
+      "id": "rs_thD_005",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What do Christianity and Sikhism teach about forgiveness in conflict?",
+      "answer": "Christianity: 'Father, forgive them, for they know not what they do' (Luke 23:34 — Jesus on the cross). The Lord's Prayer: 'Forgive us our trespasses as we forgive those who trespass against us.' The Corrymeela Community in Northern Ireland practises Christian reconciliation across divided communities. Sikhism: 'Forgiveness is the most powerful weapon' — Guru Granth Sahib. Sikhs are encouraged to forgive personal wrongs but must also resist injustice and protect others.",
+      "hint": "Luke 23:34 (Jesus forgives killers). Corrymeela Community. Sikh: forgiveness + justice balanced"
+    },
+    {
+      "id": "rs_thD_006",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What is the Christian view on nuclear weapons?",
+      "answer": "Most Christian denominations oppose nuclear weapons. They fail the Just War criterion of proportionality (cannot discriminate between civilians and combatants; mass civilian casualties inevitable) and are a threat to God's creation. The Catholic Church and many Protestant churches support nuclear disarmament. CND (Campaign for Nuclear Disarmament) has large Christian membership. However, some Christians accept nuclear deterrence — the threat of use prevents war — as a 'lesser evil.'",
+      "hint": "Fail Just War: proportionality + fail to discriminate civilians. CND. Deterrence = debated lesser evil"
+    },
+    {
+      "id": "rs_thD_007",
+      "category": "Theme D — Peace & Conflict",
+      "question": "What do Christianity and Sikhism teach about terrorism?",
+      "answer": "Both strongly condemn terrorism. Christianity: terrorism violates the sanctity of life, targets innocent people, and fails every Just War criterion. 'Do not repay anyone evil for evil' (Romans 12:17). Sikhism: directly contradicts Seva (service to all humanity) and Dharam Yudh's core requirement to protect civilians. Guru Gobind Singh taught that righteous combat must never harm the innocent. The Sikh community actively condemns violence against non-combatants.",
+      "hint": "Both condemn. Christianity: Romans 12:17 + fails Just War. Sikhism: Seva + Dharam Yudh must protect civilians"
+    },
+
+    {
+      "id": "rs_thE_001",
+      "category": "Theme E — Crime & Punishment",
+      "question": "What are the four main aims of punishment?",
+      "answer": "(1) Retribution — punishment is deserved; the offender 'pays' for their crime ('an eye for an eye' — Exodus 21:24). (2) Deterrence — punishment discourages others from committing similar crimes. (3) Reformation/Rehabilitation — changing the offender so they do not reoffend. Most Christians emphasise this aim. (4) Protection — keeping dangerous people away from the public. Most Christians support reformation as the highest aim, while accepting that protection and deterrence are also necessary.",
+      "hint": "Retribution / Deterrence / Reformation / Protection — Christianity prioritises Reformation"
+    },
+    {
+      "id": "rs_thE_002",
+      "category": "Theme E — Crime & Punishment",
+      "question": "What is the Christian view on capital punishment?",
+      "answer": "The Catholic Church now opposes capital punishment (Catechism updated 2018): it 'attacks the inviolable dignity of the human person.' Most mainline Protestants also oppose it. Reasons: only God has the right to take life; prevents reformation; irreversible if wrong; 'Vengeance is mine, says the Lord' (Romans 12:19). Some conservative Christians historically supported it: 'Whoever sheds human blood, by humans shall their blood be shed' (Genesis 9:6) — retributive justice.",
+      "hint": "Catholic = now opposes (2018 update). Romans 12:19 (vengeance = God's). Genesis 9:6 (conservative support)"
+    },
+    {
+      "id": "rs_thE_003",
+      "category": "Theme E — Crime & Punishment",
+      "question": "What is the Sikh view on crime and punishment?",
+      "answer": "Sikhism values both justice (Nyaya) and mercy. Crime harms the community (Sangat) and must be addressed. Sikhism generally opposes capital punishment — only Waheguru has the right to take life. Reform and rehabilitation are preferred; community service (Seva) as a form of rehabilitation aligns with Sikh values. However, Sikhism also strongly values protection of the innocent, so the need for justice is real. Forgiveness is encouraged for personal wrongs; systemic injustice must be resisted.",
+      "hint": "Nyaya (justice) + mercy. Generally oppose capital punishment. Seva as rehabilitation"
+    },
+    {
+      "id": "rs_thE_004",
+      "category": "Theme E — Crime & Punishment",
+      "question": "What does the Bible teach about forgiveness in the context of crime?",
+      "answer": "'Father, forgive them, for they know not what they do' (Luke 23:34 — Jesus forgives his executioners). 'Let he who is without sin cast the first stone' (John 8:7 — Jesus stops the stoning of an adulteress). 'Forgive seventy times seven' (Matthew 18:22) — unlimited forgiveness. The Parable of the Prodigal Son shows God's readiness to welcome back those who have done wrong. Forgiveness does not mean escaping justice: 'Act justly, love mercy' (Micah 6:8).",
+      "hint": "Luke 23:34 / John 8:7 / Matthew 18:22 (70×7) / Prodigal Son / Micah 6:8"
+    },
+    {
+      "id": "rs_thE_005",
+      "category": "Theme E — Crime & Punishment",
+      "question": "How does Jesus challenge the idea of retributive punishment in the Sermon on the Mount?",
+      "answer": "Old Testament basis for retribution: 'An eye for an eye, a tooth for a tooth' (Exodus 21:24). Jesus radically challenges this: 'You have heard that it was said, an eye for an eye... But I tell you, do not resist an evil person. If anyone slaps your right cheek, turn to them the other cheek also' (Matthew 5:38-39). Jesus shifted Christianity away from strict retribution toward mercy, forgiveness, and love — even of enemies. This is the theological basis for Christian opposition to harsh punishment.",
+      "hint": "Exodus 21:24 (eye for eye) vs. Matthew 5:38-39 (turn other cheek). Jesus redefines justice as mercy"
+    },
+    {
+      "id": "rs_thE_006",
+      "category": "Theme E — Crime & Punishment",
+      "question": "What do Christians believe about the treatment of criminals in prison?",
+      "answer": "Matthew 25:36: 'I was in prison and you came to visit me' — visiting prisoners is listed as one of the corporal works of mercy. Prison chaplains provide spiritual support. Prison Fellowship is a Christian organisation running rehabilitation programmes in prisons. Even criminals retain their dignity as people made in God's image (imago Dei — Genesis 1:27) and deserve humane treatment. Christians believe in the possibility of redemption and reform for all people, however serious their crime.",
+      "hint": "Matthew 25:36 (visit prisoners). Prison Fellowship. Imago Dei = dignity. Redemption for all"
+    },
+
+    {
+      "id": "rs_thF_001",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What does Christianity teach about human dignity and equality?",
+      "answer": "All humans are made in the image of God — imago Dei (Genesis 1:27) — and therefore have equal inherent dignity. 'There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus' (Galatians 3:28). The Church condemns all racial, gender, and social discrimination. Martin Luther King Jr used Christian principles to lead the civil rights movement. The Parable of the Good Samaritan shows compassion must cross social boundaries.",
+      "hint": "Imago Dei (Genesis 1:27). Galatians 3:28 (all one in Christ). MLK + civil rights + Good Samaritan"
+    },
+    {
+      "id": "rs_thF_002",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What does Sikhism teach about equality and combating discrimination?",
+      "answer": "Guru Nanak abolished the caste system within Sikhism — all people are equal before Waheguru. 'God has no caste.' The Langar (community kitchen) feeds everyone together regardless of caste, gender, religion, or wealth — a practical embodiment of equality. The Khalsa is open to anyone who accepts Sikh initiation. 'So why call her inferior? From her, kings are born' — Guru Nanak on women's equality. Sikhism is theologically committed to equality but some communities have cultural patriarchal practices.",
+      "hint": "No caste. Langar = practical equality. Khalsa open to all. Guru Nanak's quote on women"
+    },
+    {
+      "id": "rs_thF_003",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What are the three pillars of Sikhism and how do they relate to social justice?",
+      "answer": "(1) Naam Japna — meditating on God's name, keeping Waheguru at the centre of life. (2) Kirat Karna — earning an honest living through one's own work; rejecting exploitation. (3) Vand Chhakna — sharing with others; giving from what you have earned. Daswandh (giving 10% of income) funds the Langar and charitable work. These three pillars make economic justice a spiritual duty: honest work + fair sharing = justice. Khalsa Aid operates globally as an expression of Seva.",
+      "hint": "Naam Japna / Kirat Karna / Vand Chhakna. Daswandh = 10% to charity. Khalsa Aid = global Seva"
+    },
+    {
+      "id": "rs_thF_004",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What does Christianity teach about wealth and poverty?",
+      "answer": "'You cannot serve both God and money' (Matthew 6:24). The Parable of the Rich Man and Lazarus (Luke 16:19-31): the rich man who ignores the poor beggar Lazarus ends up in hell. 'It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God' (Matthew 19:24). Wealth itself is not sinful — 'the love of money is a root of all kinds of evil' (1 Timothy 6:10). Christians are called to use wealth generously for others.",
+      "hint": "Matthew 6:24 / Rich Man & Lazarus (Luke 16) / Matthew 19:24 (camel/needle) / 1 Timothy 6:10"
+    },
+    {
+      "id": "rs_thF_005",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What is the Christian response to global poverty?",
+      "answer": "'I was hungry and you gave me food, I was thirsty and you gave me drink' (Matthew 25:35) — Jesus identifies himself with the poor. Christian Aid: campaigns for fair trade, debt cancellation, structural change. CAFOD (Catholic Agency For Overseas Development) provides development aid. Tearfund (evangelical) works in disaster relief and development. Liberation Theology teaches the 'preferential option for the poor' — God has special concern for the marginalised. Christians support both emergency aid and long-term justice.",
+      "hint": "Matthew 25:35. Christian Aid / CAFOD / Tearfund. Liberation Theology = preferential option for the poor"
+    },
+    {
+      "id": "rs_thF_006",
+      "category": "Theme F — Human Rights & Social Justice",
+      "question": "What is the Sikh response to wealth inequality and global poverty?",
+      "answer": "Vand Chhakna (share with others) is a core Sikh duty. Daswandh (10% of income) funds community services and charity. The Langar provides free food to anyone, embodying practical equality. The Guru Granth Sahib teaches: 'Cursed is the money earned through exploitation.' Khalsa Aid operates globally — feeding people regardless of religion during disasters — an expression of Seva (selfless service to all humanity). Honest work (Kirat Karna) and fair sharing make economic justice a spiritual act.",
+      "hint": "Vand Chhakna + Daswandh + Langar. 'Cursed is money through exploitation.' Khalsa Aid"
+    },
+
+    {
+      "id": "rs_exam_001",
+      "category": "Exam Technique",
+      "question": "What is the full structure of each theme question in AQA RS Paper 2?",
+      "answer": "Each theme has a 5-part question: (a) 1 mark — name/define a key term; (b) 1 mark — brief factual answer; (c) 4 marks — explain a religious view with two pieces of evidence; (d) 6 marks — explain contrasting religious views on an issue; (e) 12 marks — evaluate a statement, arguing for and against from religious perspectives, plus up to 3 SPaG marks. Total per theme: 24 marks. Four themes × 24 marks = 96 marks. Time: approximately 26 minutes per theme.",
+      "hint": "a=1, b=1, c=4, d=6, e=12(+3 SPaG). 24 marks × 4 themes = 96 marks. 26 mins per theme"
+    },
+    {
+      "id": "rs_exam_002",
+      "category": "Exam Technique",
+      "question": "How do you write a strong 4-mark answer (part c)?",
+      "answer": "The 4-mark question asks you to apply religious knowledge to a given statement or issue. Write TWO developed points: Point 1: State a religious teaching or belief → cite specific evidence (scripture, church teaching) → explain the link to the issue. Point 2: A second religious argument with its own evidence and explanation. Must include specific religious references — generic moral arguments score Level 1 only (1-2 marks). Two well-developed, evidence-backed points with clear links to the question = full 4 marks.",
+      "hint": "Two points, each: religious teaching + specific evidence + explanation of link. Generic arguments = low marks"
+    },
+    {
+      "id": "rs_exam_003",
+      "category": "Exam Technique",
+      "question": "How do you write a strong 6-mark answer (part d) about 'contrasting views'?",
+      "answer": "Give TWO meaningfully contrasting religious perspectives. For each: State the position clearly → Cite specific religious evidence (named scripture, church teaching, Sikh teaching) → Explain why this is a valid religious response to the issue. The views must be GENUINELY different — e.g., Catholic vs. liberal Christian, OR Christian vs. Sikh, OR traditional vs. progressive within one faith. A common mistake: two views that are only superficially different. Aim for 2 paragraphs, 3 marks each.",
+      "hint": "Two genuinely contrasting views. Each: position + specific evidence + explanation. 3 marks per view"
+    },
+    {
+      "id": "rs_exam_004",
+      "category": "Exam Technique",
+      "question": "What is the structure of a Level 4 (10-12 mark) answer for the 12-mark question (part e)?",
+      "answer": "Level 4 requires: Multiple reasoned FOR and AGAINST arguments (at least 2 each side). Logical chains of reasoning — points are developed and connected, not just listed. Specific religious teachings: named scripture, church documents, Guru Granth Sahib passages, authority figures. Consideration of genuinely different religious viewpoints. A clear, reasoned conclusion that weighs both sides and evaluates the statement. Good SPaG throughout (up to 3 additional marks). Structure: FOR → FOR → AGAINST → AGAINST → Conclusion.",
+      "hint": "FOR x2 → AGAINST x2 → Conclusion. Named religious evidence in every point. SPaG = 3 extra marks"
+    },
+    {
+      "id": "rs_exam_005",
+      "category": "Exam Technique",
+      "question": "What language should you use in a 12-mark RS answer?",
+      "answer": "For developing arguments: 'This suggests that...' / 'This is because...' / 'As a result...' For contrasting: 'However...' / 'In contrast...' / 'On the other hand...' / 'whereas some Christians believe... others argue that...' For religious authority: 'According to the Bible...' / 'The Guru Granth Sahib teaches...' / 'The Catholic Church holds that...' / 'Guru Nanak taught...' For conclusion: 'Overall...' / 'On balance...' / 'Ultimately, I believe this statement is [partially] correct/incorrect because...'",
+      "hint": "Linking words + religious authority phrases + evaluative conclusion language"
+    }
+  ]
+}

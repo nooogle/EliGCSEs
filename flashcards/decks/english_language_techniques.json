@@ -1,0 +1,221 @@
+{
+  "title": "English Language — Techniques & Exam Skills",
+  "subject": "English Language",
+  "cards": [
+
+    {
+      "id": "el_tech_001",
+      "category": "Language Techniques",
+      "question": "What is a simile and what effect does it create?",
+      "answer": "A comparison using 'like' or 'as': 'The rain fell like needles.' Effect: creates a vivid image in the reader's mind by comparing something unfamiliar to something known. When analysing: identify WHAT is being compared → WHY that comparison is meaningful → what FEELING or IMPRESSION it creates. Never just say 'the writer uses a simile to describe X' — always explain the effect the comparison has on the reader.",
+      "hint": "Comparison using 'like'/'as'. Always explain the EFFECT of the comparison, not just its presence"
+    },
+    {
+      "id": "el_tech_002",
+      "category": "Language Techniques",
+      "question": "What is a metaphor and how does it differ from a simile?",
+      "answer": "A metaphor states something IS something else, without using 'like' or 'as': 'The night was a black curtain.' Unlike a simile, it creates a direct, absolute comparison — the thing doesn't merely resemble another thing; it IS that other thing. Effect: more powerful and immediate than a simile; creates striking imagery that forces the reader to see something in a new way. Extended metaphors sustain the comparison across multiple sentences or paragraphs, adding depth and thematic coherence.",
+      "hint": "States IS (not 'like'). More powerful than a simile. Extended = sustained across the text"
+    },
+    {
+      "id": "el_tech_003",
+      "category": "Language Techniques",
+      "question": "What is personification and what effect does it create?",
+      "answer": "Giving human qualities, feelings, or actions to non-human things: 'The wind howled' / 'Death smiled at her.' Effect: makes the non-human thing feel alive, threatening, or emotionally significant; creates atmosphere and helps the reader feel the emotional weight of a scene. Often used in descriptions of nature and settings. Pathetic fallacy is a specific type of personification. Ask: what human quality is given to the non-human thing, and what does that SUGGEST about the mood?",
+      "hint": "Non-human given human qualities. Effect: atmosphere, emotional weight. Pathetic fallacy is a subset"
+    },
+    {
+      "id": "el_tech_004",
+      "category": "Language Techniques",
+      "question": "What is pathetic fallacy?",
+      "answer": "A form of personification where the weather or natural environment reflects the mood or emotions of a character or narrative moment: stormy weather = conflict/danger; sunshine = happiness; fog = confusion; cold = isolation or death. Effect: creates atmosphere; draws the reader into the character's emotional state without telling them how to feel; makes setting emotionally resonant. Example: 'Dark clouds gathered as she walked to the funeral' — the weather mirrors grief.",
+      "hint": "Weather/nature mirrors character's emotion. Subset of personification. Creates atmosphere without telling"
+    },
+    {
+      "id": "el_tech_005",
+      "category": "Language Techniques",
+      "question": "What is alliteration and what effect do different sounds create?",
+      "answer": "The repetition of the same consonant sound at the start of nearby words: 'cold, cruel, creaking castle.' Effect varies by SOUND: hard plosive sounds (p, b, d, k) = harsh, violent, abrupt; sibilant sounds (s, sh) = sinister, whispering, slithering; soft sounds (l, m, w) = gentle, soothing, quiet. Alliteration also creates rhythm and makes writing more memorable. Always identify the specific sound and connect it to the specific mood or effect being created.",
+      "hint": "Same consonant at start of nearby words. Sound matters: plosives = harsh, sibilance = sinister, soft = gentle"
+    },
+    {
+      "id": "el_tech_006",
+      "category": "Language Techniques",
+      "question": "What is sibilance?",
+      "answer": "A form of alliteration using repeated 's', 'sh', and 'z' sounds: 'The snake slithered silently.' Effect: creates a hissing or whispering quality — often sinister, unsettling, secretive, or mysterious; it slows the reader down and creates an intimate or threatening atmosphere. Can also feel soft and soothing in calmer contexts (lullabies, nature descriptions). Often associated with danger, deception, or secrets. Link the sound to the meaning: 'slithered silently' makes the movement feel sneaky and threatening.",
+      "hint": "Repeated 's'/'sh'/'z' sounds. Effect: sinister, whispering, secretive — or soothing, depending on context"
+    },
+    {
+      "id": "el_tech_007",
+      "category": "Language Techniques",
+      "question": "What is onomatopoeia and what effect does it create?",
+      "answer": "A word that sounds like the thing it describes: 'crash', 'buzz', 'whisper', 'crackle', 'hiss', 'squelch.' Effect: creates a vivid, sensory — almost physical — impression; the reader can hear what is being described; makes writing immediate and visceral. Works especially well in action scenes and atmospheric descriptions. Example: 'The fire crackled and spat' — the words themselves mimic the sounds of fire. Always explain what sensory experience the word recreates for the reader.",
+      "hint": "Word sounds like the thing it describes. Effect: sensory, immediate, visceral"
+    },
+    {
+      "id": "el_tech_008",
+      "category": "Language Techniques",
+      "question": "What is hyperbole and what effect does it create?",
+      "answer": "Deliberate, obvious exaggeration for effect, not meant to be taken literally: 'I've told you a million times!' / 'He was so hungry he could eat a horse.' Effect: shows the extremity of an emotion or experience; can be comic or dramatic; makes a point more vivid and memorable; helps the reader feel the intensity of what the character is experiencing. When analysing: identify WHAT is being exaggerated, WHAT emotion it expresses, and why the writer chose this extreme to convey the idea.",
+      "hint": "Deliberate exaggeration for emphasis, humour, or to show intensity of emotion"
+    },
+    {
+      "id": "el_tech_009",
+      "category": "Language Techniques",
+      "question": "What is juxtaposition? How do you analyse it?",
+      "answer": "Placing two contrasting ideas, images, characters, or settings side by side to highlight their differences: 'It was the best of times, it was the worst of times' (Dickens). Effect: forces the reader to compare the two elements; highlights contrasts in character, theme, or mood; can create tension or irony; can reveal social criticism (e.g., rich and poor characters juxtaposed to highlight inequality). When analysing: name both contrasting elements, explain what the contrast highlights, and comment on the effect on the reader.",
+      "hint": "Two contrasting things placed side by side. Effect: forces comparison, highlights difference, creates tension"
+    },
+    {
+      "id": "el_tech_010",
+      "category": "Language Techniques",
+      "question": "What is symbolism?",
+      "answer": "When an object, person, place, colour, or weather is used to represent something beyond its literal meaning. Examples: a locked door = inability to escape; a journey = personal growth; a cage = imprisonment; white = innocence or purity; red = danger, passion, or blood; a bird = freedom or the soul. Effect: adds layers of meaning; allows complex themes to be communicated through simple images; rewards careful reading. Ask: what does this REPRESENT and what THEME does the writer use it to explore?",
+      "hint": "Object/colour/place represents a deeper meaning. Ask what it represents and what theme it explores"
+    },
+    {
+      "id": "el_tech_011",
+      "category": "Language Techniques",
+      "question": "What is a rhetorical question and what effect does it create?",
+      "answer": "A question asked for effect, not expecting a literal answer: 'How could anyone treat a child this way?' Effect: draws the reader in and makes them think; implies a shared, obvious answer; can challenge assumptions, persuade, or provoke emotion. In fiction, rhetorical questions reveal a character's inner conflict, outrage, or confusion. In persuasive or descriptive writing, they implicate the reader in the argument. Always comment on WHAT feeling or thought the question is designed to provoke.",
+      "hint": "Question not needing an answer. Effect: engages reader, implies shared view, challenges or persuades"
+    },
+    {
+      "id": "el_tech_012",
+      "category": "Language Techniques",
+      "question": "What is repetition? What is anaphora?",
+      "answer": "Repetition: the same word or phrase used again for emphasis: 'He ran, and ran, and ran.' Effect: reinforces the importance of an idea; builds intensity and urgency. Anaphora: repetition of a word or phrase at the START of successive clauses: 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields...' (Churchill). Effect: creates a rhythmic, building momentum; powerfully emphasises each repeated idea; creates a sense of inevitability or determination.",
+      "hint": "Repetition = same word for emphasis. Anaphora = repetition at the START of successive clauses"
+    },
+    {
+      "id": "el_tech_013",
+      "category": "Language Techniques",
+      "question": "What is a tricolon (rule of three)?",
+      "answer": "Three parallel words, phrases, or clauses in sequence: 'tall, dark, and handsome' / 'Friends, Romans, countrymen, lend me your ears.' Three feels rhetorically complete — two is too few, four is too many. Effect: creates rhythm and a sense of completeness; builds to a climax (the third item is often the most powerful or surprising); emphatic and memorable. When analysing, note what the three things have in common AND what makes the third distinctive or climactic.",
+      "hint": "Three items in sequence. Effect: rhythmic, complete, builds to climax. Third item usually most important"
+    },
+    {
+      "id": "el_tech_014",
+      "category": "Language Techniques",
+      "question": "What is euphemism? What is irony?",
+      "answer": "Euphemism: using mild or indirect language to describe something unpleasant or taboo: 'passed away' instead of 'died.' Effect: softens the impact; reveals what a character or society is uncomfortable confronting; can create dark humour. Irony: saying the opposite of what you mean, or a situation where events are the reverse of what is expected. Effect: creates double meaning; can be comic or bitter; rewards the reader who notices the gap between what is said and what is meant. Both reveal hidden truths about characters and society.",
+      "hint": "Euphemism = softens unpleasant truth. Irony = says opposite of meaning, or opposite of expected. Both = hidden truth"
+    },
+    {
+      "id": "el_tech_015",
+      "category": "Language Techniques",
+      "question": "What is motif and how does it function in a text?",
+      "answer": "A recurring image, symbol, colour, phrase, or object that appears throughout a text and accumulates meaning with each repetition. E.g., a recurring locked door = inability to escape. Effect: creates thematic coherence — ties different parts of the text together; each reappearance adds another layer of meaning and reinforces the central theme; rewards re-reading. In Q3 (structure), motifs are key: explain how their REPETITION over the whole text builds meaning, not just what they mean in one moment.",
+      "hint": "Recurring image/symbol across the text. Effect: thematic coherence, accumulates meaning with each repetition"
+    },
+
+    {
+      "id": "el_struct_001",
+      "category": "Structure Techniques",
+      "question": "What is foreshadowing and what effect does it create?",
+      "answer": "Hints or clues early in the text that suggest what will happen later: 'She noticed the shadow in the doorway but thought nothing of it.' Effect: creates tension and suspense (the reader wonders if their prediction is correct); makes the story feel purposefully constructed; rewards careful reading; can create dramatic irony (reader knows something the character doesn't). A key technique for Q3 (structure) — explain how a specific early detail sets up or complicates a later moment.",
+      "hint": "Early hint of what comes later. Effect: tension, suspense, purposeful structure, possibly dramatic irony"
+    },
+    {
+      "id": "el_struct_002",
+      "category": "Structure Techniques",
+      "question": "What is a flashback (analepsis)?",
+      "answer": "When the narrative moves back in time to show an earlier event before returning to the present: the reader is taken into the character's memory or past. Effect: reveals important backstory that explains the character's current behaviour; creates contrast between who someone was and who they are now; can build mystery (why is this memory significant right now?); slows the pace for reflection. In Q3, explain HOW the flashback changes the reader's understanding of the character or situation.",
+      "hint": "Narrative moves back in time. Effect: reveals backstory, creates contrast, slows pace, builds mystery"
+    },
+    {
+      "id": "el_struct_003",
+      "category": "Structure Techniques",
+      "question": "What is cyclical structure?",
+      "answer": "When a text ends where it began — returning to the same setting, phrase, image, or situation at the end that was used at the start. Effect: creates a sense of completion and symmetry; suggests nothing has changed (ironic — the character is trapped) OR that the character has returned transformed (hopeful — a journey completed); forces the reader to compare the beginning and end, noticing what has and hasn't changed. Often used in short stories and literary fiction.",
+      "hint": "Ends where it began. Effect: completion, symmetry. Compare beginning/end: transformation vs stasis"
+    },
+    {
+      "id": "el_struct_004",
+      "category": "Structure Techniques",
+      "question": "What does 'in medias res' mean and what effect does it create?",
+      "answer": "'In medias res' is Latin for 'in the middle of things.' The story begins mid-action rather than at the beginning: the reader is immediately in an event already in progress. Effect: immediately creates tension and intrigue; the reader must actively piece together context; creates a disorienting, gripping opening that makes the reader want to continue. Common in thrillers, action stories, and Q5 creative writing (starting with drama rather than backstory is often rewarded).",
+      "hint": "'In the middle of things' — story starts mid-action. Effect: immediate tension, reader must catch up"
+    },
+    {
+      "id": "el_struct_005",
+      "category": "Structure Techniques",
+      "question": "What is a cliffhanger and what effect does it create?",
+      "answer": "Ending a section, chapter, or scene at a moment of unresolved tension or danger: 'Just as she reached the door, she heard footsteps on the stairs behind her.' Effect: creates suspense and keeps the reader gripped; makes the reader want to continue immediately; the unresolved tension is emotionally compelling. In exam texts, cliffhangers often appear at paragraph or section breaks. In Q3, a cliffhanger at a particular point in the text is a structural choice worth analysing.",
+      "hint": "Unresolved tension at end of a section. Effect: suspense, reader compelled to continue"
+    },
+
+    {
+      "id": "el_narr_001",
+      "category": "Narrative & Voice",
+      "question": "What is first-person narration and what effect does it create?",
+      "answer": "The narrator uses 'I' and tells the story from their own perspective. Effect: creates intimacy — the reader is positioned very close to the narrator's thoughts and feelings; we know only what the narrator knows (limited, subjective perspective); can create dramatic irony if the narrator is unreliable or wrong about events; makes the reader feel like a confidant or insider. An unreliable narrator (biased, deceived, or mentally unstable) is a powerful first-person technique that raises questions about truth.",
+      "hint": "Uses 'I'. Effect: intimacy, limited perspective, possible unreliable narrator, reader as confidant"
+    },
+    {
+      "id": "el_narr_002",
+      "category": "Narrative & Voice",
+      "question": "What is free indirect discourse?",
+      "answer": "A technique that blends the narrator's third-person voice with a character's inner thoughts, without speech marks or 'she thought': 'She walked into the room. Why was everyone staring? It made no sense.' The reader is inside the character's head, but written in the third person. Effect: creates intimacy and psychological depth without fully committing to first person; lets the writer move fluidly in and out of a character's mind; common in 19th-century novels (Jane Austen) and modern literary fiction.",
+      "hint": "Third person but slips into character's thoughts without 'she thought'. Effect: intimacy + narrative distance combined"
+    },
+    {
+      "id": "el_narr_003",
+      "category": "Narrative & Voice",
+      "question": "What is pace in narrative structure and how is it controlled?",
+      "answer": "Pace is how fast or slow the story moves in terms of the reader's experience. Fast pace: short sentences; short paragraphs; action verbs; rapid dialogue; events move quickly. Effect: urgency, tension, excitement. Slow pace: long sentences; detailed descriptions; reflection; flashbacks; internal monologue. Effect: contemplative, atmospheric, builds character depth. Writers control pace intentionally — fast pace in action scenes, slow pace in emotional or reflective moments. A sudden switch in pace is itself a structural technique.",
+      "hint": "Fast = short sentences + action + dialogue. Slow = long sentences + description + reflection. Pace shifts = structural technique"
+    },
+
+    {
+      "id": "el_sent_001",
+      "category": "Sentence & Pacing Techniques",
+      "question": "What effect do short sentences create?",
+      "answer": "Short sentences (including single-word sentences like 'Stop.' or 'Nothing.') create: (1) urgency and pace — the action moves quickly, events happen rapidly; (2) tension — the reader almost holds their breath between sentences; (3) shock — an abrupt, blunt statement lands harder; (4) emphasis — isolating a sentence forces the reader to stop and focus on it. 'She ran. She did not look back. She did not stop.' — the brevity mirrors the breathlessness of running. Always say WHY the short sentences create this specific effect here.",
+      "hint": "Short = urgency, tension, shock, emphasis. Each sentence is a moment the reader must sit with"
+    },
+    {
+      "id": "el_sent_002",
+      "category": "Sentence & Pacing Techniques",
+      "question": "What effect do long sentences create?",
+      "answer": "Long sentences — especially with multiple subordinate clauses and commas — create: (1) a flowing, lyrical quality; (2) a sense of thoughts tumbling over each other (anxiety, daydream, excitement); (3) complexity — ideas build on each other; (4) immersion — the reader lingers in a scene or a character's mind. Many commas can suggest overwhelm or a mind that cannot stop. Contrast with short sentences: long sentences feel expansive, reflective, and indulgent — the reader is swept along.",
+      "hint": "Long = flowing, tumbling thoughts, immersion, complexity. Contrast with short: long = expansive, short = sharp"
+    },
+
+    {
+      "id": "el_exam_001",
+      "category": "Exam Technique",
+      "question": "How do you structure a Q2 Language Analysis answer? (8 marks, ~10 minutes)",
+      "answer": "Q2 gives you a specific section of the text (often lines 1-14). Write 2-3 focused paragraphs. Each paragraph: Quote precisely → Identify a technique → Explain what it means → Analyse the EFFECT on the reader (this is the most important part). Use: 'suggests', 'implies', 'conveys', 'emphasises', 'creates a sense of.' NEVER simply identify techniques without explaining effect. Vary your techniques — do not write three paragraphs all on metaphors. Always re-read the question to check what aspect of language to focus on.",
+      "hint": "2-3 paragraphs. Each: quote → technique → meaning → EFFECT. Never identify without explaining. Vary techniques"
+    },
+    {
+      "id": "el_exam_002",
+      "category": "Exam Technique",
+      "question": "How do you structure a Q3 Structure Analysis answer? (8 marks, ~10 minutes)",
+      "answer": "From 2026, Q3 focuses on ONE specific structural effect — how the writer builds a particular effect across the whole text. DO NOT list multiple structural features. Instead: Identify the ONE structural effect named in the question → Show how it develops across different points in the text (beginning / middle / end) → Explain the cumulative effect on the reader. Use structural vocabulary: foreshadowing, flashback, pace, perspective shift, cyclical structure, climax, in medias res. Show the structure across the WHOLE text, not just one part.",
+      "hint": "2026: ONE structural effect. Show how it develops across beginning/middle/end. Not a list of features"
+    },
+    {
+      "id": "el_exam_003",
+      "category": "Exam Technique",
+      "question": "How do you structure a Q4 Evaluation answer? (20 marks — the biggest reading question, ~25 minutes)",
+      "answer": "Q4 gives you a statement about the text and asks if you agree. Write 3 developed paragraphs. Each: State your view (agree/partly agree/disagree) → Quote precisely → Identify a technique → Analyse the effect → EVALUATE how successfully the writer achieves this. Link every paragraph back to the statement. Use evaluation language: 'the writer successfully conveys... because...', 'however, one could argue that...', 'this is particularly effective as it suggests...' This is 25% of your reading marks — plan it for 2 minutes before writing.",
+      "hint": "3 paragraphs: view + quote + technique + effect + EVALUATION. Every paragraph links to the statement. Plan 2 mins first"
+    },
+    {
+      "id": "el_exam_004",
+      "category": "Exam Technique",
+      "question": "How do you plan and write Q5 Creative Writing? (40 marks — half the paper, ~50 minutes)",
+      "answer": "Minutes 1-5: PLAN. Decide: setting, protagonist, central tension, how it ends. Note 3-4 vivid details to use. Structure: hook opening (in medias res / striking image) → build the situation → key tension or revelation → ending. Minutes 6-45: WRITE. Aim 500-700 words. Vary sentence lengths for pace. Use specific nouns and strong verbs over adjective-heavy description. Narrative writing generally scores higher than pure description. Minutes 46-50: CHECK SPaG. SPaG is 16/40 marks — fix spelling, punctuation, sentences.",
+      "hint": "5 mins plan → 40 mins write → 5 mins check. Narrative > descriptive. SPaG = 16 of 40 marks"
+    },
+    {
+      "id": "el_exam_005",
+      "category": "Exam Technique",
+      "question": "What does AQA reward in Q5 Creative Writing? (AO5 + AO6)",
+      "answer": "AO5 — Content and Organisation (24 marks): Imaginative, engaging writing with a clear voice. A structured narrative arc (beginning, development, resolution — even if open-ended). Precise, effective vocabulary. Varied tone and style. AO6 — Technical Accuracy (16 marks): Range of sentence structures used deliberately for effect. Accurate spelling (particularly of adventurous vocabulary). Accurate punctuation including commas, speech marks, apostrophes. Do NOT use simple, 'safe' vocabulary to avoid mistakes — using ambitious words confidently scores more even with occasional errors.",
+      "hint": "AO5 (24): voice, structure, vocabulary, style. AO6 (16): sentences, spelling, punctuation. Ambitious vocabulary = rewarded"
+    }
+  ]
+}
